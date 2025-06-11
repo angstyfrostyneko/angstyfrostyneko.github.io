@@ -117,7 +117,7 @@ function submitGuess(gpuName, skipAnimation = false) {
     const guess = gpuList.find(gpu => gpu.name === gpuName);
     if (!guess) return;
 
-    const fields = ["brand", "generation", "tdp", "vram", "pciegen", "pcielanes", "year"];
+    const fields = ["brand", "class", "generation", "tdp", "vram", "pciegen", "pcielanes", "year"];
     const guessData = fields.map(f => guess[f]);
     const answerData = fields.map(f => answer[f]);
     const correctness = guessData.map((val, i) => val === answerData[i]);
