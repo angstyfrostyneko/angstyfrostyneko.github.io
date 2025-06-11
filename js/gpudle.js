@@ -6,10 +6,11 @@ let currentSelectionIndex = -1;
 const input = document.getElementById("gpu-input");
 const suggestionBox = document.getElementById("suggestions");
 
-function getDailyGpu(gpuList) {
-    const today = new Date().toISOString().slice(0, 10);
-    const seed = hashString(today);
-    const index = seed % gpuList.length;
+const today = new Date().toISOString().slice(0, 10);
+
+function getDailyGpu(length, date) {
+    const seed = hashString(date);
+    const index = seed % length;
     return gpuList[index];
 }
 
@@ -22,7 +23,17 @@ function hashString(str) {
     return Math.abs(hash);
 }
 
-const answer = getDailyGpu(gpuList);
+const answer = getDailyGpu(gpuList.length, today);
+
+// Restore saved guesses
+const savedDate = localStorage.getItem("gpudle-date");
+const savedGuesses = JSON.parse(localStorage.getItem("gpudle-guesses") || "[]");
+
+if (savedDate === today) {
+    savedGuesses.forEach(name => submitGuess(name, true));
+} else {
+    localStorage.removeItem("gpudle-guesses");
+}
 
 input.addEventListener("input", () => {
     showSuggestions(input.value);
@@ -93,12 +104,15 @@ function updateHighlight(items) {
     });
 }
 
-function submitGuess(gpuName) {
+function submitGuess(gpuName, skipAnimation = false) {
+    if (guessed.includes(gpuName)) return;
+
     input.value = "";
     suggestionBox.innerHTML = "";
-
-    if (guessed.includes(gpuName)) return;
     guessed.push(gpuName);
+
+    localStorage.setItem("gpudle-date", today);
+    localStorage.setItem("gpudle-guesses", JSON.stringify(guessed));
 
     const guess = gpuList.find(gpu => gpu.name === gpuName);
     if (!guess) return;
@@ -108,14 +122,14 @@ function submitGuess(gpuName) {
     const answerData = fields.map(f => answer[f]);
     const correctness = guessData.map((val, i) => val === answerData[i]);
 
-    addGuessRow(guessData, correctness, gpuName);
+    addGuessRow(guessData, correctness, gpuName, skipAnimation);
 
     // if (correctness.every(Boolean)) {
     //     alert("Correct GPU guessed!");
     // }
 }
 
-function addGuessRow(data, correctness, name) {
+function addGuessRow(data, correctness, name, skipAnimation = false) {
     const guesses = document.getElementById("guesses");
     const row = document.createElement("div");
     row.classList.add("guess-row");
@@ -150,9 +164,25 @@ function addGuessRow(data, correctness, name) {
     guesses.prepend(row);
 
     const cells = row.querySelectorAll(".guess-cell");
-    cells.forEach((cell, i) => {
-        setTimeout(() => {
-            cell.classList.add("revealed");
-        }, i * 500);
-    });
+    if (skipAnimation) {
+        cells.forEach(cell => cell.classList.add("revealed"));
+    } else {
+        cells.forEach((cell, i) => {
+            setTimeout(() => {
+                cell.classList.add("revealed");
+            }, i * 500);
+        });
+    }
 }
+
+const todayDate = new Date(today + "T00:00:00Z");
+const startDate = new Date("2025-06-10T00:00:00Z");
+const dayNumber = Math.floor((todayDate - startDate) / (1000 * 60 * 60 * 24));
+
+const yesterdayDate = new Date(todayDate);
+yesterdayDate.setUTCDate(yesterdayDate.getUTCDate() - 1);
+const yesterdayStr = yesterdayDate.toISOString().slice(0, 10);
+const yesterdayGpu = getDailyGpu(gpuList.length, yesterdayStr);
+
+const stats = document.getElementById("stats");
+stats.innerHTML = `Yesterday's GPU was the <strong>${yesterdayGpu.name}</strong><br>GPUdle number #<strong>${dayNumber}</strong>`;
