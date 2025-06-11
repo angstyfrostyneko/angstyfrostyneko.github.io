@@ -75,26 +75,29 @@
 }
 
 #gpu-input {
-    width: 400px;
+    width: 450px;
     padding: 8px;
     font-size: 1rem;
     border: 1px solid black;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .dropdown {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    width: 400px;
-    top: 11%;
-    /* temp value while I figure out how to make it be below the input box */
-    border: 1px solid #ccc;
-    border-top: none;
-    max-height: 150px;
+    width: 450px;
+    max-height: 400px;
     overflow-y: auto;
-    background: white;
+    background: #e7e7e7;
     position: absolute;
     z-index: 3;
+}
+
+#input-dropdown-container {
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown li {
