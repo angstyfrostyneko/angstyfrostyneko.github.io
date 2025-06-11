@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>GPUdle</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/gpudle.css">
+
+</head>
+
+<body>
+    <div id="game">
+        <h1>GPUdle</h1>
+        <input id="gpu-input" placeholder="Guess a GPU..." onkeydown="handleInputKey(event)" />
+        <ul id="suggestions" class="dropdown"></ul>
+        <div id="guesses"></div>
+    </div>
+
+    <script src="../js/gpudle.js"></script>
+</body>
+
+</html>
