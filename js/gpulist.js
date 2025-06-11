@@ -2,7 +2,7 @@ const gpuList = [
     {
         name: "NVIDIA RTX 3080",
         brand: "NVIDIA",
-        generation: "3000",
+        generation: "Ampere",
         tdp: "320W",
         vram: "10GB",
         pcie: "x16",
@@ -11,7 +11,7 @@ const gpuList = [
     {
         name: "NVIDIA GTX 1080",
         brand: "NVIDIA",
-        generation: "1000",
+        generation: "Turing",
         tdp: "180W",
         vram: "8GB",
         pcie: "x16",
@@ -20,7 +20,7 @@ const gpuList = [
     {
         name: "AMD RX 6800 XT",
         brand: "AMD",
-        generation: "6000",
+        generation: "RDNA2",
         tdp: "300W",
         vram: "16GB",
         pcie: "x16",
@@ -29,7 +29,7 @@ const gpuList = [
     {
         name: "Intel Arc A770",
         brand: "Intel",
-        generation: "700",
+        generation: "Alchemist",
         tdp: "225W",
         vram: "16GB",
         pcie: "x16",
@@ -38,7 +38,7 @@ const gpuList = [
     {
         name: "AMD RX 5700",
         brand: "AMD",
-        generation: "5000",
+        generation: "RDNA",
         tdp: "225W",
         vram: "8GB",
         pcie: "x16",
@@ -47,7 +47,7 @@ const gpuList = [
     {
         name: "NVIDIA RTX 3060",
         brand: "NVIDIA",
-        generation: "3000",
+        generation: "Ampere",
         tdp: "170W",
         vram: "12GB",
         pcie: "x16",
