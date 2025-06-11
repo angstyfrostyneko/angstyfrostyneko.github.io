@@ -123,10 +123,6 @@ function submitGuess(gpuName, skipAnimation = false) {
     const correctness = guessData.map((val, i) => val === answerData[i]);
 
     addGuessRow(guessData, correctness, gpuName, skipAnimation);
-
-    // if (correctness.every(Boolean)) {
-    //     alert("Correct GPU guessed!");
-    // }
 }
 
 function addGuessRow(data, correctness, name, skipAnimation = false) {
