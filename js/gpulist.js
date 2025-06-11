@@ -1,4 +1,25 @@
 const gpuList = [
+    // AMD 90 series
+    {
+        name: "AMD RX 9070 XT",
+        brand: "AMD",
+        generation: "RDNA4",
+        tdp: "304W",
+        vram: "16GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2025"
+    },
+    {
+        name: "AMD RX 9070 XT",
+        brand: "AMD",
+        generation: "RDNA4",
+        tdp: "304W",
+        vram: "16GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2025"
+    },
     {
         name: "NVIDIA RTX 3080",
         brand: "NVIDIA",
