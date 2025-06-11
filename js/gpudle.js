@@ -4,34 +4,78 @@ const gpuList = [
 ];
 
 let guessed = [];
+let currentSelectionIndex = -1;
 
 const input = document.getElementById("gpu-input");
 const suggestionBox = document.getElementById("suggestions");
 
 input.addEventListener("input", () => {
-    const query = input.value.toLowerCase();
+    showSuggestions(input.value);
+});
+
+input.addEventListener("focus", () => {
+    showSuggestions(input.value);
+});
+
+input.addEventListener("blur", () => {
+    setTimeout(() => suggestionBox.innerHTML = "", 150);
+});
+
+input.addEventListener("keydown", (e) => {
+    const items = suggestionBox.querySelectorAll("li");
+
+    if (e.key === "ArrowDown") {
+        currentSelectionIndex = (currentSelectionIndex + 1) % items.length;
+        updateHighlight(items);
+        e.preventDefault();
+    } else if (e.key === "ArrowUp") {
+        currentSelectionIndex = (currentSelectionIndex - 1 + items.length) % items.length;
+        updateHighlight(items);
+        e.preventDefault();
+    } else if (e.key === "Enter") {
+        const selected = suggestionBox.querySelector(".highlighted");
+        if (selected) {
+            submitGuess(selected.textContent);
+        } else if (items.length > 0) {
+            submitGuess(items[0].textContent);
+        }
+        e.preventDefault();
+    } else {
+        currentSelectionIndex = -1;
+    }
+});
+
+function showSuggestions(query) {
     suggestionBox.innerHTML = "";
+    currentSelectionIndex = -1;
 
     if (query === "") return;
 
-    const filtered = gpuList
-        .filter(gpu => gpu.toLowerCase().includes(query) && !guessed.includes(gpu));
+    const filtered = gpuList.filter(gpu =>
+        gpu.toLowerCase().includes(query.toLowerCase()) &&
+        !guessed.includes(gpu)
+    );
 
-    filtered.forEach(gpu => {
+    filtered.forEach((gpu, index) => {
         const li = document.createElement("li");
         li.textContent = gpu;
-        li.addEventListener("click", () => {
+        li.addEventListener("mousedown", (e) => {
+            e.preventDefault();
             submitGuess(gpu);
+            setTimeout(() => input.focus(), 0);
         });
         suggestionBox.appendChild(li);
     });
-});
+}
 
-function handleInputKey(e) {
-    const suggestions = suggestionBox.querySelectorAll("li");
-    if (e.key === "Enter" && suggestions.length > 0) {
-        submitGuess(suggestions[0].textContent);
-    }
+function updateHighlight(items) {
+    items.forEach((li, index) => {
+        if (index === currentSelectionIndex) {
+            li.classList.add("highlighted");
+        } else {
+            li.classList.remove("highlighted");
+        }
+    });
 }
 
 function submitGuess(gpuName) {

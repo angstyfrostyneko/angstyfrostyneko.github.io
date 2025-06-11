@@ -65,6 +65,8 @@ div {
     padding: 0;
     margin: 0;
     width: 400px;
+    top: 11%;
+    /* temp value while I figure out how to make it be below the input box */
     border: 1px solid #ccc;
     border-top: none;
     max-height: 150px;
@@ -80,5 +82,10 @@ div {
 }
 
 .dropdown li:hover {
-    background-color: #eee;
+    background-color: #eeeeee;
+}
+
+.dropdown li:hover,
+.dropdown li.highlighted {
+    background-color: #c6d8ff;
 }
