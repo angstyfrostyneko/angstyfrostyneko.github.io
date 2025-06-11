@@ -1,8 +1,12 @@
-div {
+/* div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+} */
+
+:root {
+    --number-of-cells: 8;
 }
 
 #guesses {
@@ -20,16 +24,16 @@ div {
     font-family: "Open Sans", sans-serif;
 }
 
-#guesses {
+/* #guesses {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
-}
+} */
 
 .guess-row {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(var(--number-of-cells), 1fr);
     gap: 0.5rem;
 }
 
@@ -74,7 +78,7 @@ div {
     width: 400px;
     padding: 8px;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
 }
 
@@ -115,7 +119,7 @@ div {
 
 .header-cell {
     width: 100px;
-    height: 100px;
+    height: 50px;
     display: flex;
     color: black;
     justify-content: center;
