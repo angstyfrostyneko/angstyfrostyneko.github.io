@@ -110,9 +110,9 @@ function submitGuess(gpuName) {
 
     addGuessRow(guessData, correctness, gpuName);
 
-    if (correctness.every(Boolean)) {
-        alert("Correct GPU guessed!");
-    }
+    // if (correctness.every(Boolean)) {
+    //     alert("Correct GPU guessed!");
+    // }
 }
 
 function addGuessRow(data, correctness, name) {
