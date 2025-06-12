@@ -1,8 +1,8 @@
 const gpuList = [
-    // AMD 90 series
     {
-        name: "AMD RX 9070 XT",
+        name: "RX 9070 XT",
         brand: "AMD",
+        class: "Desktop",
         generation: "RDNA4",
         tdp: "304W",
         vram: "16GB",
@@ -11,18 +11,273 @@ const gpuList = [
         year: "2025"
     },
     {
-        name: "AMD RX 9070 XT",
+        name: "RX 9070 GRE",
         brand: "AMD",
+        class: "Desktop",
         generation: "RDNA4",
-        tdp: "304W",
+        tdp: "220W",
+        vram: "12GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2025"
+    },
+    {
+        name: "RX 9070",
+        brand: "AMD",
+        class: "Desktop",
+        generation: "RDNA4",
+        tdp: "220W",
         vram: "16GB",
         pciegen: "5",
         pcielanes: "x16",
         year: "2025"
     },
     {
-        name: "NVIDIA RTX 3080",
+        name: "RX 7650 GRE",
+        brand: "AMD",
+        class: "Desktop",
+        generation: "RDNA3",
+        tdp: "165W",
+        vram: "8GB",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2025"
+    },
+    {
+        name: "RX 9060 XT 16GB",
+        brand: "AMD",
+        class: "Desktop",
+        generation: "RDNA4",
+        tdp: "160W",
+        vram: "16GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2025"
+    },
+    {
+        name: "RX 9060 XT 8GB",
+        brand: "AMD",
+        class: "Desktop",
+        generation: "RDNA4",
+        tdp: "150W",
+        vram: "8GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2025"
+    },
+    {
+        name: "Radeon 890M/880M",
+        brand: "AMD",
+        class: "Mobile",
+        generation: "RDNA3.5",
+        tdp: "15W",
+        vram: "Variable",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2024"
+    },
+    {
+        name: "Radeon 860M",
+        brand: "AMD",
+        class: "Mobile",
+        generation: "RDNA3.5",
+        tdp: "15W",
+        vram: "Variable",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2025"
+    },
+    {
+        name: "Radeon 780M/760M",
+        brand: "AMD",
+        class: "Mobile",
+        generation: "RDNA3",
+        tdp: "15W",
+        vram: "Variable",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2023"
+    },
+    {
+        name: "Radeon 660M",
+        brand: "AMD",
+        class: "Mobile",
+        generation: "RDNA2",
+        tdp: "40W",
+        vram: "Variable",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2022"
+    },
+    {
+        name: "Radeon 610M",
+        brand: "AMD",
+        class: "Mobile",
+        generation: "RDNA2",
+        tdp: "15W",
+        vram: "Variable",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2022"
+    },
+    {
+        name: "Radeon Instinct MI200/MI210",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "CDNA2",
+        tdp: "300W",
+        vram: "64GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2021"
+    },
+    {
+        name: "Radeon Instinct MI250",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "CDNA2",
+        tdp: "500W",
+        vram: "128GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2021"
+    },
+    {
+        name: "Radeon Instinct MI300",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "CDNA3",
+        tdp: "600W",
+        vram: "128GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "Radeon Instinct MI300(X)/MI308X",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "CDNA3",
+        tdp: "750W",
+        vram: "192GB",
+        pciegen: "5",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO V710",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "158W",
+        vram: "28GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2024"
+    },
+    {
+        name: "Radeon PRO W6300",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA2",
+        tdp: "25W",
+        vram: "2GB",
+        pciegen: "4",
+        pcielanes: "x4",
+        year: "2022"
+    },
+    {
+        name: "Radeon PRO W6400",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA2",
+        tdp: "50W",
+        vram: "4GB",
+        pciegen: "4",
+        pcielanes: "x4",
+        year: "2022"
+    },
+    {
+        name: "Radeon PRO W7500",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "70W",
+        vram: "8GB",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO W7600",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "130W",
+        vram: "8GB",
+        pciegen: "4",
+        pcielanes: "x8",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO W7700",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "190W",
+        vram: "16GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO W7800",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "260W",
+        vram: "32GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO W7800 48GB",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "281W",
+        vram: "48GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO W7900",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "295W",
+        vram: "48GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "Radeon PRO W6300M",
+        brand: "AMD",
+        class: "Work-station",
+        generation: "RDNA3",
+        tdp: "2W",
+        vram: "48GB",
+        pciegen: "4",
+        pcielanes: "x16",
+        year: "2023"
+    },
+    {
+        name: "RTX 3080",
         brand: "NVIDIA",
+        class: "Desktop",
         generation: "Ampere",
         tdp: "320W",
         vram: "10GB",
@@ -31,8 +286,9 @@ const gpuList = [
         year: "2020"
     },
     {
-        name: "NVIDIA GTX 1080",
+        name: "GTX 1080",
         brand: "NVIDIA",
+        class: "Desktop",
         generation: "Turing",
         tdp: "180W",
         vram: "8GB",
@@ -41,8 +297,9 @@ const gpuList = [
         year: "2016"
     },
     {
-        name: "AMD RX 6800 XT",
+        name: "RX 6800 XT",
         brand: "AMD",
+        class: "Desktop",
         generation: "RDNA2",
         tdp: "300W",
         vram: "16GB",
@@ -51,8 +308,9 @@ const gpuList = [
         year: "2020"
     },
     {
-        name: "Intel Arc A770",
+        name: "Arc A770",
         brand: "Intel",
+        class: "Desktop",
         generation: "Alchemist",
         tdp: "225W",
         vram: "16GB",
@@ -61,8 +319,9 @@ const gpuList = [
         year: "2022"
     },
     {
-        name: "AMD RX 5700",
+        name: "RX 5700",
         brand: "AMD",
+        class: "Desktop",
         generation: "RDNA",
         tdp: "225W",
         vram: "8GB",
@@ -71,8 +330,9 @@ const gpuList = [
         year: "2019"
     },
     {
-        name: "NVIDIA RTX 3060",
+        name: "RTX 3060",
         brand: "NVIDIA",
+        class: "Desktop",
         generation: "Ampere",
         tdp: "170W",
         vram: "12GB",
