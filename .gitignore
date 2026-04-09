@@ -16,3 +16,18 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# Rust stuff for the WebAssembly (gpudle/wasm)
+gpudle/wasm/target
+gpudle/wasm/Cargo.lock
+
+# Cargo stuff in the project root
+Cargo.lock
+target/
+
+# WebASM build garbage that I don't need
+gpudle/wasm/pkg/.gitignore
+gpudle/wasm/pkg/README.md
+gpudle/wasm/pkg/package.json
+gpudle/wasm/pkg/wasm_bg.wasm.d.ts
+gpudle/wasm/pkg/wasm.d.ts
