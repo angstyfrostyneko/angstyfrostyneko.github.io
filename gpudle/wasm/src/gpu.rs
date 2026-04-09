@@ -4,14 +4,14 @@ use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
 enum Makers {
-    NVIDIA,
-    ATI,
-    XGI,
     AMD,
-    Matrox,
+    ATI,
     Intel,
+    Matrox,
+    NVIDIA,
     #[serde(alias = "3dfx")]
     Threedfx,
+    XGI,
 }
 
 #[derive(Debug, Deserialize)]
