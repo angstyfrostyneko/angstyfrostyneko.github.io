@@ -1,4 +1,9 @@
 // gpuList is loaded from gpulist.js
+import init, { greet, run } from '../gpudle/wasm/pkg/wasm.js';
+
+await init();
+// greet("from within js");
+run();
 
 let guessed = [];
 let currentSelectionIndex = -1;

@@ -9,11 +9,42 @@ export function greet(name) {
     wasm.greet(ptr0, len0);
 }
 
+export function run() {
+    wasm.run();
+}
+
 function __wbg_get_imports() {
     const import0 = {
         __proto__: null,
+        __wbg___wbindgen_throw_81fc77679af83bc6: function(arg0, arg1) {
+            throw new Error(getStringFromWasm0(arg0, arg1));
+        },
         __wbg_alert_f0d3a7bd83556ef2: function(arg0, arg1) {
             alert(getStringFromWasm0(arg0, arg1));
+        },
+        __wbg_getTime_f6ac312467f7cf09: function(arg0) {
+            const ret = arg0.getTime();
+            return ret;
+        },
+        __wbg_getTimezoneOffset_ac5be603b21a5797: function(arg0) {
+            const ret = arg0.getTimezoneOffset();
+            return ret;
+        },
+        __wbg_log_8b88b8acbbfb34b1: function(arg0, arg1) {
+            console.log(getStringFromWasm0(arg0, arg1));
+        },
+        __wbg_new_0_bfa2ef4bc447daa2: function() {
+            const ret = new Date();
+            return ret;
+        },
+        __wbg_new_0f6d2ddfe083319b: function(arg0) {
+            const ret = new Date(arg0);
+            return ret;
+        },
+        __wbindgen_cast_0000000000000001: function(arg0) {
+            // Cast intrinsic for `F64 -> Externref`.
+            const ret = arg0;
+            return ret;
         },
         __wbindgen_init_externref_table: function() {
             const table = wasm.__wbindgen_externrefs;
