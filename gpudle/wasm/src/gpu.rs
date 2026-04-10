@@ -1,5 +1,6 @@
 use chrono::{Local, NaiveDate, TimeDelta};
 use rand::{RngExt, SeedableRng, rngs::SmallRng};
+use rust_fuzzy_search::fuzzy_compare;
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
@@ -17,6 +18,8 @@ enum Makers {
 #[derive(Debug, Deserialize)]
 #[allow(dead_code)] // idk why it says its dead tbh
 pub struct GPU {
+    #[serde(skip)]
+    pub id: u16,
     #[serde(rename = "manufacturer")]
     maker: Makers,
     #[serde(rename = "productName")]
@@ -29,6 +32,27 @@ pub struct GPU {
     memory_bus: Option<u16>,
     #[serde(rename = "bus")]
     pcie: Option<String>,
+}
+
+pub fn get_results<'a>(name: &str, gpu_list: &'a Vec<GPU>) -> Vec<(&'a GPU, f32)> {
+    let threshold = 0.25;
+
+    let mut results: Vec<(&GPU, f32)>;
+    results = gpu_list
+        .iter()
+        .map(|card| {
+            let res = fuzzy_compare(name, &card.name);
+            (card, res)
+        })
+        .filter(|x| x.1 >= threshold)
+        .collect();
+
+    results.sort_by(|a, b| match b.1.partial_cmp(&a.1) {
+        Some(ordering) => ordering,
+        None => std::cmp::Ordering::Equal,
+    });
+
+    return results;
 }
 
 fn get_gpu(gpu_list: &Vec<GPU>, day: NaiveDate) -> &GPU {
