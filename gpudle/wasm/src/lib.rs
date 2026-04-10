@@ -1,9 +1,12 @@
 pub mod gpu;
 
+use std::sync::OnceLock;
+
+use crate::gpu::{get_daily_gpu, get_results};
 use gpu::GPU;
 use wasm_bindgen::prelude::*;
 
-use crate::gpu::get_daily_gpu;
+static GPU_DATABASE: OnceLock<Vec<GPU>> = OnceLock::new();
 
 #[wasm_bindgen]
 extern "C" {
@@ -13,20 +16,37 @@ extern "C" {
     fn log(s: &str);
 }
 
-#[wasm_bindgen]
-pub fn run() {
+fn generate_database() {
     let raw_gpu_csv = include_bytes!("../../main-gpu-list.csv");
 
     let mut reader = csv::ReaderBuilder::new()
         .has_headers(true)
         .from_reader(&raw_gpu_csv[..]);
 
-    let gpu_list: Vec<GPU> = reader
-        .deserialize::<GPU>()
-        .filter_map(Result::ok) // Drop bad entries
-        .collect();
+    let _ = GPU_DATABASE.set(
+        reader
+            .deserialize::<GPU>()
+            .filter_map(Result::ok)
+            .enumerate()
+            .map(|(i, mut gpu)| {
+                gpu.id = i as u16;
+                gpu
+            })
+            .collect(),
+    );
+}
 
-    let daily_gpu = get_daily_gpu(&gpu_list);
+#[wasm_bindgen]
+pub fn run() {
+    generate_database();
+    let gpu_list = GPU_DATABASE.get().unwrap();
+
+    let daily_gpu = get_daily_gpu(gpu_list);
+    let search: Vec<(&GPU, f32)> = get_results("5090", gpu_list);
+
+    for i in search {
+        log(format!("{:?}", i).as_str());
+    }
     log(format!("{:?}", daily_gpu).as_str());
 }
 
