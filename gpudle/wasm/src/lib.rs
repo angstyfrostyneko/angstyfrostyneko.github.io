@@ -1,22 +1,14 @@
 pub mod gpu;
 
-use std::sync::OnceLock;
-
-use crate::gpu::{get_daily_gpu, get_results};
+use crate::gpu::{backend_daily, backend_search_by_name, backend_yesterday};
 use gpu::GPU;
-use wasm_bindgen::prelude::*;
-
+use serde_wasm_bindgen::to_value;
+use std::sync::OnceLock;
+use wasm_bindgen::prelude::{JsValue, wasm_bindgen};
 static GPU_DATABASE: OnceLock<Vec<GPU>> = OnceLock::new();
 
 #[wasm_bindgen]
-extern "C" {
-    fn alert(s: &str);
-
-    #[wasm_bindgen(js_namespace = console)]
-    fn log(s: &str);
-}
-
-fn generate_database() {
+pub fn generate_database() {
     let raw_gpu_csv = include_bytes!("../../main-gpu-list.csv");
 
     let mut reader = csv::ReaderBuilder::new()
@@ -37,24 +29,19 @@ fn generate_database() {
 }
 
 #[wasm_bindgen]
-pub fn run() {
-    generate_database();
-    let gpu_list = GPU_DATABASE.get().unwrap();
-
-    let daily_gpu = get_daily_gpu(gpu_list);
-    let search: Vec<(&GPU, f32)> = get_results("5090", gpu_list);
-
-    for i in search {
-        log(format!("{:?}", i).as_str());
-    }
-    log(format!("{:?}", daily_gpu).as_str());
+pub fn get_todays_gpu() -> Result<JsValue, JsValue> {
+    let card = backend_daily(GPU_DATABASE.get().unwrap()).clone();
+    to_value(&card).map_err(|err| err.into())
 }
 
 #[wasm_bindgen]
-pub fn greet(name: &str) {
-    alert(&format!("Hello, {name}!"));
+pub fn get_yesterdays_gpu() -> Result<JsValue, JsValue> {
+    let card = backend_yesterday(GPU_DATABASE.get().unwrap()).clone();
+    to_value(&card).map_err(|err| err.into())
 }
 
-pub fn alert_gpu(a: &GPU) {
-    alert(&format!("{:?}", a))
+#[wasm_bindgen]
+pub fn get_results(name: &str) -> Result<JsValue, JsValue> {
+    let result = backend_search_by_name(name, GPU_DATABASE.get().unwrap());
+    to_value(&result).map_err(|err| err.into())
 }
