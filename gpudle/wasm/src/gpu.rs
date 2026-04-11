@@ -1,9 +1,10 @@
 use chrono::{Local, NaiveDate, TimeDelta};
 use rand::{RngExt, SeedableRng, rngs::SmallRng};
 use rust_fuzzy_search::fuzzy_compare;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
+use wasm_bindgen::prelude::wasm_bindgen;
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 enum Makers {
     AMD,
     ATI,
@@ -15,8 +16,8 @@ enum Makers {
     XGI,
 }
 
-#[derive(Debug, Deserialize)]
-#[allow(dead_code)] // idk why it says its dead tbh
+#[derive(Debug, Serialize, Deserialize, Clone)]
+#[wasm_bindgen]
 pub struct GPU {
     #[serde(skip)]
     pub id: u16,
@@ -34,7 +35,14 @@ pub struct GPU {
     pcie: Option<String>,
 }
 
-pub fn get_results<'a>(name: &str, gpu_list: &'a Vec<GPU>) -> Vec<(&'a GPU, f32)> {
+#[wasm_bindgen]
+impl GPU {
+    pub fn get(&self) -> GPU {
+        self.clone()
+    }
+}
+
+pub fn backend_search_by_name<'a>(name: &str, gpu_list: &'a Vec<GPU>) -> Vec<(&'a GPU, f32)> {
     let threshold = 0.25;
 
     let mut results: Vec<(&GPU, f32)>;
@@ -63,12 +71,12 @@ fn get_gpu(gpu_list: &Vec<GPU>, day: NaiveDate) -> &GPU {
     return gpu_list.get(index).unwrap();
 }
 
-pub fn get_daily_gpu(gpu_list: &Vec<GPU>) -> &GPU {
+pub fn backend_daily(gpu_list: &Vec<GPU>) -> &GPU {
     let today = Local::now().date_naive();
     return get_gpu(gpu_list, today);
 }
 
-pub fn get_yesterday_gpu(gpu_list: &Vec<GPU>) -> &GPU {
+pub fn backend_yesterday(gpu_list: &Vec<GPU>) -> &GPU {
     let yesterday = Local::now().date_naive() - TimeDelta::try_days(1).unwrap();
     return get_gpu(gpu_list, yesterday);
 }
