@@ -80,3 +80,12 @@ pub fn backend_yesterday(gpu_list: &Vec<GPU>) -> &GPU {
     let yesterday = Local::now().date_naive() - TimeDelta::try_days(1).unwrap();
     return get_gpu(gpu_list, yesterday);
 }
+
+pub fn backend_get_day_count() -> i64 {
+    let start_string = "14.04.2026";
+    let start_date = NaiveDate::parse_from_str(start_string, "%d.%m.%Y").expect("Invalid format");
+    let today = Local::now().date_naive();
+    let duration = today.signed_duration_since(start_date);
+
+    return duration.num_days();
+}
