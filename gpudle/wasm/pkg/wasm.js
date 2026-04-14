@@ -46,6 +46,17 @@ export function generate_database() {
 }
 
 /**
+ * @returns {any}
+ */
+export function get_gpudle_count() {
+    const ret = wasm.get_gpudle_count();
+    if (ret[2]) {
+        throw takeFromExternrefTable0(ret[1]);
+    }
+    return takeFromExternrefTable0(ret[0]);
+}
+
+/**
  * @param {string} name
  * @returns {any}
  */
@@ -80,42 +91,41 @@ export function get_yesterdays_gpu() {
     }
     return takeFromExternrefTable0(ret[0]);
 }
-
 function __wbg_get_imports() {
     const import0 = {
         __proto__: null,
-        __wbg___wbindgen_throw_81fc77679af83bc6: function(arg0, arg1) {
+        __wbg___wbindgen_throw_6b64449b9b9ed33c: function(arg0, arg1) {
             throw new Error(getStringFromWasm0(arg0, arg1));
         },
-        __wbg_getTime_f6ac312467f7cf09: function(arg0) {
+        __wbg_getTime_da7c55f52b71e8c6: function(arg0) {
             const ret = arg0.getTime();
             return ret;
         },
-        __wbg_getTimezoneOffset_ac5be603b21a5797: function(arg0) {
+        __wbg_getTimezoneOffset_31f57a5389d0d57c: function(arg0) {
             const ret = arg0.getTimezoneOffset();
             return ret;
         },
-        __wbg_new_0_bfa2ef4bc447daa2: function() {
+        __wbg_new_0_4d657201ced14de3: function() {
             const ret = new Date();
             return ret;
         },
-        __wbg_new_0f6d2ddfe083319b: function(arg0) {
-            const ret = new Date(arg0);
-            return ret;
-        },
-        __wbg_new_4f9fafbb3909af72: function() {
-            const ret = new Object();
-            return ret;
-        },
-        __wbg_new_f3c9df4f38f3f798: function() {
+        __wbg_new_682678e2f47e32bc: function() {
             const ret = new Array();
             return ret;
         },
+        __wbg_new_7913666fe5070684: function(arg0) {
+            const ret = new Date(arg0);
+            return ret;
+        },
+        __wbg_new_aa8d0fa9762c29bd: function() {
+            const ret = new Object();
+            return ret;
+        },
+        __wbg_set_3bf1de9fab0cd644: function(arg0, arg1, arg2) {
+            arg0[arg1 >>> 0] = arg2;
+        },
         __wbg_set_6be42768c690e380: function(arg0, arg1, arg2) {
             arg0[arg1] = arg2;
-        },
-        __wbg_set_6c60b2e8ad0e9383: function(arg0, arg1, arg2) {
-            arg0[arg1 >>> 0] = arg2;
         },
         __wbindgen_cast_0000000000000001: function(arg0) {
             // Cast intrinsic for `F64 -> Externref`.
