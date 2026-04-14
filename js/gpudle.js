@@ -1,18 +1,5 @@
 import init, { run, get_todays_gpu, get_yesterdays_gpu, get_results } from '../gpudle/wasm/pkg/wasm.js';
 
-await init();
-run();
-let aa = get_results("6700");
-console.log(aa)
-
-let guessed = [];
-let currentSelectionIndex = -1;
-
-const input = document.getElementById("gpu-input");
-const suggestionBox = document.getElementById("suggestions");
-
-const today = new Date().toISOString().slice(0, 10);
-
 function getDailyGpu(length, date) {
     const seed = hashString(date);
     const index = seed % length;
@@ -26,18 +13,6 @@ function hashString(str) {
         hash |= 0;
     }
     return Math.abs(hash);
-}
-
-const answer = getDailyGpu(gpuList.length, today);
-
-// Restore saved guesses
-const savedDate = localStorage.getItem("gpudle-date");
-const savedGuesses = JSON.parse(localStorage.getItem("gpudle-guesses") || "[]");
-
-if (savedDate === today) {
-    savedGuesses.forEach(name => submitGuess(name, true));
-} else {
-    localStorage.removeItem("gpudle-guesses");
 }
 
 input.addEventListener("input", () => {
@@ -174,6 +149,32 @@ function addGuessRow(data, correctness, name, skipAnimation = false) {
             }, i * 500);
         });
     }
+}
+
+await init();
+run();
+let aa = get_results("6700");
+console.log(aa)
+
+let guessed = [];
+let currentSelectionIndex = -1;
+
+const input = document.getElementById("gpu-input");
+const suggestionBox = document.getElementById("suggestions");
+
+const today = new Date().toISOString().slice(0, 10);
+
+
+const answer = getDailyGpu(gpuList.length, today);
+
+// Restore saved guesses
+const savedDate = localStorage.getItem("gpudle-date");
+const savedGuesses = JSON.parse(localStorage.getItem("gpudle-guesses") || "[]");
+
+if (savedDate === today) {
+    savedGuesses.forEach(name => submitGuess(name, true));
+} else {
+    localStorage.removeItem("gpudle-guesses");
 }
 
 const todayDate = new Date(today + "T00:00:00Z");
