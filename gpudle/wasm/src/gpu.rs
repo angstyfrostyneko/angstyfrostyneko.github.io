@@ -2,6 +2,7 @@ use chrono::{Local, NaiveDate, TimeDelta};
 use rand::{RngExt, SeedableRng, rngs::SmallRng};
 use rust_fuzzy_search::fuzzy_compare;
 use serde::{Deserialize, Serialize};
+use std::cmp::Ordering;
 use wasm_bindgen::prelude::wasm_bindgen;
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
@@ -44,14 +45,18 @@ impl GPU {
 
 pub fn backend_search_by_name<'a>(name: &str, gpu_list: &'a Vec<GPU>) -> Vec<&'a GPU> {
     let threshold = 0.5;
+    let name = name.to_lowercase().to_owned();
 
     let mut results: Vec<(&GPU, f32)> = gpu_list
         .iter()
-        .map(|card| (card, fuzzy_compare(name, &card.name)))
+        .map(|card| {
+            let score = fuzzy_compare(&name, &card.name.to_lowercase());
+            (card, score)
+        })
         .filter(|x| x.1 >= threshold)
         .collect();
 
-    results.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(std::cmp::Ordering::Equal));
+    results.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
 
     return results.into_iter().map(|(card, _)| card).collect();
 }
