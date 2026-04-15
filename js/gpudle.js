@@ -6,10 +6,8 @@ import init, {
     get_gpudle_count
 } from "../gpudle/wasm/pkg/wasm.js";
 
-
 class Game {
-    // TODO: keep the text input box for typing into
-    // but make the selection a flexbox appear on top
+    textInputBox;
     selectionBox;
     resultsBox;
 
@@ -21,39 +19,58 @@ class Game {
             // TODO: go down one on the flexbox
         }
         else if (event.key === "ArrowUp") {
-            // TODO: go up one
+            // TODO: go up one on the flexbox
         }
         else if (event.key === "Enter") {
-            // TODO: select current one
+            // TODO: select current one on the flexbox
         }
     }
 
-    _updateResults(searchStr) {
-        const results = get_results;
-        // TODO: update flexbox
+    _selectionClick(event) {
+        event.preventDefault();
+        submitGuess(gpu.name);
+        setTimeout(() => input.focus(), 0);
+    }
+
+    updateResults(query) {
+        const results = get_results(query);
+
+        this.selectionBox.textContent = ""
+
+        results.forEach(element => {
+            const entry = document.createElement("div")
+            const entryContent = document.createTextNode(element.productName);
+            entry.appendChild(entryContent)
+            entry.addEventListener("click", (e) => this._selectionClick(e))
+            this.selectionBox.appendChild(entry)
+        });
     }
 
     configureInput() {
-        this.selectionBox = document.getElementById("gpu-input");
+        this.textInputBox = document.getElementById("gpu-input");
+        this.selectionBox = document.getElementById("selection-box");
+
+        this.textInputBox.value = ""
 
         // Textbox contents change
-        this.selectionBox.addEventListener("input", () => {
-            // showSuggestions(input.value);
+        this.textInputBox.addEventListener("input", () => {
             // TODO: replace with wasm
+            const query = this.textInputBox.value
+            this.updateResults(query)
         });
 
         // Textbox gets selected
-        this.selectionBox.addEventListener("focus", () => {
+        this.textInputBox.addEventListener("focus", () => {
             // showSuggestions(input.value);
             // TODO: replace withw wasm
         });
 
         // Textbox gets unselected
-        this.selectionBox.addEventListener("blur", () => {
-            setTimeout(() => suggestionBox.innerHTML = "", 150);
+        this.textInputBox.addEventListener("blur", () => {
+            setTimeout(() => this.selectionBox.textContent = "", 150);
         });
 
-        this.selectionBox.addEventListener("keydown", (e) => this._keydownAction(e));
+        this.textInputBox.addEventListener("keydown", (e) => this._keydownAction(e));
     }
 
     updatePageStats() {
@@ -84,6 +101,7 @@ class Game {
 
         // debug zone
         console.log(this.dailyGPU.productName)
+        // this._updateResults("6700")
     }
 }
 
