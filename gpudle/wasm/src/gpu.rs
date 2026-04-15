@@ -42,25 +42,18 @@ impl GPU {
     }
 }
 
-pub fn backend_search_by_name<'a>(name: &str, gpu_list: &'a Vec<GPU>) -> Vec<(&'a GPU, f32)> {
-    let threshold = 0.25;
+pub fn backend_search_by_name<'a>(name: &str, gpu_list: &'a Vec<GPU>) -> Vec<&'a GPU> {
+    let threshold = 0.5;
 
-    let mut results: Vec<(&GPU, f32)>;
-    results = gpu_list
+    let mut results: Vec<(&GPU, f32)> = gpu_list
         .iter()
-        .map(|card| {
-            let res = fuzzy_compare(name, &card.name);
-            (card, res)
-        })
+        .map(|card| (card, fuzzy_compare(name, &card.name)))
         .filter(|x| x.1 >= threshold)
         .collect();
 
-    results.sort_by(|a, b| match b.1.partial_cmp(&a.1) {
-        Some(ordering) => ordering,
-        None => std::cmp::Ordering::Equal,
-    });
+    results.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(std::cmp::Ordering::Equal));
 
-    return results;
+    return results.into_iter().map(|(card, _)| card).collect();
 }
 
 fn get_gpu(gpu_list: &Vec<GPU>, day: NaiveDate) -> &GPU {
