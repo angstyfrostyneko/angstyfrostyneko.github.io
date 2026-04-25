@@ -1,38 +1,25 @@
+pub mod database;
 pub mod gpu;
 
-use crate::gpu::{backend_daily, backend_get_day_count, backend_search_by_name, backend_yesterday};
+use crate::{
+    database::{GPU_DATABASE, backend_generate_database},
+    gpu::{backend_daily, backend_get_day_count, backend_search_by_name, backend_yesterday},
+};
 use gpu::GPU;
 use serde_wasm_bindgen::to_value;
-use std::sync::OnceLock;
 use wasm_bindgen::prelude::{JsValue, wasm_bindgen};
 
-static GPU_DATABASE: OnceLock<Vec<GPU>> = OnceLock::new();
-
 #[wasm_bindgen]
-pub fn generate_database() {
-    let raw_gpu_csv = include_bytes!("../../main-gpu-list.csv");
-
-    let mut reader = csv::ReaderBuilder::new()
-        .has_headers(true)
-        .from_reader(&raw_gpu_csv[..]);
-
-    let _ = GPU_DATABASE.set(
-        reader
-            .deserialize::<GPU>()
-            .filter_map(Result::ok)
-            .enumerate()
-            .map(|(i, mut gpu)| {
-                gpu.id = i as u16;
-                gpu
-            })
-            .collect(),
-    );
+pub async fn generate_database() {
+    backend_generate_database().await;
 }
 
 #[wasm_bindgen]
-pub fn get_todays_gpu() -> Result<JsValue, JsValue> {
+pub fn check_answer() -> Result<JsValue, JsValue> {
     let card = backend_daily(GPU_DATABASE.get().unwrap()).clone();
-    return to_value(&card).map_err(|err| err.into());
+
+    // TODO: compose vector of strings to return to JS
+    return to_value(&3).map_err(|err| err.into());
 }
 
 #[wasm_bindgen]

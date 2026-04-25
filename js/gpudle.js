@@ -1,6 +1,6 @@
 import init, {
     generate_database,
-    get_todays_gpu,
+    check_answer,
     get_yesterdays_gpu,
     get_results,
     get_gpudle_count
@@ -11,7 +11,6 @@ class Game {
     selectionBox;
     resultsBox;
 
-    dailyGPU;
     yesterdaysGPU;
 
     _keydownAction(event) {
@@ -50,6 +49,7 @@ class Game {
         this.textInputBox = document.getElementById("gpu-input");
         this.selectionBox = document.getElementById("selection-box");
 
+        this.textInputBox.disabled = false
         this.textInputBox.value = ""
 
         // Textbox contents change
@@ -91,16 +91,15 @@ class Game {
 
     async initialize() {
         await init()
-        generate_database();
+        await generate_database();
 
-        this.dailyGPU = get_todays_gpu();
         this.yesterdaysGPU = get_yesterdays_gpu();
 
         this.configureInput();
         this.updatePageStats();
 
         // debug zone
-        console.log(this.dailyGPU.productName)
+        console.log(this.yesterdaysGPU)
         // this._updateResults("6700")
     }
 }

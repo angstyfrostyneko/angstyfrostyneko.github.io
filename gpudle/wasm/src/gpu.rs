@@ -6,15 +6,23 @@ use std::cmp::Ordering;
 use wasm_bindgen::prelude::wasm_bindgen;
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
-enum Makers {
+enum Brands {
+    #[serde(alias = "amd", rename = "0")]
     AMD,
+    #[serde(alias = "ATI", rename = "1")]
     ATI,
+    #[serde(alias = "intel", rename = "2")]
     Intel,
+    #[serde(alias = "matrox", rename = "3")]
     Matrox,
+    #[serde(alias = "nvidia", rename = "4")]
     NVIDIA,
-    #[serde(alias = "3dfx")]
+    #[serde(alias = "3dfx", rename = "5")]
     Threedfx,
+    #[serde(alias = "xgi", rename = "6")]
     XGI,
+    #[serde(alias = "sony", rename = "7")]
+    Sony,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
@@ -22,18 +30,14 @@ enum Makers {
 pub struct GPU {
     #[serde(skip)]
     pub id: u16,
-    #[serde(rename = "manufacturer")]
-    maker: Makers,
-    #[serde(rename = "productName")]
     name: String,
-    #[serde(rename = "releaseYear")]
-    year: Option<u16>,
-    #[serde(rename = "memSize")]
-    memory_size: Option<f32>,
-    #[serde(rename = "memBusWidth")]
-    memory_bus: Option<u16>,
-    #[serde(rename = "bus")]
+    brand: Brands,
+    generation: String,
+    tdp: Option<f32>,
+    cables: Option<String>,
+    vram: Option<f32>,
     pcie: Option<String>,
+    year: u16,
 }
 
 #[wasm_bindgen]
