@@ -24,10 +24,6 @@ pub async fn generate_database() {
 #[wasm_bindgen]
 pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
     let correct_card = backend_daily(GPU_DATABASE.get().unwrap()).clone();
-    if id == correct_card.id {
-        return to_value!("correct card!");
-    }
-
     let guess_card = GPU_DATABASE
         .get()
         .unwrap()
@@ -56,6 +52,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
     }
 
     match (guess_card.tdp, correct_card.tdp) {
+        (Some(guess), None) => response.push((0, guess.to_string())),
         (Some(guess), Some(correct)) => match guess.partial_cmp(&correct) {
             Some(Ordering::Less) => response.push((1, guess.to_string())),
             Some(Ordering::Equal) => response.push((3, guess.to_string())),
@@ -66,6 +63,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
     }
 
     match (guess_card.cables, correct_card.cables) {
+        (Some(guess), None) => response.push((0, guess.clone())),
         (Some(guess), Some(correct)) => {
             if guess == correct {
                 response.push((3, guess.clone()));
@@ -77,6 +75,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
     }
 
     match (guess_card.vram, correct_card.vram) {
+        (Some(guess), None) => response.push((0, guess.to_string())),
         (Some(guess), Some(correct)) => match guess.partial_cmp(&correct) {
             Some(Ordering::Less) => response.push((1, guess.to_string())),
             Some(Ordering::Equal) => response.push((3, guess.to_string())),
@@ -87,6 +86,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
     }
 
     match (guess_card.pcie, correct_card.pcie) {
+        (Some(guess), None) => response.push((0, guess)),
         (Some(guess), Some(correct)) => {
             if guess == correct {
                 response.push((3, guess.clone()));
