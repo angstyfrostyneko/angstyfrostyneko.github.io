@@ -117,17 +117,19 @@ pub fn backend_check_answer(id: u16) -> Vec<(u8, String)> {
     }
 
     match (guess_card.tdp, correct_card.tdp) {
+        (None, None) => response.push((3, "N/A".to_string())),
         (Some(guess), None) => response.push((0, guess.to_string())),
         (Some(guess), Some(correct)) => match guess.partial_cmp(&correct) {
             Some(Ordering::Less) => response.push((1, guess.to_string())),
             Some(Ordering::Equal) => response.push((3, guess.to_string())),
             Some(Ordering::Greater) => response.push((2, guess.to_string())),
-            None => response.push((3, "N/A".to_string())),
+            None => response.push((0, "N/A".to_string())),
         },
-        _ => response.push((3, "Varies".to_string())),
+        _ => response.push((0, "N/A".to_string())),
     }
 
     match (guess_card.cables, correct_card.cables) {
+        (None, None) => response.push((3, "N/A".to_string())),
         (Some(guess), None) => response.push((0, guess.clone())),
         (Some(guess), Some(correct)) => {
             if guess == correct {
@@ -136,21 +138,23 @@ pub fn backend_check_answer(id: u16) -> Vec<(u8, String)> {
                 response.push((0, guess.clone()));
             }
         }
-        _ => response.push((3, "N/A".to_string())),
+        _ => response.push((0, "N/A".to_string())),
     }
 
     match (guess_card.vram, correct_card.vram) {
+        (None, None) => response.push((3, "N/A".to_string())),
         (Some(guess), None) => response.push((0, guess.to_string())),
         (Some(guess), Some(correct)) => match guess.partial_cmp(&correct) {
             Some(Ordering::Less) => response.push((1, guess.to_string())),
             Some(Ordering::Equal) => response.push((3, guess.to_string())),
             Some(Ordering::Greater) => response.push((2, guess.to_string())),
-            None => response.push((3, "N/A".to_string())),
+            None => response.push((0, "N/A".to_string())),
         },
-        _ => response.push((3, "Varies".to_string())),
+        _ => response.push((0, "N/A".to_string())),
     }
 
     match (guess_card.pcie, correct_card.pcie) {
+        (None, None) => response.push((3, "N/A".to_string())),
         (Some(guess), None) => response.push((0, guess)),
         (Some(guess), Some(correct)) => {
             if guess == correct {
@@ -159,7 +163,7 @@ pub fn backend_check_answer(id: u16) -> Vec<(u8, String)> {
                 response.push((0, guess.clone()));
             }
         }
-        _ => response.push((3, "Not Applicable".to_string())),
+        _ => response.push((0, "N/A".to_string())),
     }
 
     match guess_card.year.cmp(&correct_card.year) {
