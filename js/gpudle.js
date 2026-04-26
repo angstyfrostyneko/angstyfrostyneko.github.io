@@ -38,10 +38,10 @@ class Game {
 
         switch (index) {
             case 3: // TDP 
-                if (content !== "N/A") content += "W"
+                if (content !== "Varies") content += "W"
                 break;
             case 5: // VRAM
-                if (content === "N/A") break;
+                if (content === "Varies" || content === "N/A") break;
 
                 let value = parseFloat(content)
                 if (value < 1) {
