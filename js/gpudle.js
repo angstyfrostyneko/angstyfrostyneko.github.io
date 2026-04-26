@@ -28,8 +28,10 @@ class Game {
 
     _selectionClick(event, id) {
         event.preventDefault();
-        this.submitGuess(id);
-        this.textInputBox.value = ""
+        this.alreadyGuessed.push(id)
+        this.submitGuess(id, true);
+        this.saveProgress();
+        this.textInputBox.value = "";
         setTimeout(() => this.selectionBox.textContent = "", 150);
     }
 
@@ -39,21 +41,21 @@ class Game {
 
         switch (index) {
             case 3: // TDP 
-                if (content !== "Varies") content += "W"
+                if (content !== "N/A") content += "W";
                 break;
             case 5: // VRAM
-                if (content === "Varies" || content === "N/A") break;
+                if (content === "N/A") break;
 
                 let value = parseFloat(content)
                 if (value < 1) {
                     value *= 1000;
                     if (value < 1) {
-                        value *= 1000
-                        content = value + "KB"
+                        value *= 1000;
+                        content = value + "KB";
                     }
-                    else content = value + "MB"
+                    else content = value + "MB";
                 }
-                else content += "GB"
+                else content += "GB";
                 break;
             default:
                 break;
@@ -70,10 +72,9 @@ class Game {
         return cell;
     }
 
-    submitGuess(id) {
+    submitGuess(id, doAnimation) {
         const answer = check_answer(id);
-        this.alreadyGuessed.push(id)
-        // console.log(answer);
+        // this.alreadyGuessed.push(id)
 
         const row = document.createElement("div");
         row.classList.add("guess-row");
@@ -84,18 +85,19 @@ class Game {
         const textWrapper = document.createElement("span");
         textWrapper.classList.add("cell-text");
         textWrapper.textContent = answer[0][1];
-        nameCell.appendChild(textWrapper)
+        nameCell.appendChild(textWrapper);
 
         row.prepend(nameCell);
 
         for (let i = 1; i < answer.length; i++) {
             const cell = this.updateCell(answer[i][0], answer[i][1], i);
-            setTimeout(() => {
-                cell.classList.add("revealed");
-            }, i * 500)
+            if (doAnimation) {
+                setTimeout(() => {
+                    cell.classList.add("revealed");
+                }, i * 500);
+            } else cell.classList.add("revealed");
 
             row.appendChild(cell);
-            // console.log(cell);
         }
 
         this.resultsRow.prepend(row);
@@ -104,29 +106,29 @@ class Game {
     updateResults(query) {
         const results = get_results(query, this.alreadyGuessed);
 
-        this.selectionBox.textContent = ""
+        this.selectionBox.textContent = "";
 
         results.forEach(element => {
-            const entry = document.createElement("div")
+            const entry = document.createElement("div");
             const entryContent = document.createTextNode(element.name);
-            entry.appendChild(entryContent)
-            entry.addEventListener("click", (e) => this._selectionClick(e, element.id))
-            this.selectionBox.appendChild(entry)
+            entry.appendChild(entryContent);
+            entry.addEventListener("click", (e) => this._selectionClick(e, element.id));
+            this.selectionBox.appendChild(entry);
         });
     }
 
     configureInput() {
         this.textInputBox = document.getElementById("gpu-input");
         this.selectionBox = document.getElementById("selection-box");
-        this.resultsRow = document.getElementById("results-row")
+        this.resultsRow = document.getElementById("results-row");
 
-        this.textInputBox.disabled = false
-        this.textInputBox.value = ""
+        this.textInputBox.disabled = false;
+        this.textInputBox.value = "";
 
         // Textbox contents change
         this.textInputBox.addEventListener("input", () => {
-            const query = this.textInputBox.value
-            this.updateResults(query)
+            const query = this.textInputBox.value;
+            this.updateResults(query);
         });
 
         // Textbox gets selected
@@ -151,11 +153,17 @@ class Game {
     }
 
     loadProgress() {
-
+        if (localStorage.getItem("gpudle-day") == get_gpudle_count()) {
+            this.alreadyGuessed = JSON.parse(localStorage.getItem("gpudle-guesses")) || []
+            this.alreadyGuessed.forEach(id => {
+                this.submitGuess(id, false);
+            });
+        }
     }
 
     saveProgress() {
-
+        localStorage.setItem("gpudle-day", get_gpudle_count());
+        localStorage.setItem("gpudle-guesses", JSON.stringify(this.alreadyGuessed));
     }
 
     async initialize() {
@@ -166,6 +174,7 @@ class Game {
 
         this.configureInput();
         this.updatePageStats();
+        this.loadProgress();
 
         // debug zone
         // console.log(this.yesterdaysGPU)
