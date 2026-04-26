@@ -2,11 +2,12 @@ use chrono::{Local, NaiveDate, TimeDelta};
 use rand::{RngExt, SeedableRng, rngs::SmallRng};
 use rust_fuzzy_search::fuzzy_compare;
 use serde::{Deserialize, Serialize};
-use std::cmp::Ordering;
+use std::{cmp::Ordering, fmt};
 use wasm_bindgen::prelude::wasm_bindgen;
 
-#[derive(Debug, Serialize, Deserialize, Clone)]
-enum Brands {
+#[wasm_bindgen]
+#[derive(Debug, Serialize, Deserialize, Clone, Copy, PartialEq)]
+pub enum Brands {
     #[serde(alias = "amd", rename = "0")]
     AMD,
     #[serde(alias = "ATI", rename = "1")]
@@ -25,19 +26,32 @@ enum Brands {
     Sony,
 }
 
+impl fmt::Display for Brands {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        match self {
+            Brands::Threedfx => write!(f, "{}", "3dfx"),
+            _ => write!(f, "{:?}", self),
+        }
+    }
+}
+
 #[derive(Debug, Serialize, Deserialize, Clone)]
 #[wasm_bindgen]
 pub struct GPU {
-    #[serde(skip)]
+    #[serde(skip_deserializing)]
     pub id: u16,
-    name: String,
-    brand: Brands,
-    generation: String,
-    tdp: Option<f32>,
-    cables: Option<String>,
-    vram: Option<f32>,
-    pcie: Option<String>,
-    year: u16,
+    #[wasm_bindgen(getter_with_clone)]
+    pub name: String,
+    pub brand: Brands,
+    #[wasm_bindgen(getter_with_clone)]
+    pub generation: String,
+    pub tdp: Option<f32>,
+    #[wasm_bindgen(getter_with_clone)]
+    pub cables: Option<String>,
+    pub vram: Option<f32>,
+    #[wasm_bindgen(getter_with_clone)]
+    pub pcie: Option<String>,
+    pub year: u16,
 }
 
 #[wasm_bindgen]

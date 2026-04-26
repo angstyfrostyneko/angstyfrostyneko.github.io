@@ -25,10 +25,18 @@ class Game {
         }
     }
 
-    _selectionClick(event) {
+    _selectionClick(event, id) {
         event.preventDefault();
-        submitGuess(gpu.name);
-        setTimeout(() => input.focus(), 0);
+        this.submitGuess(id);
+        this.textInputBox.value = ""
+        setTimeout(() => this.selectionBox.textContent = "", 150);
+    }
+
+    submitGuess(id) {
+        // 0 for no emoji, 1 for too low, 2 for too high, 3 for correct
+        const answer = check_answer(id)
+        console.log(answer)
+
     }
 
     updateResults(query) {
@@ -38,9 +46,9 @@ class Game {
 
         results.forEach(element => {
             const entry = document.createElement("div")
-            const entryContent = document.createTextNode(element.productName);
+            const entryContent = document.createTextNode(element.name);
             entry.appendChild(entryContent)
-            entry.addEventListener("click", (e) => this._selectionClick(e))
+            entry.addEventListener("click", (e) => this._selectionClick(e, element.id))
             this.selectionBox.appendChild(entry)
         });
     }
@@ -54,7 +62,6 @@ class Game {
 
         // Textbox contents change
         this.textInputBox.addEventListener("input", () => {
-            // TODO: replace with wasm
             const query = this.textInputBox.value
             this.updateResults(query)
         });
@@ -62,7 +69,6 @@ class Game {
         // Textbox gets selected
         this.textInputBox.addEventListener("focus", () => {
             // showSuggestions(input.value);
-            // TODO: replace withw wasm
         });
 
         // Textbox gets unselected
@@ -77,7 +83,7 @@ class Game {
         const nameText = document.getElementById("stats-gpu-name");
         const dateText = document.getElementById("stats-day-number");
 
-        nameText.textContent = this.yesterdaysGPU.productName;
+        nameText.textContent = this.yesterdaysGPU.name;
         dateText.textContent = get_gpudle_count();
     }
 
