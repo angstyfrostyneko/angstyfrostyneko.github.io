@@ -67,13 +67,16 @@ pub fn backend_search_by_name<'a>(
     gpu_list: &'a Vec<GPU>,
     already_guessed: Vec<u16>,
 ) -> Vec<&'a GPU> {
-    let threshold = 0.5;
+    let threshold = 0.35;
     let name = name.to_lowercase().to_owned();
 
     let mut results: Vec<(&GPU, f32)> = gpu_list
         .iter()
         .map(|card| {
-            let score = fuzzy_compare(&name, &card.name.to_lowercase());
+            let score = fuzzy_compare(
+                &name.replace(" ", ""),
+                &card.name.to_lowercase().replace(" ", ""),
+            );
             (card, score)
         })
         .filter(|x| x.1 >= threshold && !already_guessed.contains(&x.0.id))
