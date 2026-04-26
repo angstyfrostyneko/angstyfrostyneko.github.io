@@ -21,6 +21,13 @@
     display: grid;
     grid-template-columns: repeat(var(--number-of-cells), 1fr);
     gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cell-text {
+    padding: 2px 4px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .guess-cell {

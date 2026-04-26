@@ -9,7 +9,7 @@ import init, {
 class Game {
     textInputBox;
     selectionBox;
-    resultsBox;
+    resultsRow;
 
     yesterdaysGPU;
 
@@ -32,11 +32,69 @@ class Game {
         setTimeout(() => this.selectionBox.textContent = "", 150);
     }
 
-    submitGuess(id) {
-        // 0 for no emoji, 1 for too low, 2 for too high, 3 for correct
-        const answer = check_answer(id)
-        console.log(answer)
+    updateCell(correctness, content, index) {
+        const cell = document.createElement("div");
+        const icons = ["", " ⬆️", " ⬇️", ""];
 
+        switch (index) {
+            case 3: // TDP 
+                if (content !== "N/A") content += "W"
+                break;
+            case 5: // VRAM
+                let value = parseFloat(content)
+                if (value < 1) {
+                    value *= 1000;
+                    if (value < 1) {
+                        value *= 1000
+                        content = value + "KB"
+                    }
+                    else content = value + "MB"
+                }
+                else content += "GB"
+                break;
+            default:
+                break;
+        }
+
+        cell.classList.add("guess-cell");
+        cell.classList.add(correctness === 3 ? "correct" : "wrong");
+
+        const textWrapper = document.createElement("span");
+        textWrapper.classList.add("cell-text");
+        textWrapper.textContent = content + icons[correctness];
+
+        cell.appendChild(textWrapper);
+        return cell;
+    }
+
+    submitGuess(id) {
+        const answer = check_answer(id);
+        console.log(answer);
+
+        const row = document.createElement("div");
+        row.classList.add("guess-row");
+
+        const nameCell = document.createElement("div");
+        nameCell.classList.add("guess-cell", "name-cell", "revealed");
+
+        const textWrapper = document.createElement("span");
+        textWrapper.classList.add("cell-text");
+        textWrapper.textContent = answer[0][1];
+        nameCell.appendChild(textWrapper)
+
+        row.prepend(nameCell);
+
+        for (let i = 1; i < answer.length; i++) {
+            const cell = this.updateCell(answer[i][0], answer[i][1], i);
+            setTimeout(() => {
+                cell.classList.add("revealed");
+            }, i * 500)
+
+            row.appendChild(cell);
+            console.log(cell);
+        }
+
+        this.resultsRow.prepend(row);
     }
 
     updateResults(query) {
@@ -56,6 +114,7 @@ class Game {
     configureInput() {
         this.textInputBox = document.getElementById("gpu-input");
         this.selectionBox = document.getElementById("selection-box");
+        this.resultsRow = document.getElementById("results-row")
 
         this.textInputBox.disabled = false
         this.textInputBox.value = ""
