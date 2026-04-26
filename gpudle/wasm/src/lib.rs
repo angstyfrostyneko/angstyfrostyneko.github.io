@@ -36,7 +36,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
         .clone();
 
     // 0 for no emoji, 1 for too low, 2 for too high, 3 for correct
-    let mut response: Vec<(u8, String)> = Vec::with_capacity(9);
+    let mut response: Vec<(u8, String)> = Vec::with_capacity(8);
     if guess_card.name == correct_card.name {
         response.push((0, guess_card.name));
     } else {
