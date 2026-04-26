@@ -41,6 +41,8 @@ class Game {
                 if (content !== "N/A") content += "W"
                 break;
             case 5: // VRAM
+                if (content === "N/A") break;
+
                 let value = parseFloat(content)
                 if (value < 1) {
                     value *= 1000;
@@ -69,7 +71,7 @@ class Game {
 
     submitGuess(id) {
         const answer = check_answer(id);
-        console.log(answer);
+        // console.log(answer);
 
         const row = document.createElement("div");
         row.classList.add("guess-row");
@@ -91,7 +93,7 @@ class Game {
             }, i * 500)
 
             row.appendChild(cell);
-            console.log(cell);
+            // console.log(cell);
         }
 
         this.resultsRow.prepend(row);
@@ -164,7 +166,7 @@ class Game {
         this.updatePageStats();
 
         // debug zone
-        console.log(this.yesterdaysGPU)
+        // console.log(this.yesterdaysGPU)
         // this._updateResults("6700")
     }
 }

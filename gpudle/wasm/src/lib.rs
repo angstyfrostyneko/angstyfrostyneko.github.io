@@ -59,7 +59,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
             Some(Ordering::Greater) => response.push((2, guess.to_string())),
             None => response.push((3, "N/A".to_string())),
         },
-        _ => response.push((3, "N/A".to_string())),
+        _ => response.push((3, "Varies".to_string())),
     }
 
     match (guess_card.cables, correct_card.cables) {
@@ -82,7 +82,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
             Some(Ordering::Greater) => response.push((2, guess.to_string())),
             None => response.push((3, "N/A".to_string())),
         },
-        _ => response.push((3, "N/A".to_string())),
+        _ => response.push((3, "Varies".to_string())),
     }
 
     match (guess_card.pcie, correct_card.pcie) {
@@ -94,7 +94,7 @@ pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
                 response.push((0, guess.clone()));
             }
         }
-        _ => response.push((3, "N/A".to_string())),
+        _ => response.push((3, "Not Applicable".to_string())),
     }
 
     match guess_card.year.cmp(&correct_card.year) {
