@@ -10,6 +10,7 @@ class Game {
     textInputBox;
     selectionBox;
     resultsRow;
+    alreadyGuessed = [];
 
     yesterdaysGPU;
 
@@ -71,6 +72,7 @@ class Game {
 
     submitGuess(id) {
         const answer = check_answer(id);
+        this.alreadyGuessed.push(id)
         // console.log(answer);
 
         const row = document.createElement("div");
@@ -100,7 +102,7 @@ class Game {
     }
 
     updateResults(query) {
-        const results = get_results(query);
+        const results = get_results(query, this.alreadyGuessed);
 
         this.selectionBox.textContent = ""
 

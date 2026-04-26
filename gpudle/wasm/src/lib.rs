@@ -3,11 +3,11 @@ pub mod gpu;
 
 use crate::{
     database::{GPU_DATABASE, backend_generate_database},
-    gpu::{backend_daily, backend_get_day_count, backend_search_by_name, backend_yesterday},
+    gpu::{
+        GPU, backend_check_answer, backend_get_day_count, backend_search_by_name, backend_yesterday,
+    },
 };
-use gpu::GPU;
 use serde_wasm_bindgen::to_value;
-use std::cmp::Ordering;
 use wasm_bindgen::prelude::{JsValue, wasm_bindgen};
 
 macro_rules! to_value {
@@ -23,86 +23,7 @@ pub async fn generate_database() {
 
 #[wasm_bindgen]
 pub fn check_answer(id: u16) -> Result<JsValue, JsValue> {
-    let correct_card = backend_daily(GPU_DATABASE.get().unwrap()).clone();
-    let guess_card = GPU_DATABASE
-        .get()
-        .unwrap()
-        .get(id as usize)
-        .unwrap()
-        .clone();
-
-    // 0 for no emoji, 1 for too low, 2 for too high, 3 for correct
-    let mut response: Vec<(u8, String)> = Vec::with_capacity(8);
-    if guess_card.name == correct_card.name {
-        response.push((0, guess_card.name));
-    } else {
-        response.push((0, guess_card.name));
-    }
-
-    if guess_card.brand == correct_card.brand {
-        response.push((3, guess_card.brand.to_string()));
-    } else {
-        response.push((0, guess_card.brand.to_string()));
-    }
-
-    if guess_card.generation == correct_card.generation {
-        response.push((3, guess_card.generation));
-    } else {
-        response.push((0, guess_card.generation));
-    }
-
-    match (guess_card.tdp, correct_card.tdp) {
-        (Some(guess), None) => response.push((0, guess.to_string())),
-        (Some(guess), Some(correct)) => match guess.partial_cmp(&correct) {
-            Some(Ordering::Less) => response.push((1, guess.to_string())),
-            Some(Ordering::Equal) => response.push((3, guess.to_string())),
-            Some(Ordering::Greater) => response.push((2, guess.to_string())),
-            None => response.push((3, "N/A".to_string())),
-        },
-        _ => response.push((3, "Varies".to_string())),
-    }
-
-    match (guess_card.cables, correct_card.cables) {
-        (Some(guess), None) => response.push((0, guess.clone())),
-        (Some(guess), Some(correct)) => {
-            if guess == correct {
-                response.push((3, guess.clone()));
-            } else {
-                response.push((0, guess.clone()));
-            }
-        }
-        _ => response.push((3, "N/A".to_string())),
-    }
-
-    match (guess_card.vram, correct_card.vram) {
-        (Some(guess), None) => response.push((0, guess.to_string())),
-        (Some(guess), Some(correct)) => match guess.partial_cmp(&correct) {
-            Some(Ordering::Less) => response.push((1, guess.to_string())),
-            Some(Ordering::Equal) => response.push((3, guess.to_string())),
-            Some(Ordering::Greater) => response.push((2, guess.to_string())),
-            None => response.push((3, "N/A".to_string())),
-        },
-        _ => response.push((3, "Varies".to_string())),
-    }
-
-    match (guess_card.pcie, correct_card.pcie) {
-        (Some(guess), None) => response.push((0, guess)),
-        (Some(guess), Some(correct)) => {
-            if guess == correct {
-                response.push((3, guess.clone()));
-            } else {
-                response.push((0, guess.clone()));
-            }
-        }
-        _ => response.push((3, "Not Applicable".to_string())),
-    }
-
-    match guess_card.year.cmp(&correct_card.year) {
-        Ordering::Less => response.push((1, guess_card.year.to_string())),
-        Ordering::Equal => response.push((3, guess_card.year.to_string())),
-        Ordering::Greater => response.push((2, guess_card.year.to_string())),
-    }
-
+    let response = backend_check_answer(id);
     return to_value!(response);
 }
 
@@ -113,8 +34,8 @@ pub fn get_yesterdays_gpu() -> Result<JsValue, JsValue> {
 }
 
 #[wasm_bindgen]
-pub fn get_results(name: &str) -> Result<JsValue, JsValue> {
-    let result = backend_search_by_name(name, GPU_DATABASE.get().unwrap());
+pub fn get_results(name: &str, already_guessed: Vec<u16>) -> Result<JsValue, JsValue> {
+    let result = backend_search_by_name(name, GPU_DATABASE.get().unwrap(), already_guessed);
     return to_value!(result);
 }
 
