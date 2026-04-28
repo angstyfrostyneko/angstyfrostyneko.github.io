@@ -6,10 +6,6 @@ use std::sync::OnceLock;
 pub static GPU_DATABASE: OnceLock<Vec<GPU>> = OnceLock::new();
 
 async fn download_csv() -> String {
-    // let link = "https://raw.githubusercontent.com\
-    // /angstyfrostyneko/angstyfrostyneko.github.io\
-    // /refs/heads/main/gpudle/main-gpu-list.csv";
-
     let link = "../gpudle/main-gpu-list.csv";
 
     let body = Request::get(link)
