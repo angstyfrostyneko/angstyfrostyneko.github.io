@@ -9,21 +9,21 @@ use wasm_bindgen::prelude::wasm_bindgen;
 #[wasm_bindgen]
 #[derive(Debug, Serialize, Deserialize, Clone, Copy, PartialEq)]
 pub enum Brands {
-    #[serde(alias = "amd", rename = "0")]
+    #[serde(alias = "AMD", rename = "0")]
     AMD,
     #[serde(alias = "ATI", rename = "1")]
     ATI,
-    #[serde(alias = "intel", rename = "2")]
+    #[serde(alias = "Intel", rename = "2")]
     Intel,
-    #[serde(alias = "matrox", rename = "3")]
+    #[serde(alias = "Matrox", rename = "3")]
     Matrox,
-    #[serde(alias = "nvidia", rename = "4")]
+    #[serde(alias = "NVIDIA", rename = "4")]
     NVIDIA,
     #[serde(alias = "3dfx", rename = "5")]
     Threedfx,
-    #[serde(alias = "xgi", rename = "6")]
+    #[serde(alias = "XGI", rename = "6")]
     XGI,
-    #[serde(alias = "sony", rename = "7")]
+    #[serde(alias = "Sony", rename = "7")]
     Sony,
 }
 

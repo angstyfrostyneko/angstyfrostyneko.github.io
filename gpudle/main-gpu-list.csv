@@ -1,47 +1,34 @@
 name,brand,generation,tdp,cables,vram,pcie,year
-Color Emulation Card,0,Wonder,,,0.000032,ISA 8-bit,1986
-Graphics Solution,0,Wonder,,,0.000064,ISA 8-bit,1986
-EGA Wonder 800+,0,Wonder,,,0.00025,ISA 8-bit,1988
-Graphics Solution Plus,0,Wonder,,,0.000064,ISA 8-bit,1987
-VGA Improved Performance,0,Wonder,,,0.00025,ISA 8-bit,1987
-EGA Wonder 480,0,Wonder,,,0.00025,ISA 8-bit,1988
-VGA Wonder,0,Wonder,,,0.00025,ISA 8-bit,1990
-8514-Ultra,0,Mach,,,0.001,ISA 16-bit,1992
-Graphics Ultra,0,Mach,,,0.001,ISA 16-bit,1992
-Graphics Ultra Pro ISA,0,Mach,,,0.002,ISA 16-bit,1992
-Graphics Vantage,0,Mach,,,0.001,ISA 16-bit,1992
-Graphics Wonder PCI,0,Mach,,,0.001,PCI,1992
-Graphics Wonder VLB,0,Mach,,,0.001,VLB,1992
-VGA Wonder XL24,0,Wonder,,,0.001,ISA 16-bit,1992
-Graphics Ultra Pro PCI,0,Mach,,,0.001,PCI,1993
-Graphics Ultra Pro VLB,0,Mach,,,0.001,VLB,1993
-Graphics Ultra XLR VLB,0,Mach,,,0.001,VLB,1993
+Color Emulation Card,1,Wonder,,,0.000032,ISA 8-bit,1986
+Graphics Solution,1,Wonder,,,0.000064,ISA 8-bit,1986
+EGA Wonder 800+,1,Wonder,,,0.00025,ISA 8-bit,1988
+Graphics Solution Plus,1,Wonder,,,0.000064,ISA 8-bit,1987
+VGA Improved Performance,1,Wonder,,,0.00025,ISA 8-bit,1987
+VGA Wonder,1,Wonder,,,0.00025,ISA 8-bit,1990
+8514-Ultra,1,Mach,,,0.001,ISA 16-bit,1992
+Graphics Ultra Pro ISA,1,Mach,,,0.002,ISA 16-bit,1992
+Graphics Wonder PCI,1,Mach,,,0.001,PCI,1992
+Graphics Wonder VLB,1,Mach,,,0.001,VLB,1992
+VGA Wonder XL24,1,Wonder,,,0.001,ISA 16-bit,1992
+Graphics Ultra Pro PCI,1,Mach,,,0.001,PCI,1993
+Graphics Ultra Pro VLB,1,Mach,,,0.001,VLB,1993
 Playstation GPU 600nm,7,Console GPU(Sony),11.0,,0.001,,1994
 NV1,4,NV1,2.0,,0.002,PCI,1995
 STG-2000,4,NV1,2.0,,0.001,PCI,1995
-Graphics Pro Turbo,0,Mach,,,0.002,PCI,1995
-Graphics Xpression,0,Mach,,,0.002,PCI,1995
-Graphics Xpression ISA,0,Mach,,,0.002,PCI,1995
-Video Xpression,0,Mach,,,0.001,PCI,1996
-WinBoost,0,Mach,,,0.002,PCI,1995
-WinCharger,0,Mach,,,0.002,PCI,1995
-WinTurbo,0,Mach,,,0.002,PCI,1995
-3D Rage,0,Mach,,,0.002,PCI,1996
-3D Rage II,0,Mach,,,0.004,PCI,1996
-3D Rage II+ DVD,0,Mach,,,0.004,PCI,1996
-All-In-Wonder 3D Rage II+ DVD,0,Mach,,,0.004,PCI,1996
+Graphics Pro Turbo,1,Mach,,,0.002,PCI,1995
+Video Xpression,1,Mach,,,0.001,PCI,1996
+3D Rage,1,Mach,,,0.002,PCI,1996
+3D Rage II,1,Mach,,,0.004,PCI,1996
 Voodoo Graphics 4 MB,5,Voodoo1,15.0,,0.004,PCI,1996
 Riva 128,4,Riva,4.0,,0.004,AGP 2x,1997
 Riva 128 PCI,4,Riva,4.0,,0.004,PCI,1997
-3D Rage IIC AGP,0,Rage 2,,,0.004,AGP 2x,1997
-3D Rage IIC PCI,0,Rage 2,,,0.002,PCI,1997
-3D Rage PRO AGP,0,Rage 3,,,0.002,AGP 1x,1997
-3D Rage PRO AGP 2X,0,Rage 3,,,0.002,AGP 2x,1997
-3D Rage PRO PCI,0,Rage 3,,,0.008,PCI,1997
-Rage LT PRO AGP,0,Mach,,,0.008,AGP 2x,1997
-Rage PRO Turbo AGP,0,Rage 3,,,0.004,AGP 1x,1997
-Rage PRO Turbo PCI,0,Rage 3,,,0.008,PCI,1997
-XPert XL AGP 2X,0,Rage 3,,,0.002,AGP 2x,1997
+3D Rage IIC AGP,1,Rage 2,,,0.004,AGP 2x,1997
+3D Rage IIC PCI,1,Rage 2,,,0.002,PCI,1997
+3D Rage PRO AGP,1,Rage 3,,,0.002,AGP 1x,1997
+3D Rage PRO AGP 2X,1,Rage 3,,,0.002,AGP 2x,1997
+3D Rage PRO PCI,1,Rage 3,,,0.008,PCI,1997
+Rage LT PRO AGP,1,Mach,,,0.008,AGP 2x,1997
+Rage PRO Turbo AGP,1,Rage 3,,,0.004,AGP 1x,1997
 Playstation GPU 350nm,7,Console GPU(Sony),10.0,,0.001,,1997
 Riva 128ZX,4,Riva,,,0.008,AGP 2x,1998
 Riva TNT,4,Fahrenheit,,,0.016,AGP 2x,1998
@@ -49,85 +36,50 @@ i740,2,i740,,,0.004,AGP 2x,1998
 i740 8 MB,2,i740,,,0.008,AGP 2x,1998
 i740 Graphics,2,i740,,,,AGP 2x,1998
 i752 Graphics,2,Generation 1.0,,,,AGP 2x,1998
-Rage 128 GL,0,Rage 4,,,0.032,AGP 2x,1998
-Rage 128 GL PCI,0,Rage 4,,,0.032,PCI,1998
-Rage 128 PRO Ultra GL,0,Rage 4,,,0.016,AGP 4x,1998
-Rage 128 VR AGP,0,Rage 4,,,0.032,AGP 2x,1998
-Rage 128 VR PCI,0,Rage 4,,,0.032,PCI,1998
-Rage XL PCI,0,Rage 3,,,0.008,PCI,1999
+Rage 128 GL,1,Rage 4,,,0.032,AGP 2x,1998
+Rage 128 GL PCI,1,Rage 4,,,0.032,PCI,1998
+Rage 128 PRO Ultra GL,1,Rage 4,,,0.016,AGP 4x,1998
+Rage XL PCI,1,Rage 3,,,0.008,PCI,1999
 Voodoo Banshee AGP 16 MB,5,Voodoo Banshee,15.0,,0.016,AGP 1x,1998
 Voodoo Banshee PCI 16 MB,5,Voodoo Banshee,15.0,,0.016,PCI,1998
 Voodoo2 12 MB,5,Voodoo2,15.0,,0.012,PCI,1998
 Voodoo2 8 MB,5,Voodoo2,15.0,,0.008,PCI,1998
 Marvel G200,3,G200,,,0.008,AGP 2x,1998
 Millennium G200,3,G200,,,0.008,PCI,1998
-Millennium G200 SD,3,G200,,,0.008,PCI,1998
-Mystique G200,3,G200,,,0.008,AGP 2x,1998
 Productiva G100,3,G100,,,0.002,AGP 2x,1998
 GeForce 256 DDR,4,Celsius,,,0.032,AGP 4x,1999
-GeForce 256 SDR,4,Celsius,,,0.032,AGP 4x,1999
-Quadro,4,Celsius,,,0.032,AGP 4x,1999
 Riva TNT2,4,Fahrenheit,,,0.016,AGP 4x,1999
-Riva TNT2 M64,4,Fahrenheit,,,0.016,AGP 4x,1999
-Riva TNT2 M64 Vanta,4,Fahrenheit,,,0.016,AGP 4x,1999
-Riva TNT2 M64 Vanta-16,4,Fahrenheit,,,0.016,AGP 4x,1999
 Riva TNT2 PRO,4,Fahrenheit,,,0.032,AGP 4x,1999
-Riva TNT2 Ultra,4,Fahrenheit,,,0.032,AGP 4x,1999
 i752,2,Generation 1.0,,,0.016,AGP 2x,1999
 i810 Graphics,2,Generation 1.0,,,,FSB,1999
-All-In-Wonder 128,0,Rage 4,,,0.032,AGP 4x,1999
-All-In-Wonder 128 PCI,0,Rage 4,,,0.016,PCI,1999
-All-In-Wonder 128 PRO,0,Rage 4,,,0.032,AGP 4x,1999
-All-In-Wonder 128 PRO Ultra,0,Rage 4,,,0.032,AGP 4x,1999
-Fire GL1,0,IBM,,,0.032,AGP 2x,1999
-Rage 128 PRO,0,Rage 4,,,0.032,AGP 4x,1999
-Rage 128 PRO Ultra,0,Rage 4,,,0.032,AGP 4x,1999
-Rage 128 Ultra,0,Rage 4,,,0.016,AGP 4x,1999
-Rage Fury,0,Rage 4,,,0.032,AGP 2x,1999
-Rage Fury MAXX,0,Rage 4,,,0.032,AGP 4x,1999
-Rage Mobility 128 AGP 2X,0,Rage 4,,,0.016,AGP 2x,1999
-Rage Mobility 128 AGP 4X,0,Rage 4,,,0.016,AGP 4x,1999
-Rage Mobility-CL,0,Rage 4,,,0.008,AGP 2x,1999
-Rage Mobility-M,0,Rage 4,,,0.004,AGP 2x,1999
-Rage Mobility-M1,0,Rage 4,,,0.008,AGP 2x,1999
-Rage Mobility-M3,0,Rage 4,,,0.008,AGP 2x,1999
-Rage Mobility-M4,0,Rage 4,,,0.016,AGP 4x,1999
-Rage Mobility-P,0,Rage 4,,,0.008,AGP 2x,1999
+All-In-Wonder 128,1,Rage 4,,,0.032,AGP 4x,1999
+All-In-Wonder 128 PCI,1,Rage 4,,,0.016,PCI,1999
+Fire GL1,1,IBM,,,0.032,AGP 2x,1999
+Rage 128 Ultra,1,Rage 4,,,0.016,AGP 4x,1999
+Rage Fury,1,Rage 4,,,0.032,AGP 2x,1999
+Rage Mobility 128 AGP 2X,1,Rage 4,,,0.016,AGP 2x,1999
+Rage Mobility-CL,1,Rage 4,,,0.008,AGP 2x,1999
+Rage Mobility-M,1,Rage 4,,,0.004,AGP 2x,1999
 Velocity 100,5,Voodoo3,15.0,,0.008,AGP 2x,1999
 Voodoo3 1000 AGP,5,Voodoo3,15.0,,0.016,AGP 2x,1999
-Voodoo3 2000 AGP,5,Voodoo3,15.0,,0.016,AGP 2x,1999
 Voodoo3 2000 PCI,5,Voodoo3,15.0,,0.016,PCI,1999
-Voodoo3 3000 AGP,5,Voodoo3,15.0,,0.016,AGP 2x,1999
-Voodoo3 3000 PCI,5,Voodoo3,15.0,,0.016,PCI,1999
-Voodoo3 3500 TV AGP,5,Voodoo3,15.0,,0.016,AGP 2x,1999
 Marvel G400-TV,3,G400,,,0.016,PCI,1999
 Millennium G200A,3,G200,,,0.008,PCI,1999
-Millennium G250,3,G200,,,0.008,PCI,1999
 Millennium G400,3,G400,,,0.032,PCI,1999
-Millennium G400 MAX,3,G400,,,0.032,PCI,1999
 GeForce2 Go,4,Celsius,2.0,,0.064,AGP 4x,2000
 GeForce2 GTS,4,Celsius,,,0.032,AGP 4x,2000
-GeForce2 GTS PRO,4,Celsius,,,0.032,AGP 4x,2000
-GeForce2 MX,4,Celsius,,,0.032,AGP 4x,2000
-GeForce2 MX DH Pro TV,4,Celsius,,,0.032,AGP 4x,2000
 GeForce2 MX DH Pro TV PCI,4,Celsius,,,0.032,PCI,2000
-GeForce2 MX PCI,4,Celsius,,,0.032,PCI,2000
 GeForce2 PRO,4,Celsius,,,0.064,AGP 4x,2000
-GeForce2 Ultra,4,Celsius,,,0.064,AGP 4x,2000
-Quadro2 MXR,4,Celsius,,,0.032,AGP 4x,2000
-Quadro2 MXR Low Profile,4,Celsius,,,0.032,AGP 4x,2000
 Vanta LT,4,Fahrenheit,,,0.008,AGP 2x,2000
 i815 Graphics,2,Generation 1.0,,,,FSB,2000
-All-In-Wonder Radeon 7200,0,Rage 6,,,0.032,PCI,2000
-Fire GL2,0,IBM,,,0.064,AGP 4x,2000
-Fire GL3,0,IBM,,,0.128,AGP 4x,2000
-GameCube GPU,0,Rage 5,45.0,,0.016,,2000
-Radeon 7200,0,Rage 6,23.0,,0.032,AGP 4x,2000
-Radeon 7200 64 MB,0,Rage 6,23.0,,0.064,AGP 4x,2000
-Radeon DDR,0,Rage 6,23.0,,0.032,AGP 4x,2000
-Radeon DDR MAXX,0,Rage 6,,1x Molex,0.032,AGP 2x,2000
-Radeon SDR,0,Rage 6,23.0,,0.032,AGP 4x,2000
-Radeon SDR PCI,0,Rage 6,23.0,,0.032,PCI,2000
+All-In-Wonder Radeon 7200,1,Rage 6,,,0.032,PCI,2000
+Fire GL2,1,IBM,,,0.064,AGP 4x,2000
+Fire GL3,1,IBM,,,0.128,AGP 4x,2000
+GameCube GPU,1,Rage 5,45.0,,0.016,,2000
+Radeon 7200,1,Rage 6,23.0,,0.032,AGP 4x,2000
+Radeon 7200 64 MB,1,Rage 6,23.0,,0.064,AGP 4x,2000
+Radeon DDR MAXX,1,Rage 6,,1x Molex,0.032,AGP 2x,2000
+Radeon SDR PCI,1,Rage 6,23.0,,0.032,PCI,2000
 Voodoo4 4500 AGP,5,Voodoo Scalable,15.0,,0.032,AGP 4x,2000
 Voodoo4 4500 PCI,5,Voodoo Scalable,15.0,,0.032,PCI,2000
 Voodoo5 5500 AGP,5,Voodoo Scalable,30.0,1x Molex,0.032,AGP 2x,2000
@@ -138,40 +90,27 @@ Playstation 2 GPU 250nm,7,Console GPU(Sony),79.0,,0.004,,2000
 GeForce2 Go 100,4,Celsius,2.0,,0.016,AGP 4x,2001
 GeForce2 Go 200,4,Celsius,2.0,,0.032,AGP 4x,2001
 GeForce2 MX + nForce 220,4,Celsius,,,,AGP 4x,2001
-GeForce2 MX + nForce 420,4,Celsius,,,,AGP 4x,2001
 GeForce2 MX 200,4,Celsius,,,0.032,AGP 4x,2001
-GeForce2 MX 200 LP,4,Celsius,,,0.032,AGP 4x,2001
 GeForce2 MX 200 PCI,4,Celsius,,,0.064,PCI,2001
-GeForce2 MX 400,4,Celsius,,,0.032,AGP 4x,2001
 GeForce2 MX 400 PCI,4,Celsius,,,0.032,PCI,2001
 GeForce2 Ti,4,Celsius,,,0.064,AGP 4x,2001
 GeForce3,4,Kelvin,,,0.064,AGP 4x,2001
-GeForce3 Ti200,4,Kelvin,,,0.064,AGP 4x,2001
-GeForce3 Ti500,4,Kelvin,,,0.064,AGP 4x,2001
-Quadro DCC,4,Kelvin,,,0.064,AGP 4x,2001
-Quadro2 Go,4,Celsius,,,0.032,AGP 4x,2001
-Quadro2 Pro,4,Celsius,,,0.064,AGP 4x,2001
 Xbox GPU,4,Kelvin,,,0.064,,2001
 i830M Graphics,2,Generation 1.0,,,,FSB,2001
-All-In-Wonder Radeon 8500,0,Rage 7,,,0.128,AGP 8x,2001
-All-In-Wonder Radeon 8500DV,0,Rage 7,,,0.064,AGP 8x,2001
-Fire GL4,0,IBM,,,0.128,AGP Pro 8x,2001
-FireGL 8700,0,Rage 7,,,0.064,AGP 4x,2001
-FireGL 8800,0,Rage 7,,,0.128,AGP 4x,2001
-Mobility FireGL 7800,0,Rage 7,27.0,,0.064,AGP 4x,2001
-Mobility Radeon 7500,0,Rage 7,27.0,,0.032,AGP 4x,2001
-Mobility Radeon 7500C,0,Rage 7,27.0,,0.016,AGP 4x,2001
-Radeon 7000,0,Rage 6,23.0,,0.032,AGP 4x,2001
-Radeon 7000 PCI,0,Rage 6,23.0,,0.032,PCI,2001
-Radeon 7500,0,Rage 7,23.0,,0.064,AGP 4x,2001
-Radeon 7500 LE,0,Rage 7,23.0,,0.064,AGP 4x,2001
-Radeon 8500,0,Rage 7,23.0,,0.064,AGP 4x,2001
-Radeon DDR VIVO,0,Rage 6,,,0.064,AGP 4x,2001
-Radeon DDR VIVO OEM,0,Rage 6,,,0.064,AGP 4x,2001
-Radeon DDR VIVO SE,0,Rage 6,,Floppy,0.064,AGP 4x,2001
-Radeon LE,0,Rage 6,,,0.032,AGP 4x,2001
-Radeon VE AGP,0,Rage 6,23.0,,0.032,AGP 4x,2001
-Radeon VE PCI,0,Rage 6,23.0,,0.032,PCI,2001
+All-In-Wonder Radeon 8500,1,Rage 7,,,0.128,AGP 8x,2001
+All-In-Wonder Radeon 8500DV,1,Rage 7,,,0.064,AGP 8x,2001
+Fire GL4,1,IBM,,,0.128,AGP Pro 8x,2001
+FireGL 8700,1,Rage 7,,,0.064,AGP 4x,2001
+FireGL 8800,1,Rage 7,,,0.128,AGP 4x,2001
+Mobility FireGL 7800,1,Rage 7,27.0,,0.064,AGP 4x,2001
+Mobility Radeon 7500,1,Rage 7,27.0,,0.032,AGP 4x,2001
+Mobility Radeon 7500C,1,Rage 7,27.0,,0.016,AGP 4x,2001
+Radeon 7000,1,Rage 6,23.0,,0.032,AGP 4x,2001
+Radeon 7000 PCI,1,Rage 6,23.0,,0.032,PCI,2001
+Radeon 7500,1,Rage 7,23.0,,0.064,AGP 4x,2001
+Radeon DDR VIVO,1,Rage 6,,,0.064,AGP 4x,2001
+Radeon DDR VIVO SE,1,Rage 6,,Floppy,0.064,AGP 4x,2001
+Radeon LE,1,Rage 6,,,0.032,AGP 4x,2001
 Millennium G550,3,G500,,,0.032,AGP 4x,2001
 Millennium G550 PCIe,3,G500,,,0.032,PCIe 1.0 x1,2001
 Playstation 2 GPU 180nm,7,Console GPU(Sony),79.0,,0.004,,2001
@@ -179,60 +118,32 @@ GeForce4 410 Go,4,Celsius,,,0.016,AGP 4x,2002
 GeForce4 420 Go,4,Celsius,,,0.032,AGP 4x,2002
 GeForce4 440 Go,4,Celsius,,,0.064,AGP 4x,2002
 GeForce4 448 Go,4,Celsius,,,0.064,AGP 8x,2002
-GeForce4 460 Go,4,Celsius,,,0.064,AGP 4x,2002
-GeForce4 488 Go,4,Celsius,,,0.064,AGP 8x,2002
 GeForce4 Go 4200,4,Kelvin,,,0.064,AGP 8x,2002
 GeForce4 MX + nForce2,4,Celsius,,,,AGP 4x,2002
-GeForce4 MX 420,4,Celsius,,,0.064,AGP 4x,2002
 GeForce4 MX 420 PCI,4,Celsius,,,0.064,PCI,2002
-GeForce4 MX 440,4,Celsius,,,0.064,AGP 4x,2002
-GeForce4 MX 440 Mac Edition,4,Celsius,,,0.064,AGP 4x,2002
-GeForce4 MX 440-8x,4,Celsius,,,0.064,AGP 8x,2002
-GeForce4 MX 440-SE,4,Celsius,,,0.064,AGP 4x,2002
-GeForce4 MX 460,4,Celsius,,,0.064,AGP 4x,2002
 GeForce4 Ti 4200,4,Kelvin,,,0.064,AGP 4x,2002
-GeForce4 Ti 4200-8X,4,Kelvin,,,0.064,AGP 8x,2002
 GeForce4 Ti 4400,4,Kelvin,,,0.128,AGP 4x,2002
-GeForce4 Ti 4600,4,Kelvin,,,0.128,AGP 4x,2002
 Quadro4 380 XGL,4,Celsius,,,0.128,AGP 8x,2002
-Quadro4 500 Go GL,4,Celsius,,,0.064,AGP 4x,2002
 Quadro4 500 XGL,4,Celsius,,,0.128,AGP 4x,2002
-Quadro4 550 XGL,4,Celsius,,,0.064,AGP 4x,2002
-Quadro4 580 XGL,4,Celsius,,,0.064,AGP 8x,2002
-Quadro4 700 XGL,4,Kelvin,,,0.064,AGP 4x,2002
-Quadro4 750 XGL,4,Kelvin,,,0.128,AGP 4x,2002
-Quadro4 900 XGL,4,Kelvin,,,0.128,AGP 4x,2002
 Quadro4 980 XGL,4,Kelvin,,,0.128,AGP 8x,2002
 Extreme Graphics,2,Generation 2.0,,,,FSB,2002
 i830MG Graphics,2,Generation 1.0,,,,FSB,2002
-All-In-Wonder 9500,0,R300,,,0.128,AGP 8x,2002
-All-In-Wonder Radeon 7500,0,Rage 7,,,0.064,AGP 8x,2002
-All-In-Wonder Radeon 7500 VE,0,Rage 7,,,0.064,PCI,2002
-FireGL 9500 Z1-128,0,R300,,,0.128,AGP 8x,2002
-FireGL 9700 X1-128,0,R300,,,0.128,AGP 8x,2002
-FireGL 9700 X1-256,0,R300,37.0,,0.25,AGP 8x,2002
-FireGL 9700 X1-256p,0,R300,37.0,,0.25,AGP Pro 8x,2002
-Mobility FireGL 9000,0,Rage 7,,,0.064,AGP 4x,2002
-Mobility Radeon 9000,0,Rage 7,,,0.064,AGP 4x,2002
-Mobility Radeon-P,0,Rage 6,,,0.032,AGP 4x,2002
-Radeon 7500 Mac Edition,0,Rage 7,23.0,,0.032,AGP 4x,2002
-Radeon 8500 LE,0,Rage 7,23.0,,0.064,AGP 4x,2002
-Radeon 9000,0,Rage 7,28.0,,0.064,AGP 4x,2002
-Radeon 9000 LE,0,Rage 7,28.0,,0.064,AGP 4x,2002
-Radeon 9000 PRO,0,Rage 7,28.0,,0.128,AGP 4x,2002
-Radeon 9500 PRO,0,R300,,,0.128,AGP 8x,2002
-Radeon 9700,0,R300,37.0,Floppy,0.128,AGP 8x,2002
-Radeon 9700 PRO,0,R300,,Floppy,0.128,AGP 8x,2002
-Radeon 9700 PRO X4,0,R300,,2x Molex,0.128,PCI,2002
-Radeon IGP 320,0,Rage 6,,,,AGP 4x,2002
-Radeon IGP 320M,0,Rage 6,,,,AGP 4x,2002
-Radeon IGP 330M,0,Rage 6,,,,AGP 4x,2002
-Radeon IGP 340,0,Rage 6,,,,AGP 4x,2002
-Radeon IGP 340M,0,Rage 6,,,,AGP 4x,2002
-Radeon IGP 345M,0,Rage 6,,,,AGP 4x,2002
-Radeon IGP 350M,0,Rage 6,,,,AGP 4x,2002
+All-In-Wonder 9500,1,R300,,,0.128,AGP 8x,2002
+All-In-Wonder Radeon 7500,1,Rage 7,,,0.064,AGP 8x,2002
+All-In-Wonder Radeon 7500 VE,1,Rage 7,,,0.064,PCI,2002
+FireGL 9700 X1-256,1,R300,37.0,,0.25,AGP 8x,2002
+FireGL 9700 X1-256p,1,R300,37.0,,0.25,AGP Pro 8x,2002
+Mobility FireGL 9000,1,Rage 7,,,0.064,AGP 4x,2002
+Mobility Radeon-P,1,Rage 6,,,0.032,AGP 4x,2002
+Radeon 7500 Mac Edition,1,Rage 7,23.0,,0.032,AGP 4x,2002
+Radeon 8500 LE,1,Rage 7,23.0,,0.064,AGP 4x,2002
+Radeon 9000,1,Rage 7,28.0,,0.064,AGP 4x,2002
+Radeon 9000 PRO,1,Rage 7,28.0,,0.128,AGP 4x,2002
+Radeon 9700,1,R300,37.0,Floppy,0.128,AGP 8x,2002
+Radeon 9700 PRO,1,R300,,Floppy,0.128,AGP 8x,2002
+Radeon 9700 PRO X4,1,R300,,2x Molex,0.128,PCI,2002
+Radeon IGP 320,1,Rage 6,,,,AGP 4x,2002
 Millennium G450 x2 MMS,3,G400,,,0.032,PCI,2002
-Millennium G450 x4 MMS,3,G400,,,0.032,PCI,2002
 Parhelia 128 MB,3,Parhelia,,,0.128,AGP 8x,2004
 Parhelia 256 MB,3,Parhelia,,,0.25,AGP 8x,2004
 GeForce 6200 AGP,4,Curie,,,0.25,AGP 8x,2005
@@ -240,45 +151,22 @@ GeForce FX 5100,4,Rankine,,,0.064,AGP 8x,2003
 GeForce FX 5200,4,Celsius,,,0.128,AGP 8x,2003
 GeForce FX 5200 LE,4,Rankine,,,0.128,AGP 8x,2003
 GeForce FX 5200 PCI,4,Rankine,,,0.25,PCI,2003
-GeForce FX 5200 Rev. 2,4,Rankine,,,0.128,AGP 8x,2003
 GeForce FX 5200 Ultra,4,Rankine,,1x Molex,0.128,AGP 8x,2003
 GeForce FX 5200 Ultra Mac Edition,4,Rankine,,,0.128,AGP Pro 8x,2003
 GeForce FX 5600,4,Rankine,37.0,,0.128,AGP 8x,2003
-GeForce FX 5600 Ultra,4,Rankine,,1x Molex,0.128,AGP 8x,2003
-GeForce FX 5600 XT,4,Rankine,,,0.128,AGP 8x,2003
 GeForce FX 5600 XT PCI,4,Rankine,,,0.064,PCI,2003
 GeForce FX 5700,4,Rankine,25.0,,0.128,AGP 8x,2003
 GeForce FX 5700 Engineering Sample,4,Rankine,25.0,1x Molex,0.128,AGP 8x,2003
 GeForce FX 5700 Ultra,4,Rankine,46.0,1x Molex,0.128,AGP 8x,2003
 GeForce FX 5800,4,Rankine,44.0,1x Molex,0.128,AGP 8x,2003
-GeForce FX 5800 Ultra,4,Rankine,,1x Molex,0.128,AGP 8x,2003
-GeForce FX 5900,4,Rankine,,1x Molex,0.128,AGP 8x,2003
 GeForce FX 5900 Ultra,4,Rankine,59.0,1x Molex,0.25,AGP 8x,2003
 GeForce FX 5900 XT,4,Rankine,35.0,1x Molex,0.128,AGP 8x,2003
-GeForce FX 5900 ZT,4,Rankine,,1x Molex,0.128,AGP 8x,2003
 GeForce FX 5950 Ultra,4,Rankine,74.0,1x Molex,0.25,AGP 8x,2003
 GeForce FX Go5100,4,Rankine,,,0.032,AGP 8x,2003
-GeForce FX Go5200,4,Rankine,,,0.032,AGP 8x,2003
-GeForce FX Go5200 32M,4,Rankine,,,0.032,AGP 8x,2003
-GeForce FX Go5200 64M,4,Rankine,,,0.064,AGP 8x,2003
-GeForce FX Go5200 NPB 32M,4,Rankine,,,0.032,AGP 8x,2003
-GeForce FX Go5200 NPB 64M,4,Rankine,,,0.064,AGP 8x,2003
-GeForce FX Go5250,4,Rankine,,,0.064,AGP 8x,2003
-GeForce FX Go5300,4,Rankine,,,0.064,AGP 8x,2003
-GeForce FX Go5350,4,Rankine,,,0.064,AGP 8x,2003
-GeForce FX Go5600,4,Rankine,,,0.128,AGP 8x,2003
-GeForce FX Go5650,4,Rankine,,,0.128,AGP 8x,2003
 GeForce PCX 5900,4,Rankine,,,0.128,PCIe 1.0 x16,2003
-GeForce4 MX 4000,4,Celsius,,,0.128,AGP 8x,2003
 GeForce4 MX 4000 PCI,4,Celsius,,,0.128,PCI,2003
-GeForce4 MX 4000 Rev. 2,4,Celsius,,,0.128,AGP 8x,2003
 GeForce4 Ti 4800,4,Kelvin,,,0.128,AGP 8x,2003
-GeForce4 Ti 4800 SE,4,Kelvin,,,0.128,AGP 8x,2003
-Quadro FX 1000,4,Rankine,,1x Molex,0.128,AGP 8x,2003
-Quadro FX 2000,4,Rankine,,1x Molex,0.128,AGP 8x,2003
 Quadro FX 3000,4,Rankine,,1x Molex,0.25,AGP 8x,2003
-Quadro FX 3000G,4,Rankine,,1x Molex,0.25,AGP 8x,2003
-Quadro FX 500,4,Rankine,,,0.128,AGP 8x,2003
 Quadro FX Go700,4,Rankine,,,0.128,AGP 4x,2003
 Quadro NVS 210S,4,Curie,11.0,,,PCI,2003
 Quadro NVS 280 PCI,4,Rankine,13.0,,0.064,PCI,2003
@@ -287,72 +175,38 @@ Quadro4 100 NVS PCI,4,Celsius,10.0,,0.064,PCI,2003
 Quadro4 200 NVS,4,Celsius,11.0,,0.064,AGP 4x,2003
 Quadro4 700 Go GL,4,Kelvin,,,0.064,AGP 4x,2003
 Extreme Graphics 2,2,Generation 2.0,,,,FSB,2003
-i852GM Graphics,2,Generation 2.0,,,,FSB,2003
-All-In-Wonder 9000 PRO,0,Rage 7,,,0.064,AGP 8x,2003
-All-In-Wonder 9600,0,R300,,,0.128,AGP 8x,2003
-All-In-Wonder 9600 PRO,0,R300,,,0.128,AGP 8x,2003
-All-In-Wonder 9700 PRO,0,R300,,,0.128,AGP 8x,2003
-All-In-Wonder 9800 PRO,0,R300,,Floppy,0.128,AGP 8x,2003
-All-In-Wonder 9800 SE,0,R300,,,0.128,AGP 8x,2003
-FireGL 9600 T2-128,0,R300,,,0.128,AGP 8x,2003
-FireGL 9600 T2-64S,0,R300,,,0.064,AGP 8x,2003
-FireGL 9800 X2-256,0,R300,,1x Molex,0.25,AGP 8x,2003
-FireGL 9800 X2-256T,0,R300,,1x Molex,0.25,AGP 8x,2003
-Mobility FireGL T2,0,R300,,,0.128,AGP 4x,2003
-Mobility Radeon,0,Rage 6,,,0.016,AGP 4x,2003
-Mobility Radeon 7000 IGP,0,Rage 6,,,,AGP 4x,2003
-Mobility Radeon 9000 IGP,0,Rage 7,,,,AGP 4x,2003
-Mobility Radeon 9100 IGP,0,Rage 7,,,,AGP 4x,2003
-Mobility Radeon 9100 PRO IGP,0,Rage 7,,,,AGP 4x,2003
-Mobility Radeon 9200,0,Rage 7,,,0.032,AGP 4x,2003
-Radeon 9100,0,Rage 7,28.0,,0.064,AGP 4x,2003
-Radeon 9100 PCI,0,Rage 7,,,0.064,PCI,2003
-Radeon 9200,0,Rage 7,28.0,,0.128,AGP 8x,2003
-Radeon 9200 LE,0,Rage 7,28.0,1x Molex,0.064,AGP 8x,2003
-Radeon 9200 PCI,0,Rage 7,28.0,,0.128,PCI,2003
-Radeon 9200 PRO,0,Rage 7,28.0,,0.128,AGP 8x,2003
-Radeon 9200 SE,0,Rage 7,28.0,,0.064,AGP 8x,2003
-Radeon 9200 SE PCI,0,Rage 7,28.0,,0.064,PCI,2003
-Radeon 9500,0,R300,12.0,,0.064,AGP 8x,2003
-Radeon 9550,0,R300,,,0.064,AGP 8x,2003
-Radeon 9550 SE,0,R300,,,0.064,AGP 8x,2003
-Radeon 9600,0,R300,12.0,,0.064,AGP 8x,2003
-Radeon 9600 PRO,0,R300,18.0,,0.128,AGP 8x,2003
-Radeon 9600 SE,0,R300,,,0.064,AGP 8x,2003
-Radeon 9600 TX,0,R300,,Floppy,0.128,AGP 8x,2003
-Radeon 9600 XT,0,R300,22.0,,0.128,AGP 8x,2003
-Radeon 9800,0,R300,37.0,1x Molex,0.128,AGP 8x,2003
-Radeon 9800 PRO,0,R300,47.0,1x Molex,0.25,AGP 8x,2003
-Radeon 9800 PRO 128-bit,0,R300,47.0,1x Molex,0.128,AGP 8x,2003
-Radeon 9800 PRO 256-bit,0,R300,47.0,1x Molex,0.128,AGP 8x,2003
-Radeon 9800 SE,0,R300,,Floppy,0.128,AGP 8x,2003
-Radeon 9800 XT,0,R300,60.0,1x Molex,0.25,AGP 8x,2003
-Radeon 9800 XXL,0,R300,,Floppy,0.128,AGP 8x,2003
+All-In-Wonder 9000 PRO,1,Rage 7,,,0.064,AGP 8x,2003
+All-In-Wonder 9600,1,R300,,,0.128,AGP 8x,2003
+All-In-Wonder 9800 PRO,1,R300,,Floppy,0.128,AGP 8x,2003
+FireGL 9600 T2-64S,1,R300,,,0.064,AGP 8x,2003
+FireGL 9800 X2-256,1,R300,,1x Molex,0.25,AGP 8x,2003
+Mobility FireGL T2,1,R300,,,0.128,AGP 4x,2003
+Mobility Radeon,1,Rage 6,,,0.016,AGP 4x,2003
+Mobility Radeon 7000 IGP,1,Rage 6,,,,AGP 4x,2003
+Mobility Radeon 9000 IGP,1,Rage 7,,,,AGP 4x,2003
+Mobility Radeon 9200,1,Rage 7,,,0.032,AGP 4x,2003
+Radeon 9100,1,Rage 7,28.0,,0.064,AGP 4x,2003
+Radeon 9100 PCI,1,Rage 7,,,0.064,PCI,2003
+Radeon 9200,1,Rage 7,28.0,,0.128,AGP 8x,2003
+Radeon 9200 LE,1,Rage 7,28.0,1x Molex,0.064,AGP 8x,2003
+Radeon 9200 PCI,1,Rage 7,28.0,,0.128,PCI,2003
+Radeon 9200 SE,1,Rage 7,28.0,,0.064,AGP 8x,2003
+Radeon 9200 SE PCI,1,Rage 7,28.0,,0.064,PCI,2003
+Radeon 9500,1,R300,12.0,,0.064,AGP 8x,2003
+Radeon 9600 PRO,1,R300,18.0,,0.128,AGP 8x,2003
+Radeon 9600 XT,1,R300,22.0,,0.128,AGP 8x,2003
+Radeon 9800,1,R300,37.0,1x Molex,0.128,AGP 8x,2003
+Radeon 9800 PRO,1,R300,47.0,1x Molex,0.25,AGP 8x,2003
+Radeon 9800 PRO 128-bit,1,R300,47.0,1x Molex,0.128,AGP 8x,2003
+Radeon 9800 XT,1,R300,60.0,1x Molex,0.25,AGP 8x,2003
 Millenium P650,3,Parhelia,,,0.064,AGP 8x,2003
 Millenium P650 LP MDD PCIe,3,Parhelia,,,0.128,PCIe 1.0 x16,2003
-Millenium P650 PCIe,3,Parhelia,,,0.128,PCIe 1.0 x16,2003
 Millenium P750,3,Parhelia,,,0.128,AGP 8x,2003
 Parhelia DL256,3,Parhelia,,,0.25,PCI-X,2003
-Parhelia HR256,3,Parhelia,,,0.25,PCI-X,2003
-Parhelia PCI,3,Parhelia,,,0.25,PCI-X,2003
-Parhelia Precision SDT,3,Parhelia,,,0.25,PCI-X,2003
-Parhelia Precision SGT,3,Parhelia,,,0.25,PCI-X,2003
 Volari Duo V5 Ultra,6,XG4,,,0.25,AGP 8x,2003
 Volari Duo V8 Ultra,6,XG4,,2x Molex,0.128,AGP 8x,2003
 Volari V3,6,XG4,,,0.128,AGP 8x,2003
-Volari V3 XT,6,XG4,,,0.128,AGP 8x,2003
-Volari V5,6,XG4,,,0.25,AGP 8x,2003
-Volari V5 Ultra,6,XG4,,,0.25,AGP 8x,2003
-Volari V8,6,XG4,,,0.25,AGP 8x,2003
-Volari V8 Ultra,6,XG4,,,0.25,AGP 8x,2003
 GeForce 6100,4,Curie,,,,PCI,2004
-GeForce 6100 + nForce 400,4,Curie,,,,PCI,2004
-GeForce 6100 + nForce 405,4,Curie,,,,PCI,2004
-GeForce 6100 + nForce 420,4,Curie,,,,PCI,2004
-GeForce 6100 + nForce 430,4,Curie,,,,PCI,2004
-GeForce 6150,4,Curie,,,,PCI,2004
-GeForce 6150 LE,4,Curie,,,,PCI,2004
-GeForce 6150 SE + nForce 430,4,Curie,,,,PCI,2004
 GeForce 6200,4,Curie,,,0.128,PCIe 1.0 x16,2004
 GeForce 6200 LE AGP 512 MB,4,Curie,,,0.5,AGP 8x,2004
 GeForce 6200 LE PCI,4,Curie,,,0.25,PCI,2004
@@ -360,24 +214,18 @@ GeForce 6200 SE TurboCache,4,Curie,,,0.064,PCIe 1.0 x16,2004
 GeForce 6200 TurboCache,4,Curie,,,0.064,AGP 4x,2004
 GeForce 6600,4,Curie,,,0.25,PCIe 1.0 x16,2004
 GeForce 6600 AGP,4,Curie,,,0.128,AGP 8x,2004
-GeForce 6600 GT,4,Curie,,,0.128,PCIe 1.0 x16,2004
 GeForce 6600 GT AGP,4,Curie,47.0,1x Molex,0.128,AGP 8x,2004
 GeForce 6600 GT Dual,4,Curie,,1x 6-pin,0.128,PCIe 1.0 x16,2004
-GeForce 6610 XL,4,Curie,,,0.128,PCIe 1.0 x16,2004
-GeForce 6700 XL,4,Curie,,1x 6-pin,0.128,PCIe 1.0 x16,2004
 GeForce 6800,4,Curie,,1x Molex,0.25,AGP 8x,2004
 GeForce 6800 GT,4,Curie,,1x Molex,0.128,AGP 8x,2004
 GeForce 6800 GT DDL,4,Curie,80.0,,0.25,AGP Pro 8x,2004
 GeForce 6800 GT Dual,4,Curie,,1x 6-pin,0.25,PCIe 1.0 x16,2004
-GeForce 6800 GTO,4,Curie,,1x 6-pin,0.25,PCIe 1.0 x16,2004
 GeForce 6800 LE,4,Curie,,,0.25,PCIe 1.0 x16,2005
 GeForce 6800 Ultra,4,Curie,81.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
 GeForce 6800 Ultra DDL,4,Curie,100.0,,0.25,AGP Pro 8x,2004
 GeForce FX 5500,4,Rankine,,,0.064,AGP 8x,2004
 GeForce FX 5500 PCI,4,Rankine,,,0.25,PCI,2004
 GeForce FX 5700 EP,4,Rankine,,,0.128,AGP 8x,2004
-GeForce FX 5700 LE,4,Rankine,,,0.128,AGP 8x,2004
-GeForce FX 5700 VE,4,Rankine,,,0.128,AGP 8x,2004
 GeForce Go 6800,4,Curie,45.0,,0.25,MXM-III,2004
 GeForce PCX 4300,4,Celsius,,,0.064,PCIe 1.0 x16,2004
 GeForce PCX 5300,4,Rankine,,,0.128,PCIe 1.0 x16,2004
@@ -392,76 +240,58 @@ Quadro FX 4000,4,Curie,142.0,2x Molex,0.25,AGP 8x,2004
 Quadro FX 4000 SDI,4,Curie,150.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
 Quadro FX 540,4,Curie,25.0,,0.128,PCIe 1.0 x16,2004
 Quadro FX 600 PCI,4,Rankine,,,0.128,PCI,2004
-Quadro FX 700,4,Rankine,,1x Molex,0.128,AGP 8x,2004
 Quadro FX Go1000,4,Rankine,,,0.128,AGP 4x,2004
 Quadro FX Go540,4,Curie,25.0,,0.128,MXM-II,2004
 Quadro NVS 280 AGP,4,Rankine,13.0,,0.064,AGP 8x,2004
 Quadro NVS 280 PCIe,4,Rankine,13.0,,0.064,PCIe 1.0 x16,2004
 Quadro4 400 NVS PCI,4,Celsius,18.0,,0.064,PCI,2004
 GMA 900,2,Generation 3.0,,,,FSB,2005
-All-In-Wonder 9200,0,Rage 7,,,0.128,AGP 8x,2004
-All-In-Wonder 9200 SE,0,Rage 7,,,0.128,AGP 8x,2004
-All-In-Wonder 9600 XT,0,R300,,,0.128,AGP 8x,2004
-All-In-Wonder X800 GT,0,R400,,,0.128,PCIe 1.0 x16,2004
-All-In-Wonder X800 XT,0,R400,,,0.25,AGP 8x,2004
-FireGL V3100,0,R300,,,0.128,PCIe 1.0 x16,2004
-FireGL V3200,0,R300,46.0,,0.128,PCIe 1.0 x16,2004
-FireGL V5000,0,R400,,,0.128,PCIe 1.0 x16,2004
-FireGL V5100,0,R400,,,0.128,PCIe 1.0 x16,2004
-FireGL V7100,0,R400,91.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
-FireGL X3-256,0,R400,57.0,1x Molex,0.25,AGP 8x,2004
-Mobility FireGL T2e,0,R300,,,0.128,AGP 4x,2004
-Mobility FireGL V3100,0,R300,,,0.128,PCIe 1.0 x16,2004
-Mobility FireGL V3200,0,R300,,,0.128,PCIe 1.0 x16,2004
-Mobility Radeon 7000,0,Rage 6,,,0.016,AGP 4x,2004
-Mobility Radeon 9500,0,R300,,,0.128,AGP 4x,2004
-Mobility Radeon 9550,0,R300,,,0.064,AGP 4x,2004
-Mobility Radeon 9600,0,R300,,,0.128,AGP 8x,2004
-Mobility Radeon 9600 PRO,0,R300,,,0.128,AGP 8x,2004
-Mobility Radeon 9600 PRO Turbo,0,R300,,,0.128,AGP 8x,2004
-Mobility Radeon 9700,0,R300,,,0.064,AGP 8x,2004
-Mobility Radeon 9700 SE,0,R300,,,0.128,AGP 4x,2004
-Mobility Radeon 9800,0,R400,,,0.25,AGP 8x,2004
-Mobility Radeon X600,0,R300,,,0.128,PCIe 1.0 x16,2004
-Mobility Radeon X600 SE,0,R300,,,0.064,PCIe 1.0 x16,2004
-Mobility Radeon X800,0,R400,,,0.25,PCIe 1.0 x16,2004
-Radeon 7000 Mac Edition,0,Rage 6,23.0,,0.032,AGP 4x,2004
-Radeon 7000 Mac Edition PCI,0,Rage 6,23.0,,0.032,PCI,2004
-Radeon 9000 PRO Mac Edition,0,Rage 7,28.0,,0.064,AGP 4x,2004
-Radeon 9250,0,Rage 7,,,0.064,AGP 8x,2004
-Radeon 9250 PCI,0,Rage 7,,,0.128,PCI,2004
-Radeon 9800 PRO Mac Edition,0,R300,60.0,,0.128,AGP Pro 8x,2004
-Radeon 9800 XT Mac Edition,0,R300,60.0,,0.25,AGP Pro 8x,2004
-Radeon X300,0,R300,36.0,,0.064,PCIe 1.0 x16,2004
-Radeon X300 LE,0,R300,,,0.064,PCIe 1.0 x16,2004
-Radeon X300 SE,0,R300,30.0,,0.064,PCIe 1.0 x16,2004
-Radeon X600,0,R300,36.0,,0.25,PCIe 1.0 x16,2004
-Radeon X600 PRO,0,R300,36.0,,0.128,PCIe 1.0 x16,2004
-Radeon X600 SE,0,R300,36.0,,0.128,PCIe 1.0 x16,2004
-Radeon X600 XT,0,R300,25.0,,0.128,PCIe 1.0 x16,2004
-Radeon X700,0,R400,44.0,,0.128,PCIe 1.0 x16,2004
-Radeon X700 AGP,0,R400,44.0,,0.128,AGP 8x,2004
-Radeon X700 LE,0,R400,,,0.128,PCIe 1.0 x16,2004
-Radeon X700 PRO,0,R400,33.0,,0.128,PCIe 1.0 x16,2004
-Radeon X700 PRO AGP,0,R400,33.0,Floppy,0.128,AGP 8x,2004
-Radeon X700 XT,0,R400,38.0,,0.128,PCIe 1.0 x16,2004
-Radeon X800,0,R400,30.0,,0.25,PCIe 1.0 x16,2004
-Radeon X800 PRO,0,R400,48.0,1x Molex,0.25,PCIe 1.0 x16,2004
-Radeon X800 PRO AGP,0,R400,48.0,1x Molex,0.25,AGP 8x,2004
-Radeon X800 SE,0,R400,,,0.128,PCIe 1.0 x16,2004
-Radeon X800 SE AGP,0,R400,,1x Molex,0.25,AGP 8x,2004
-Radeon X800 VE AGP,0,R400,,1x Molex,0.25,AGP 8x,2004
-Radeon X800 XL,0,R400,49.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
-Radeon X800 XL AGP,0,R400,49.0,1x Molex,0.25,AGP 8x,2004
-Radeon X800 XT,0,R400,54.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
-Radeon X800 XT AGP,0,R400,54.0,1x Molex,0.25,AGP 8x,2004
-Radeon X800 XT Mac Edition,0,R400,54.0,,0.25,AGP Pro 8x,2004
-Radeon X800 XT Platinum,0,R400,63.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
-Radeon X800 XT Platinum AGP,0,R400,63.0,1x Molex,0.25,AGP 8x,2004
-Radeon X850 PRO,0,R400,,1x 6-pin,0.25,PCIe 1.0 x16,2004
-Radeon X850 XT,0,R400,69.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
-Radeon X850 XT Platinum,0,R400,67.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
-Radeon Xpress 200 IGP,0,R300,,,,PCI,2004
+All-In-Wonder 9200,1,Rage 7,,,0.128,AGP 8x,2004
+All-In-Wonder 9600 XT,1,R300,,,0.128,AGP 8x,2004
+All-In-Wonder X800 GT,1,R400,,,0.128,PCIe 1.0 x16,2004
+All-In-Wonder X800 XT,1,R400,,,0.25,AGP 8x,2004
+FireGL V3100,1,R300,,,0.128,PCIe 1.0 x16,2004
+FireGL V3200,1,R300,46.0,,0.128,PCIe 1.0 x16,2004
+FireGL V7100,1,R400,91.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
+FireGL X3-256,1,R400,57.0,1x Molex,0.25,AGP 8x,2004
+Mobility FireGL T2e,1,R300,,,0.128,AGP 4x,2004
+Mobility Radeon 7000,1,Rage 6,,,0.016,AGP 4x,2004
+Mobility Radeon 9550,1,R300,,,0.064,AGP 4x,2004
+Mobility Radeon 9700,1,R300,,,0.064,AGP 8x,2004
+Mobility Radeon X600 SE,1,R300,,,0.064,PCIe 1.0 x16,2004
+Mobility Radeon X800,1,R400,,,0.25,PCIe 1.0 x16,2004
+Radeon 7000 Mac Edition,1,Rage 6,23.0,,0.032,AGP 4x,2004
+Radeon 7000 Mac Edition PCI,1,Rage 6,23.0,,0.032,PCI,2004
+Radeon 9000 PRO Mac Edition,1,Rage 7,28.0,,0.064,AGP 4x,2004
+Radeon 9250,1,Rage 7,,,0.064,AGP 8x,2004
+Radeon 9250 PCI,1,Rage 7,,,0.128,PCI,2004
+Radeon 9800 PRO Mac Edition,1,R300,60.0,,0.128,AGP Pro 8x,2004
+Radeon 9800 XT Mac Edition,1,R300,60.0,,0.25,AGP Pro 8x,2004
+Radeon X300,1,R300,36.0,,0.064,PCIe 1.0 x16,2004
+Radeon X300 SE,1,R300,30.0,,0.064,PCIe 1.0 x16,2004
+Radeon X600,1,R300,36.0,,0.25,PCIe 1.0 x16,2004
+Radeon X600 PRO,1,R300,36.0,,0.128,PCIe 1.0 x16,2004
+Radeon X600 XT,1,R300,25.0,,0.128,PCIe 1.0 x16,2004
+Radeon X700,1,R400,44.0,,0.128,PCIe 1.0 x16,2004
+Radeon X700 AGP,1,R400,44.0,,0.128,AGP 8x,2004
+Radeon X700 PRO,1,R400,33.0,,0.128,PCIe 1.0 x16,2004
+Radeon X700 PRO AGP,1,R400,33.0,Floppy,0.128,AGP 8x,2004
+Radeon X700 XT,1,R400,38.0,,0.128,PCIe 1.0 x16,2004
+Radeon X800,1,R400,30.0,,0.25,PCIe 1.0 x16,2004
+Radeon X800 PRO,1,R400,48.0,1x Molex,0.25,PCIe 1.0 x16,2004
+Radeon X800 PRO AGP,1,R400,48.0,1x Molex,0.25,AGP 8x,2004
+Radeon X800 SE AGP,1,R400,,1x Molex,0.25,AGP 8x,2004
+Radeon X800 XL,1,R400,49.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
+Radeon X800 XL AGP,1,R400,49.0,1x Molex,0.25,AGP 8x,2004
+Radeon X800 XT,1,R400,54.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
+Radeon X800 XT AGP,1,R400,54.0,1x Molex,0.25,AGP 8x,2004
+Radeon X800 XT Mac Edition,1,R400,54.0,,0.25,AGP Pro 8x,2004
+Radeon X800 XT Platinum,1,R400,63.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
+Radeon X800 XT Platinum AGP,1,R400,63.0,1x Molex,0.25,AGP 8x,2004
+Radeon X850 PRO,1,R400,,1x 6-pin,0.25,PCIe 1.0 x16,2004
+Radeon X850 XT,1,R400,69.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
+Radeon X850 XT Platinum,1,R400,67.0,1x 6-pin,0.25,PCIe 1.0 x16,2004
+Radeon Xpress 200 IGP,1,R300,,,,PCI,2004
 QID,3,MP,,,0.25,AGP 8x,2004
 QID LP PCI,3,MP,,,0.128,PCI-X,2004
 QID LP PCIe,3,MP,,,0.128,PCIe 1.0 x16,2004
@@ -469,12 +299,7 @@ QID PRO,3,MP,,,0.25,PCI-X,2004
 Playstation Portable GPU 90nm,7,Console GPU(Sony),4.0,,0.002,,2004
 GeForce 6200 LE,4,Curie,,,0.128,PCIe 1.0 x16,2005
 GeForce 6200 LE AGP,4,Curie,,,0.128,AGP 8x,2005
-GeForce 6500,4,Curie,,,0.128,PCIe 1.0 x16,2005
-GeForce 6600 LE,4,Curie,,,0.128,PCIe 1.0 x16,2005
-GeForce 6600 LE AGP,4,Curie,,,0.128,AGP 8x,2005
-GeForce 6600 VE,4,Curie,,,0.128,PCIe 1.0 x16,2005
 GeForce 6800 GS,4,Curie,,1x Molex,0.25,AGP 8x,2005
-GeForce 6800 XE,4,Curie,,,0.25,AGP 8x,2005
 GeForce 6800 XT,4,Curie,,1x 6-pin,0.25,PCIe 1.0 x16,2005
 GeForce 7800 GT,4,Curie,65.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
 GeForce 7800 GT Dual,4,Curie,120.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
@@ -484,93 +309,65 @@ GeForce FX Go5700,4,Rankine,,,0.128,AGP 8x,2005
 GeForce Go 6200 TE,4,Curie,,,0.064,PCIe 1.0 x16,2005
 GeForce Go 6600,4,Curie,,,0.25,MXM-II,2005
 GeForce Go 6600 NPB 128M,4,Curie,,,0.128,MXM-I,2005
-GeForce Go 6600 TE,4,Curie,,,0.128,PCIe 1.0 x16,2005
 GeForce Go 6800 Ultra,4,Curie,89.0,,0.25,PCIe 1.0 x16,2005
 GeForce Go 7800 GTX,4,Curie,65.0,,0.5,PCIe 1.0 x16,2005
 Quadro FX 2500M,4,Curie,45.0,,0.5,MXM-III,2005
 Quadro FX 3450,4,Curie,83.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
 Quadro FX 4400,4,Curie,83.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
-Quadro FX 4400G,4,Curie,83.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
 Quadro FX 4500,4,Curie,109.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
 Quadro FX Go1400,4,Curie,,,0.25,MXM-III,2005
 Quadro NVS 280 SD,4,Celsius,10.0,,0.064,AGP 8x,2005
 Quadro NVS 50 PCI,4,Celsius,10.0,,0.064,PCI,2005
 Quadro NVS 55 PCI,4,Rankine,10.0,,0.064,PCI,2005
 GMA 950,2,Generation 3.5,7.0,,,FSB,2006
-All-In-Wonder 2006 AGP Edition,0,R300,,,0.25,AGP 8x,2005
-All-In-Wonder 2006 PCIe Edition,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2005
-All-In-Wonder X1800 XL,0,Ultra-Threaded SE,75.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
-All-In-Wonder X600 PRO,0,R300,,,0.25,PCIe 1.0 x16,2005
-All-In-Wonder X800 SE,0,R400,,,0.25,AGP 8x,2005
-All-In-Wonder X800 VE,0,R400,,,0.25,AGP 8x,2005
-All-In-Wonder X800 XL,0,R400,,,0.25,PCIe 1.0 x16,2005
-FireGL V3300,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2005
-FireGL V3350,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2005
-FireGL V3400,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2005
-FireGL V5200,0,Ultra-Threaded SE,35.0,,0.128,PCIe 1.0 x16,2005
-FireGL V7200,0,Ultra-Threaded SE,,1x 6-pin,0.25,PCIe 1.0 x16,2005
-FireGL V7300,0,Ultra-Threaded SE,97.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
-FireGL V7350,0,Ultra-Threaded SE,111.0,1x 6-pin,1.0,PCIe 1.0 x16,2005
-Mobility FireGL V5000,0,R400,,,0.128,PCIe 1.0 x16,2005
-Mobility Radeon X300,0,R300,,,0.128,PCIe 1.0 x16,2005
-Mobility Radeon X300 IGP,0,R300,,,,PCIe 1.0 x16,2005
-Mobility Radeon X700,0,R400,,,0.128,PCIe 1.0 x16,2005
-Mobility Radeon X700 XL,0,R400,,,0.128,PCIe 1.0 x16,2005
-Mobility Radeon X800 XT,0,R400,,,0.25,PCIe 1.0 x16,2005
-Radeon 9550 XT,0,R300,,,0.128,AGP 8x,2005
-Radeon X1300,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2005
-Radeon X1300 AGP,0,Ultra-Threaded SE,,,0.25,AGP 8x,2005
-Radeon X1300 LE,0,Ultra-Threaded SE,,,0.064,PCIe 1.0 x16,2005
-Radeon X1300 PCI,0,Ultra-Threaded SE,,,0.128,PCI,2005
-Radeon X1300 PRO,0,Ultra-Threaded SE,31.0,,0.25,PCIe 1.0 x16,2006
-Radeon X1300 PRO AGP,0,Ultra-Threaded SE,31.0,,0.25,AGP 8x,2005
-Radeon X1600 PRO,0,Ultra-Threaded SE,41.0,,0.25,PCIe 1.0 x16,2005
-Radeon X1600 XT,0,Ultra-Threaded SE,42.0,,0.25,PCIe 1.0 x16,2005
-Radeon X1800 CrossFire Edition,0,Ultra-Threaded SE,113.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
-Radeon X1800 XL,0,Ultra-Threaded SE,70.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
-Radeon X1800 XT,0,Ultra-Threaded SE,113.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
-Radeon X550,0,R300,,,0.128,PCIe 1.0 x16,2005
-Radeon X550 HyperMemory,0,R300,,,0.25,PCIe 1.0 x16,2005
-Radeon X700 SE,0,R400,,,0.128,PCIe 1.0 x16,2005
-Radeon X740 XL,0,R400,,,0.128,PCIe 1.0 x16,2005
-Radeon X800 CrossFire Edition,0,R400,,,0.25,PCIe 1.0 x16,2005
-Radeon X800 GT,0,R400,40.0,,0.128,PCIe 1.0 x16,2005
-Radeon X800 GT AGP,0,R400,40.0,1x Molex,0.25,AGP 8x,2007
-Radeon X800 GTO,0,R400,49.0,,0.128,PCIe 1.0 x16,2007
-Radeon X800 GTO AGP,0,R400,49.0,1x Molex,0.25,AGP 8x,2007
-Radeon X800 GTO2,0,R400,,1x 6-pin,0.25,PCIe 1.0 x16,2005
-Radeon X850 PRO AGP,0,R400,,1x Molex,0.25,AGP 8x,2005
-Radeon X850 XT AGP,0,R400,69.0,1x Molex,0.25,AGP 8x,2005
-Radeon X850 XT Platinum AGP,0,R400,67.0,1x Molex,0.25,AGP 8x,2005
-Radeon Xpress 200M IGP,0,R300,,,,PCIe 1.0 x16,2005
-Radeon Xpress 1100 Mobile IGP,0,R300,,,,PCIe 1.0 x16,2006
-Xbox 360 GPU 90nm,0,TeraScale,203.0,,0.5,,2005
+All-In-Wonder 2006 AGP Edition,1,R300,,,0.25,AGP 8x,2005
+All-In-Wonder 2006 PCIe Edition,1,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2005
+All-In-Wonder X1800 XL,1,Ultra-Threaded SE,75.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
+All-In-Wonder X600 PRO,1,R300,,,0.25,PCIe 1.0 x16,2005
+All-In-Wonder X800 SE,1,R400,,,0.25,AGP 8x,2005
+All-In-Wonder X800 XL,1,R400,,,0.25,PCIe 1.0 x16,2005
+FireGL V3300,1,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2005
+FireGL V5200,1,Ultra-Threaded SE,35.0,,0.128,PCIe 1.0 x16,2005
+FireGL V7200,1,Ultra-Threaded SE,,1x 6-pin,0.25,PCIe 1.0 x16,2005
+FireGL V7300,1,Ultra-Threaded SE,97.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
+FireGL V7350,1,Ultra-Threaded SE,111.0,1x 6-pin,1.0,PCIe 1.0 x16,2005
+Mobility FireGL V5000,1,R400,,,0.128,PCIe 1.0 x16,2005
+Mobility Radeon X300,1,R300,,,0.128,PCIe 1.0 x16,2005
+Mobility Radeon X300 IGP,1,R300,,,,PCIe 1.0 x16,2005
+Radeon 9550 XT,1,R300,,,0.128,AGP 8x,2005
+Radeon X1300 AGP,1,Ultra-Threaded SE,,,0.25,AGP 8x,2005
+Radeon X1300 LE,1,Ultra-Threaded SE,,,0.064,PCIe 1.0 x16,2005
+Radeon X1300 PCI,1,Ultra-Threaded SE,,,0.128,PCI,2005
+Radeon X1300 PRO,1,Ultra-Threaded SE,31.0,,0.25,PCIe 1.0 x16,2006
+Radeon X1300 PRO AGP,1,Ultra-Threaded SE,31.0,,0.25,AGP 8x,2005
+Radeon X1600 PRO,1,Ultra-Threaded SE,41.0,,0.25,PCIe 1.0 x16,2005
+Radeon X1600 XT,1,Ultra-Threaded SE,42.0,,0.25,PCIe 1.0 x16,2005
+Radeon X1800 CrossFire Edition,1,Ultra-Threaded SE,113.0,1x 6-pin,0.5,PCIe 1.0 x16,2005
+Radeon X1800 XL,1,Ultra-Threaded SE,70.0,1x 6-pin,0.25,PCIe 1.0 x16,2005
+Radeon X800 GT,1,R400,40.0,,0.128,PCIe 1.0 x16,2005
+Radeon X800 GT AGP,1,R400,40.0,1x Molex,0.25,AGP 8x,2007
+Radeon X800 GTO,1,R400,49.0,,0.128,PCIe 1.0 x16,2007
+Radeon X800 GTO AGP,1,R400,49.0,1x Molex,0.25,AGP 8x,2007
+Radeon X800 GTO2,1,R400,,1x 6-pin,0.25,PCIe 1.0 x16,2005
+Radeon X850 PRO AGP,1,R400,,1x Molex,0.25,AGP 8x,2005
+Radeon X850 XT AGP,1,R400,69.0,1x Molex,0.25,AGP 8x,2005
+Radeon X850 XT Platinum AGP,1,R400,67.0,1x Molex,0.25,AGP 8x,2005
+Radeon Xpress 1100 Mobile IGP,1,R300,,,,PCIe 1.0 x16,2006
+Xbox 360 GPU 90nm,1,TeraScale,203.0,,0.5,,2005
 Volari 8300,6,XG4,,,0.128,PCIe 1.0 x16,2005
 Playstation 2 GPU 90nm,7,Console GPU(Sony),45.0,,0.004,,2005
 GeForce 7000M + nForce 610M,4,Curie,,,,PCIe 1.0 x16,2006
 GeForce 7025 + nForce 630a,4,Curie,,,,PCI,2006
-GeForce 7050 + nForce 630a,4,Curie,,,,PCI,2006
-GeForce 7050 PV + nForce 630a,4,Curie,,,,PCI,2006
-GeForce 7050 SE + nForce 630a,4,Curie,,,,PCI,2006
 GeForce 7100 GS,4,Curie,,,0.128,PCIe 1.0 x16,2006
-GeForce 7200 GS,4,Curie,,,0.128,PCIe 1.0 x16,2006
 GeForce 7300 GS,4,Curie,23.0,,0.25,PCIe 1.0 x16,2006
-GeForce 7300 GS Low Profile,4,Curie,23.0,,0.25,PCIe 1.0 x16,2006
 GeForce 7300 GT,4,Curie,24.0,,0.128,PCIe 1.0 x16,2006
 GeForce 7300 GT AGP,4,Curie,24.0,,0.128,AGP 8x,2006
-GeForce 7300 GT Mac Edition,4,Curie,24.0,,0.128,PCIe 1.0 x16,2006
-GeForce 7300 LE,4,Curie,,,0.128,PCIe 1.0 x16,2006
 GeForce 7300 SE,4,Curie,,,0.25,PCIe 1.0 x16,2006
-GeForce 7350 LE,4,Curie,,,0.128,PCIe 1.0 x16,2006
 GeForce 7500 LE,4,Curie,,,0.064,PCIe 1.0 x16,2006
 GeForce 7600 GS,4,Curie,27.0,,0.25,PCIe 1.0 x16,2006
 GeForce 7600 GS AGP,4,Curie,27.0,1x Molex,0.25,AGP 8x,2006
 GeForce 7600 GT,4,Curie,40.0,,0.25,PCIe 1.0 x16,2006
-GeForce 7600 GT Mac Edition,4,Curie,40.0,,0.25,PCIe 1.0 x16,2006
-GeForce 7600 LE,4,Curie,,,0.25,PCIe 1.0 x16,2006
-GeForce 7650 GS,4,Curie,,,0.25,PCIe 1.0 x16,2006
 GeForce 7800 GS 20Pipes AGP,4,Curie,75.0,1x Molex,0.5,AGP 8x,2006
-GeForce 7800 GS 24Pipes AGP,4,Curie,75.0,1x Molex,0.5,AGP 8x,2006
 GeForce 7800 GS AGP,4,Curie,75.0,1x Molex,0.25,AGP 8x,2006
 GeForce 7900 GS,4,Curie,49.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
 GeForce 7900 GS AGP,4,Curie,65.0,1x Molex,0.25,AGP 8x,2006
@@ -582,19 +379,10 @@ GeForce 7950 GT,4,Curie,65.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
 GeForce 7950 GX2,4,Curie,110.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
 GeForce 8800 GTS 640,4,Tesla,143.0,1x 6-pin,0.64,PCIe 1.0 x16,2006
 GeForce 8800 GTX,4,Tesla,155.0,2x 6-pin,0.75,PCIe 1.0 x16,2006
-GeForce Go 6100 + nForce Go 430,4,Curie,,,,PCIe 1.0 x16,2006
 GeForce Go 6150 + nForce Go 430,4,Curie,,,,PCIe 2.0 x1,2006
 GeForce Go 6200,4,Curie,16.0,,0.032,PCIe 1.0 x16,2006
 GeForce Go 6250,4,Curie,10.0,,0.032,PCIe 1.0 x16,2006
 GeForce Go 6400,4,Curie,,,0.032,PCIe 1.0 x16,2006
-GeForce Go 7200,4,Curie,,,0.064,PCIe 1.0 x16,2006
-GeForce Go 7300,4,Curie,,,0.064,PCIe 1.0 x16,2006
-GeForce Go 7300T,4,Curie,,,0.064,PCIe 1.0 x16,2006
-GeForce Go 7400,4,Curie,,,0.128,PCIe 1.0 x16,2006
-GeForce Go 7400T,4,Curie,,,0.128,PCIe 1.0 x16,2006
-GeForce Go 7450,4,Curie,,,0.064,PCIe 1.0 x16,2006
-GeForce Go 7600,4,Curie,,,0.25,PCIe 1.0 x16,2006
-GeForce Go 7600 GT,4,Curie,,,0.25,PCIe 1.0 x16,2006
 GeForce Go 7700,4,Curie,,,0.5,PCIe 1.0 x16,2006
 GeForce Go 7800,4,Curie,35.0,,0.25,PCIe 1.0 x16,2006
 GeForce Go 7900 GS,4,Curie,20.0,,0.25,MXM-II,2006
@@ -614,61 +402,46 @@ Quadro FX 550,4,Curie,30.0,,0.128,PCIe 1.0 x16,2006
 Quadro FX 5500,4,Curie,96.0,1x 6-pin,1.0,PCIe 1.0 x16,2006
 Quadro FX 5500 SDI,4,Curie,104.0,1x 6-pin,1.0,PCIe 1.0 x16,2006
 Quadro FX 550M,4,Curie,35.0,,0.128,PCIe 1.0 x16,2006
-Quadro FX 560,4,Curie,30.0,,0.128,PCIe 1.0 x16,2006
 Quadro NVS 110M,4,Curie,10.0,,0.5,PCIe 1.0 x16,2006
 Quadro NVS 120M,4,Curie,10.0,,0.5,MXM-III,2006
 Quadro NVS 285,4,Curie,18.0,,0.128,PCIe 1.0 x16,2006
 Quadro NVS 300M,4,Curie,16.0,,0.25,PCIe 1.0 x16,2006
 Quadro NVS 440 PCIe x1,4,Curie,31.0,,0.128,PCIe 1.0 x1,2006
 Quadro NVS 440 PCIe x16,4,Curie,31.0,,0.128,PCIe 1.0 x16,2006
-Quadro NVS 510M,4,Curie,35.0,,0.25,PCIe 1.0 x16,2006
 Stream Processor,0,Ultra-Threaded SE,165.0,1x 6-pin,1.0,PCIe 1.0 x16,2006
 GMA 3000,2,Generation 4.0,13.0,,,FSB,2006
-GMA X3000,2,Generation 4.0,13.0,,,FSB,2006
-All-In-Wonder X1900,0,Ultra-Threaded SE,,1x 6-pin,0.25,PCIe 1.0 x16,2006
-FireMV 2200,0,R300,15.0,,0.128,PCIe 1.0 x16,2006
-FireMV 2200 PCI,0,Rage 7,15.0,,0.064,PCI,2006
-Mobility FireGL V5200,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2006
-Mobility Radeon X1300,0,Ultra-Threaded SE,,,0.064,PCIe 1.0 x16,2006
-Mobility Radeon X1350,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2006
-Mobility Radeon X1400,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2006
-Mobility Radeon X1450,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2006
-Mobility Radeon X1600,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2006
-Mobility Radeon X1700,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2006
-Mobility Radeon X1800,0,Ultra-Threaded SE,,,0.25,MXM-III,2006
-Mobility Radeon X1800 XT,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2006
-Radeon X1050,0,R400,24.0,,0.128,PCIe 1.0 x16,2008
-Radeon X1050 AGP,0,R300,24.0,,0.128,AGP 8x,2007
-Radeon X1300 CE,0,Ultra-Threaded SE,27.0,,0.128,PCIe 1.0 x16,2006
-Radeon X1300 XT,0,Ultra-Threaded SE,22.0,,0.25,PCIe 1.0 x16,2006
-Radeon X1300 XT AGP,0,Ultra-Threaded SE,22.0,,0.25,AGP 8x,2006
-Radeon X1650 PRO,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
-Radeon X1650 PRO AGP,0,Ultra-Threaded SE,44.0,1x Molex,0.25,AGP 8x,2006
-Radeon X1650 XT,0,Ultra-Threaded SE,55.0,,0.25,PCIe 1.0 x16,2006
-Radeon X1650 XT AGP,0,Ultra-Threaded SE,55.0,,0.5,AGP 8x,2006
-Radeon X1650 XT Dual,0,Ultra-Threaded SE,,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1800 GTO,0,Ultra-Threaded SE,48.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1800 GTO2,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2006
-Radeon X1900 CrossFire Edition,0,Ultra-Threaded SE,100.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
-Radeon X1900 G5 Mac Edition,0,Ultra-Threaded SE,75.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1900 GT,0,Ultra-Threaded SE,75.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1900 XT,0,Ultra-Threaded SE,100.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1900 XTX,0,Ultra-Threaded SE,135.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
-Radeon X1950 CrossFire Edition,0,Ultra-Threaded SE,,1x 6-pin,0.5,PCIe 1.0 x16,2006
-Radeon X1950 PRO,0,Ultra-Threaded SE,66.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1950 PRO AGP,0,Ultra-Threaded SE,66.0,2x Molex,0.5,AGP 8x,2006
-Radeon X1950 XT,0,Ultra-Threaded SE,96.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon X1950 XT AGP,0,Ultra-Threaded SE,96.0,1x 6-pin,0.25,AGP 8x,2006
-Radeon X1950 XTX,0,Ultra-Threaded SE,125.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
-Radeon X300 SE HyperMemory,0,R300,30.0,,0.128,PCIe 1.0 x16,2006
-Radeon X850 CrossFire Edition,0,R400,69.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
-Radeon Xpress 1150 Mobile IGP,0,R300,,,,PCIe 1.0 x16,2006
-Wii GPU,0,Ultra-Threaded SE,45.0,,0.064,,2006
+All-In-Wonder X1900,1,Ultra-Threaded SE,,1x 6-pin,0.25,PCIe 1.0 x16,2006
+FireMV 2200,1,R300,15.0,,0.128,PCIe 1.0 x16,2006
+FireMV 2200 PCI,1,Rage 7,15.0,,0.064,PCI,2006
+Mobility FireGL V5200,1,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2006
+Mobility Radeon X1300,1,Ultra-Threaded SE,,,0.064,PCIe 1.0 x16,2006
+Mobility Radeon X1350,1,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2006
+Mobility Radeon X1800,1,Ultra-Threaded SE,,,0.25,MXM-III,2006
+Radeon X1050,1,R400,24.0,,0.128,PCIe 1.0 x16,2008
+Radeon X1050 AGP,1,R300,24.0,,0.128,AGP 8x,2007
+Radeon X1300 CE,1,Ultra-Threaded SE,27.0,,0.128,PCIe 1.0 x16,2006
+Radeon X1300 XT,1,Ultra-Threaded SE,22.0,,0.25,PCIe 1.0 x16,2006
+Radeon X1300 XT AGP,1,Ultra-Threaded SE,22.0,,0.25,AGP 8x,2006
+Radeon X1650 PRO,1,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
+Radeon X1650 PRO AGP,1,Ultra-Threaded SE,44.0,1x Molex,0.25,AGP 8x,2006
+Radeon X1650 XT,1,Ultra-Threaded SE,55.0,,0.25,PCIe 1.0 x16,2006
+Radeon X1650 XT AGP,1,Ultra-Threaded SE,55.0,,0.5,AGP 8x,2006
+Radeon X1800 GTO,1,Ultra-Threaded SE,48.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
+Radeon X1900 CrossFire Edition,1,Ultra-Threaded SE,100.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
+Radeon X1900 G5 Mac Edition,1,Ultra-Threaded SE,75.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
+Radeon X1900 XT,1,Ultra-Threaded SE,100.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
+Radeon X1900 XTX,1,Ultra-Threaded SE,135.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
+Radeon X1950 CrossFire Edition,1,Ultra-Threaded SE,,1x 6-pin,0.5,PCIe 1.0 x16,2006
+Radeon X1950 PRO,1,Ultra-Threaded SE,66.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
+Radeon X1950 PRO AGP,1,Ultra-Threaded SE,66.0,2x Molex,0.5,AGP 8x,2006
+Radeon X1950 XT,1,Ultra-Threaded SE,96.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
+Radeon X1950 XT AGP,1,Ultra-Threaded SE,96.0,1x 6-pin,0.25,AGP 8x,2006
+Radeon X1950 XTX,1,Ultra-Threaded SE,125.0,1x 6-pin,0.5,PCIe 1.0 x16,2006
+Radeon X300 SE HyperMemory,1,R300,30.0,,0.128,PCIe 1.0 x16,2006
+Radeon X850 CrossFire Edition,1,R400,69.0,1x 6-pin,0.25,PCIe 1.0 x16,2006
+Wii GPU,1,Ultra-Threaded SE,45.0,,0.064,,2006
 Parhelia APVe,3,Parhelia,,,0.128,PCIe 1.0 x16,2006
 GeForce 7050 + nForce 620i,4,Curie,,,,PCI,2007
-GeForce 7050 + nForce 630i,4,Curie,,,,PCI,2007
-GeForce 7100 + nForce 630i,4,Curie,,,,PCI,2007
-GeForce 7150 + nForce 630i,4,Curie,,,,PCI,2007
 GeForce 7150M + nForce 630M,4,Curie,,,,PCIe 1.0 x16,2007
 GeForce 7600 GT AGP,4,Curie,40.0,1x Molex,0.25,AGP 8x,2007
 GeForce 7950 GT AGP,4,Curie,65.0,1x Molex,0.5,AGP 8x,2007
@@ -683,13 +456,10 @@ GeForce 8400M GS,4,Tesla,11.0,,0.25,MXM-I,2007
 GeForce 8400M GT,4,Tesla,14.0,,0.25,PCIe 1.0 x16,2007
 GeForce 8500 GT,4,Tesla,30.0,,0.25,PCIe 1.0 x16,2007
 GeForce 8600 GS,4,Tesla,47.0,,0.5,PCIe 1.0 x16,2007
-GeForce 8600 GT,4,Tesla,47.0,,0.5,PCIe 1.0 x16,2007
 GeForce 8600 GT Mac Edition,4,Tesla,47.0,,0.128,PCIe 1.0 x16,2007
 GeForce 8600 GTS,4,Tesla,60.0,1x 6-pin,0.25,PCIe 1.0 x16,2007
 GeForce 8600 GTS Mac Edition,4,Tesla,75.0,1x 6-pin,0.5,PCIe 1.0 x16,2007
 GeForce 8600M GS,4,Tesla,20.0,,0.5,MXM-II,2007
-GeForce 8600M GT,4,Tesla,20.0,,0.5,MXM-II,2007
-GeForce 8600M GT Mac Edition,4,Tesla,20.0,,0.5,MXM-II,2007
 GeForce 8700M GT,4,Tesla,29.0,,0.5,MXM-HE,2007
 GeForce 8800 GT,4,Tesla,125.0,1x 6-pin,0.5,PCIe 2.0 x16,2007
 GeForce 8800 GTS 320,4,Tesla,143.0,1x 6-pin,0.32,PCIe 1.0 x16,2007
@@ -698,7 +468,6 @@ GeForce 8800 GTS Core 112,4,Tesla,150.0,1x 6-pin,0.64,PCIe 1.0 x16,2007
 GeForce 8800 Ultra,4,Tesla,171.0,2x 6-pin,0.75,PCIe 1.0 x16,2007
 GeForce 8800M GTS,4,Tesla,50.0,,0.5,MXM-HE,2007
 GeForce 8800M GTX,4,Tesla,65.0,,0.5,MXM-HE,2007
-Quadro FX 1600M,4,Tesla,50.0,,0.5,MXM-HE,2007
 Quadro FX 1700,4,Tesla,42.0,,0.5,PCIe 1.0 x16,2007
 Quadro FX 3500M,4,Curie,45.0,,0.5,MXM-III,2007
 Quadro FX 360M,4,Tesla,17.0,,0.25,PCIe 1.0 x16,2007
@@ -706,167 +475,110 @@ Quadro FX 370,4,Tesla,35.0,,0.25,PCIe 1.0 x16,2007
 Quadro FX 4600,4,Tesla,134.0,1x 6-pin,0.75,PCIe 1.0 x16,2007
 Quadro FX 4600 SDI,4,Tesla,154.0,1x 6-pin,0.75,PCIe 1.0 x16,2007
 Quadro FX 5600,4,Tesla,171.0,2x 6-pin,1.5,PCIe 1.0 x16,2007
-Quadro FX 5600 Mac Edition,4,Tesla,171.0,2x 6-pin,1.5,PCIe 1.0 x16,2007
 Quadro FX 570,4,Tesla,38.0,,0.25,PCIe 1.0 x16,2007
 Quadro FX 570M,4,Tesla,45.0,,0.5,PCIe 1.0 x16,2007
 Quadro NVS 130M,4,Tesla,10.0,,0.25,PCIe 2.0 x16,2007
-Quadro NVS 135M,4,Tesla,10.0,,0.25,PCIe 2.0 x16,2007
 Quadro NVS 140M,4,Tesla,10.0,,0.5,PCIe 2.0 x16,2007
 Quadro NVS 290,4,Tesla,21.0,,0.25,PCIe 1.0 x16,2007
 Quadro NVS 320M,4,Tesla,20.0,,0.5,MXM-HE,2007
-Tesla C870,4,Tesla,171.0,2x 6-pin,1.5,PCIe 1.0 x16,2007
 Tesla D870,4,Tesla,520.0,,1.5,PCIe 1.0 x16,2007
 Tesla S870,4,Tesla,800.0,,1.5,PCIe 1.0 x16,2007
 FireStream 9170,0,TeraScale,105.0,1x 6-pin,2.0,PCIe 2.0 x16,2007
 GMA 3100,2,Generation 4.0,13.0,,,FSB,2007
-GMA 3150,2,Generation 4.0,13.0,,,FSB,2007
-GMA X3100,2,Generation 4.0,13.0,,,FSB,2007
-GMA X3500,2,Generation 4.0,13.0,,,FSB,2007
-ES1000,0,Rage 6,,,,PCI,2007
-FireGL V3600,0,TeraScale,73.0,,0.25,PCIe 1.0 x16,2007
-FireGL V5600,0,TeraScale,89.0,,0.5,PCIe 1.0 x16,2007
-FireGL V7600,0,TeraScale,127.0,1x 8-pin,0.5,PCIe 1.0 x16,2007
-FireGL V7700,0,TeraScale,,1x 6-pin,0.5,PCIe 2.0 x16,2007
-FireGL V8600,0,TeraScale,159.0,1x 6-pin + 1x 8-pin,1.0,PCIe 1.0 x16,2007
-FireGL V8650,0,TeraScale,,1x 6-pin + 1x 8-pin,2.0,PCIe 1.0 x16,2007
-FireMV 2250,0,Ultra-Threaded SE,32.0,,0.25,PCIe 1.0 x16,2007
-FireMV 2250 PCIe x1,0,Ultra-Threaded SE,32.0,,0.25,PCIe 1.0 x1,2007
-Mobility FireGL V5250,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
-Mobility FireGL V5600,0,TeraScale,,,0.25,PCIe 2.0 x16,2007
-Mobility Radeon HD 2300,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2007
-Mobility Radeon HD 2400,0,TeraScale,,,0.25,PCIe 1.0 x16,2007
-Mobility Radeon HD 2400 XT,0,TeraScale,,,0.25,PCIe 1.0 x16,2007
-Mobility Radeon HD 2400 XT Mac Edition,0,TeraScale,,,0.128,PCIe 1.0 x16,2007
-Mobility Radeon HD 2600,0,TeraScale,,,0.25,MXM-II,2007
-Mobility Radeon HD 2600 XT,0,TeraScale,,,0.25,MXM-II,2007
-Mobility Radeon HD 2600 XT Mac Edition,0,TeraScale,,,0.25,MXM-II,2007
-Mobility Radeon HD 2700,0,TeraScale,35.0,,0.25,MXM-II,2007
-Mobility Radeon X1600 Mac Edition,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2007
-Mobility Radeon X1900,0,Ultra-Threaded SE,,,0.25,MXM-III,2007
-Mobility Radeon X2300,0,Ultra-Threaded SE,,,0.064,PCIe 1.0 x16,2007
-Mobility Radeon X2300 HD,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
-Mobility Radeon X2500,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
-Radeon E2400,0,TeraScale,25.0,,0.128,MXM-II,2007
-Radeon HD 2350 PRO,0,TeraScale,20.0,,0.25,PCIe 1.0 x16,2007
-Radeon HD 2400 PRO,0,TeraScale,20.0,,0.25,PCIe 1.0 x16,2007
-Radeon HD 2400 PRO AGP,0,TeraScale,20.0,,0.25,AGP 8x,2007
-Radeon HD 2400 PRO PCI,0,TeraScale,20.0,,0.5,PCI,2007
-Radeon HD 2400 XT,0,TeraScale,25.0,,0.25,PCIe 1.0 x16,2007
-Radeon HD 2600 PRO,0,TeraScale,35.0,,0.25,PCIe 1.0 x16,2007
-Radeon HD 2600 PRO AGP,0,TeraScale,35.0,,0.5,AGP 8x,2007
-Radeon HD 2600 XT,0,TeraScale,50.0,,0.25,PCIe 1.0 x16,2007
-Radeon HD 2600 XT AGP,0,TeraScale,45.0,1x 6-pin,0.25,AGP 8x,2007
-Radeon HD 2600 XT X2,0,TeraScale,,1x 6-pin,0.5,PCIe 1.0 x16,2007
-Radeon HD 2900 GT,0,TeraScale,150.0,1x 8-pin,0.25,PCIe 1.0 x16,2007
-Radeon HD 2900 PRO,0,TeraScale,200.0,1x 8-pin,0.5,PCIe 1.0 x16,2007
-Radeon HD 2900 XT,0,TeraScale,215.0,1x 6-pin + 1x 8-pin,0.5,PCIe 1.0 x16,2007
-Radeon HD 3450,0,TeraScale,25.0,,0.25,PCIe 2.0 x16,2007
-Radeon HD 3450 X2,0,TeraScale,50.0,,0.5,PCIe 2.0 x16,2007
-Radeon HD 3850,0,TeraScale,75.0,1x 6-pin,0.5,PCIe 2.0 x16,2007
-Radeon HD 3870,0,TeraScale,106.0,1x 6-pin,0.5,PCIe 2.0 x16,2007
-Radeon X1550,0,Ultra-Threaded SE,27.0,,0.25,PCIe 1.0 x16,2007
-Radeon X1550 AGP,0,Ultra-Threaded SE,27.0,,0.25,AGP 8x,2007
-Radeon X1550 PCI,0,Ultra-Threaded SE,27.0,,0.25,PCI,2007
-Radeon X1600,0,Ultra-Threaded SE,27.0,,0.5,PCIe 1.0 x16,2007
-Radeon X1600 PRO AGP,0,Ultra-Threaded SE,41.0,Floppy,0.25,AGP 8x,2007
-Radeon X1600 SE,0,Ultra-Threaded SE,27.0,,0.25,PCIe 1.0 x16,2007
-Radeon X1650,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
-Radeon X1650 AGP,0,Ultra-Threaded SE,,,0.25,AGP 8x,2007
-Radeon X1650 GT,0,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2007
-Radeon X1650 GTO,0,Ultra-Threaded SE,,,0.25,PCIe 1.0 x16,2007
-Radeon X1650 SE,0,Ultra-Threaded SE,27.0,,0.5,PCIe 1.0 x16,2007
-Radeon X1700 FSC,0,Ultra-Threaded SE,44.0,,0.25,PCIe 1.0 x16,2007
-Radeon X1700 SE,0,Ultra-Threaded SE,50.0,,0.5,PCIe 1.0 x16,2007
-Radeon X1950 GT,0,Ultra-Threaded SE,57.0,1x 6-pin,0.25,PCIe 1.0 x16,2007
-Radeon X1950 GT AGP,0,Ultra-Threaded SE,57.0,2x Molex,0.25,AGP 8x,2007
-Radeon X1950 PRO DUAL,0,Ultra-Threaded SE,130.0,2x 6-pin,0.5,PCIe 1.0 x16,2007
-Radeon X1950 XTX Uber Edition,0,Ultra-Threaded SE,125.0,1x 6-pin,0.5,PCIe 1.0 x16,2007
-Radeon X550 XT,0,R400,,,0.128,PCIe 1.0 x16,2007
-Radeon X550 XTX,0,R400,,,0.128,PCIe 1.0 x16,2007
-Radeon Xpress 1100 IGP,0,R300,,,,PCIe 1.0 x16,2007
-Radeon Xpress 1150 IGP,0,R300,,,,PCIe 1.0 x16,2007
-Radeon Xpress 1200 IGP,0,R400,,,,PCIe 1.0 x16,2007
-Radeon Xpress 1200 Mobile IGP,0,R400,,,,PCIe 1.0 x16,2007
-Radeon Xpress 1250 IGP,0,R400,,,,PCIe 1.0 x16,2007
-Radeon Xpress 1250 Mobile IGP,0,R400,,,,PCIe 1.0 x16,2007
-Radeon Xpress 1270 Mobile IGP,0,R400,,,,PCIe 1.0 x16,2007
-Xbox 360 GPU 80nm,0,TeraScale,175.0,,0.5,,2007
+ES1000,1,Rage 6,,,,PCI,2007
+FireGL V3600,1,TeraScale,73.0,,0.25,PCIe 1.0 x16,2007
+FireGL V5600,1,TeraScale,89.0,,0.5,PCIe 1.0 x16,2007
+FireGL V7600,1,TeraScale,127.0,1x 8-pin,0.5,PCIe 1.0 x16,2007
+FireGL V7700,1,TeraScale,,1x 6-pin,0.5,PCIe 2.0 x16,2007
+FireGL V8600,1,TeraScale,159.0,1x 6-pin + 1x 8-pin,1.0,PCIe 1.0 x16,2007
+FireGL V8650,1,TeraScale,,1x 6-pin + 1x 8-pin,2.0,PCIe 1.0 x16,2007
+FireMV 2250,1,Ultra-Threaded SE,32.0,,0.25,PCIe 1.0 x16,2007
+FireMV 2250 PCIe x1,1,Ultra-Threaded SE,32.0,,0.25,PCIe 1.0 x1,2007
+Mobility FireGL V5600,1,TeraScale,,,0.25,PCIe 2.0 x16,2007
+Mobility Radeon HD 2300,1,Ultra-Threaded SE,,,0.128,PCIe 1.0 x16,2007
+Mobility Radeon HD 2400,1,TeraScale,,,0.25,PCIe 1.0 x16,2007
+Mobility Radeon HD 2400 XT Mac Edition,1,TeraScale,,,0.128,PCIe 1.0 x16,2007
+Mobility Radeon HD 2600,1,TeraScale,,,0.25,MXM-II,2007
+Mobility Radeon HD 2700,1,TeraScale,35.0,,0.25,MXM-II,2007
+Mobility Radeon X1900,1,Ultra-Threaded SE,,,0.25,MXM-III,2007
+Mobility Radeon X2300,1,Ultra-Threaded SE,,,0.064,PCIe 1.0 x16,2007
+Radeon E2400,1,TeraScale,25.0,,0.128,MXM-II,2007
+Radeon HD 2350 PRO,1,TeraScale,20.0,,0.25,PCIe 1.0 x16,2007
+Radeon HD 2400 PRO AGP,1,TeraScale,20.0,,0.25,AGP 8x,2007
+Radeon HD 2400 PRO PCI,1,TeraScale,20.0,,0.5,PCI,2007
+Radeon HD 2400 XT,1,TeraScale,25.0,,0.25,PCIe 1.0 x16,2007
+Radeon HD 2600 PRO,1,TeraScale,35.0,,0.25,PCIe 1.0 x16,2007
+Radeon HD 2600 PRO AGP,1,TeraScale,35.0,,0.5,AGP 8x,2007
+Radeon HD 2600 XT,1,TeraScale,50.0,,0.25,PCIe 1.0 x16,2007
+Radeon HD 2600 XT AGP,1,TeraScale,45.0,1x 6-pin,0.25,AGP 8x,2007
+Radeon HD 2600 XT X2,1,TeraScale,,1x 6-pin,0.5,PCIe 1.0 x16,2007
+Radeon HD 2900 GT,1,TeraScale,150.0,1x 8-pin,0.25,PCIe 1.0 x16,2007
+Radeon HD 2900 PRO,1,TeraScale,200.0,1x 8-pin,0.5,PCIe 1.0 x16,2007
+Radeon HD 2900 XT,1,TeraScale,215.0,1x 6-pin + 1x 8-pin,0.5,PCIe 1.0 x16,2007
+Radeon HD 3450,1,TeraScale,25.0,,0.25,PCIe 2.0 x16,2007
+Radeon HD 3450 X2,1,TeraScale,50.0,,0.5,PCIe 2.0 x16,2007
+Radeon HD 3850,1,TeraScale,75.0,1x 6-pin,0.5,PCIe 2.0 x16,2007
+Radeon HD 3870,1,TeraScale,106.0,1x 6-pin,0.5,PCIe 2.0 x16,2007
+Radeon X1550,1,Ultra-Threaded SE,27.0,,0.25,PCIe 1.0 x16,2007
+Radeon X1550 AGP,1,Ultra-Threaded SE,27.0,,0.25,AGP 8x,2007
+Radeon X1550 PCI,1,Ultra-Threaded SE,27.0,,0.25,PCI,2007
+Radeon X1600,1,Ultra-Threaded SE,27.0,,0.5,PCIe 1.0 x16,2007
+Radeon X1600 PRO AGP,1,Ultra-Threaded SE,41.0,Floppy,0.25,AGP 8x,2007
+Radeon X1650 AGP,1,Ultra-Threaded SE,,,0.25,AGP 8x,2007
+Radeon X1700 FSC,1,Ultra-Threaded SE,44.0,,0.25,PCIe 1.0 x16,2007
+Radeon X1700 SE,1,Ultra-Threaded SE,50.0,,0.5,PCIe 1.0 x16,2007
+Radeon X1950 GT,1,Ultra-Threaded SE,57.0,1x 6-pin,0.25,PCIe 1.0 x16,2007
+Radeon X1950 GT AGP,1,Ultra-Threaded SE,57.0,2x Molex,0.25,AGP 8x,2007
+Radeon X1950 PRO DUAL,1,Ultra-Threaded SE,130.0,2x 6-pin,0.5,PCIe 1.0 x16,2007
+Radeon X1950 XTX Uber Edition,1,Ultra-Threaded SE,125.0,1x 6-pin,0.5,PCIe 1.0 x16,2007
+Radeon X550 XT,1,R400,,,0.128,PCIe 1.0 x16,2007
+Radeon Xpress 1100 IGP,1,R300,,,,PCIe 1.0 x16,2007
+Radeon Xpress 1200 IGP,1,R400,,,,PCIe 1.0 x16,2007
+Xbox 360 GPU 80nm,1,TeraScale,175.0,,0.5,,2007
 Playstation 2 GPU 65nm,7,Console GPU(Sony),45.0,,0.004,,2007
 Playstation Portable GPU 65nm,7,Console GPU(Sony),4.0,,0.002,,2007
 GeForce 6200 PCI,4,Curie,,,0.25,PCI,2008
 GeForce 6200 X2 PCI,4,Curie,,1x 6-pin,0.25,PCI,2008
 GeForce 7050 + nForce 610i,4,Curie,,,,PCI,2008
 GeForce 8100 + nForce 720a,4,Tesla,40.0,,,PCI,2008
-GeForce 8200,4,Tesla,40.0,,,PCI,2008
 GeForce 8200M G mGPU AMD,4,Tesla,12.0,,,PCIe 2.0 x16,2008
-GeForce 8200M G mGPU Intel,4,Tesla,12.0,,,PCIe 2.0 x16,2008
-GeForce 8300,4,Tesla,40.0,,,PCI,2008
 GeForce 8400 SE,4,Tesla,50.0,,0.128,PCIe 1.0 x16,2008
 GeForce 8800 GS,4,Tesla,105.0,1x 6-pin,0.384,PCIe 2.0 x16,2008
 GeForce 8800 GS Mac Edition,4,Tesla,105.0,,0.5,MXM-HE,2008
 GeForce 8800 GT Mac Edition,4,Tesla,125.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-GeForce 9100,4,Tesla,40.0,,,PCI,2008
-GeForce 9100M G mGPU AMD,4,Tesla,12.0,,,PCIe 2.0 x16,2008
-GeForce 9100M G mGPU Intel,4,Tesla,12.0,,,PCIe 2.0 x16,2008
-GeForce 9200,4,Tesla,40.0,,,PCI,2008
-GeForce 9200M,4,Tesla,12.0,,,PCIe 2.0 x16,2008
 GeForce 9200M GS,4,Tesla,13.0,,0.25,PCIe 2.0 x16,2008
-GeForce 9200M GS GDDR3,4,Tesla,13.0,,0.25,PCIe 2.0 x16,2008
-GeForce 9300 + nForce 730i,4,Tesla,40.0,,,PCI,2008
 GeForce 9300 GE,4,Tesla,,,0.25,PCIe 2.0 x16,2008
 GeForce 9300 GS,4,Tesla,,,0.5,PCIe 2.0 x16,2008
-GeForce 9300 SE,4,Tesla,,,0.25,PCIe 2.0 x16,2008
-GeForce 9300M G,4,Tesla,13.0,,0.25,PCIe 2.0 x16,2008
 GeForce 9300M GS,4,Tesla,13.0,,0.25,MXM-I,2008
-GeForce 9300M GS GDDR3,4,Tesla,13.0,,0.25,MXM-I,2008
-GeForce 9400,4,Tesla,40.0,,,PCI,2008
 GeForce 9400 GT,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2008
 GeForce 9400 GT PCI,4,Tesla,50.0,,0.25,PCI,2008
-GeForce 9400 GT Rev. 2,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2008
-GeForce 9400M,4,Tesla,12.0,,,PCIe 2.0 x16,2008
-GeForce 9400M G,4,Tesla,12.0,,,PCIe 2.0 x16,2008
 GeForce 9500 GS,4,Tesla,40.0,,0.5,PCIe 2.0 x16,2008
-GeForce 9500 GS Rev. 2,4,Tesla,40.0,,0.5,PCIe 2.0 x16,2008
-GeForce 9500 GT,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2008
-GeForce 9500 GT Rev. 2,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2008
-GeForce 9500 GT Rev. 3,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2008
 GeForce 9500M G,4,Tesla,20.0,,0.5,PCIe 2.0 x16,2008
 GeForce 9500M GS,4,Tesla,20.0,,0.5,PCIe 1.0 x16,2008
 GeForce 9600 GS OEM,4,Tesla,,1x 6-pin,0.75,PCIe 2.0 x16,2008
 GeForce 9600 GSO,4,Tesla,84.0,1x 6-pin,0.384,PCIe 2.0 x16,2008
 GeForce 9600 GSO 512,4,Tesla,90.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
 GeForce 9600 GT,4,Tesla,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-GeForce 9600 GT Green Edition,4,Tesla,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
 GeForce 9600 GT Mac Edition,4,Tesla,95.0,1x 6-pin,1.0,PCIe 2.0 x16,2008
-GeForce 9600 GT Rev. 2,4,Tesla,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
 GeForce 9600M GS,4,Tesla,20.0,,1.0,MXM-II,2008
 GeForce 9600M GT,4,Tesla,23.0,,0.5,MXM-II,2008
-GeForce 9600M GT Mac Edition,4,Tesla,23.0,,0.5,MXM-II,2008
 GeForce 9650M GS,4,Tesla,29.0,,0.5,PCIe 2.0 x16,2008
 GeForce 9650M GT,4,Tesla,23.0,,1.0,MXM-II,2008
 GeForce 9700M GT,4,Tesla,45.0,,0.5,MXM-II,2008
 GeForce 9700M GTS,4,Tesla,60.0,,0.5,PCIe 2.0 x16,2008
-GeForce 9800 GT,4,Tesla,125.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-GeForce 9800 GT Rebrand,4,Tesla,125.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
 GeForce 9800 GTX+,4,Tesla,141.0,2x 6-pin,0.5,PCIe 2.0 x16,2009
 GeForce 9800 GX2,4,Tesla,197.0,1x 6-pin + 1x 8-pin,0.5,PCIe 2.0 x16,2008
-GeForce 9800M GS,4,Tesla,60.0,,0.5,PCIe 2.0 x16,2008
 GeForce 9800M GT,4,Tesla,65.0,,0.5,PCIe 2.0 x16,2008
 GeForce 9800M GTS,4,Tesla,75.0,,1.0,PCIe 2.0 x16,2008
-GeForce 9800M GTX,4,Tesla,75.0,,1.0,PCIe 2.0 x16,2008
 GeForce 9800S,4,Tesla,75.0,,0.5,PCIe 2.0 x16,2008
 GeForce GT 120M Mac Edition,4,Tesla,14.0,,0.25,PCIe 2.0 x16,2008
 GeForce GT 130 Mac Edition,4,Tesla,75.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
 GeForce GTX 260,4,Tesla 2.0,182.0,2x 6-pin,0.896,PCIe 2.0 x16,2008
-GeForce GTX 260 Core 216,4,Tesla 2.0,182.0,2x 6-pin,0.896,PCIe 2.0 x16,2008
 GeForce GTX 260 Core 216 Rev. 2,4,Tesla 2.0,171.0,2x 6-pin,0.896,PCIe 2.0 x16,2008
-GeForce GTX 260 Rev. 2,4,Tesla 2.0,182.0,2x 6-pin,0.896,PCIe 2.0 x16,2008
 GeForce GTX 280,4,Tesla 2.0,236.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2008
 GeForce GTX 285,4,Tesla 2.0,204.0,2x 6-pin,1.0,PCIe 2.0 x16,2008
 ION,4,Tesla,20.0,,,PCI,2008
 ION 2,4,Tesla 2.0,20.0,,,PCIe 2.0 x16,2008
-ION HX,4,Tesla,20.0,,,PCI,2008
-ION LE,4,Tesla,20.0,,,PCI,2008
 Playstation 3 GPU 65nm,4,Curie,58.0,,0.25,,2008
 Quadro CX,4,Tesla 2.0,150.0,1x 6-pin,1.5,PCIe 2.0 x16,2008
 Quadro FX 1700 Mac Edition,4,Tesla,42.0,,0.5,PCIe 1.0 x16,2008
@@ -880,97 +592,77 @@ Quadro FX 370M,4,Tesla,20.0,,0.25,MXM-II,2008
 Quadro FX 3800M,4,Tesla,100.0,,1.0,MXM-B (3.0),2008
 Quadro FX 470 mGPU,4,Tesla,38.0,,,PCI,2008
 Quadro FX 4700 X2,4,Tesla,226.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2008
-Quadro FX 4800,4,Tesla 2.0,150.0,1x 6-pin,1.5,PCIe 2.0 x16,2008
 FireStream 9250,0,TeraScale,150.0,1x 6-pin,1.0,PCIe 2.0 x16,2008
 FireStream 9270,0,TeraScale,160.0,2x 6-pin,2.0,PCIe 2.0 x16,2008
 GMA 3600,2,PowerVR SGX545,13.0,,,PCI,2008
-GMA 3650,2,PowerVR SGX545,13.0,,,PCI,2008
 GMA 500,2,PowerVR SGX535,,,,PCIe 1.0 x16,2008
 GMA X4500,2,Generation 5.0,13.0,,,FSB,2008
-GMA X4500M,2,Generation 5.0,13.0,,,FSB,2008
-GMA X4500MHD,2,Generation 5.0,13.0,,,FSB,2008
-GMA X4700MHD,2,Generation 5.0,13.0,,,FSB,2008
-All-In-Wonder HD 3650,0,TeraScale,55.0,,0.5,PCIe 2.0 x16,2008
-FireMV 2260,0,TeraScale,15.0,,0.25,PCIe 2.0 x16,2008
-FireMV 2260 PCIe x1,0,TeraScale,15.0,,0.25,PCIe 2.0 x1,2008
-FireMV 2400 PCI,0,R300,20.0,,0.128,PCI,2008
-FireMV 2400 PCIe x1,0,R300,20.0,,0.064,PCIe 2.0 x1,2008
-FirePro 2260 PCI,0,TeraScale,15.0,,0.25,PCI,2008
-FirePro V3700,0,TeraScale,32.0,,0.25,PCIe 2.0 x16,2008
-FirePro V3750,0,TeraScale,48.0,,0.25,PCIe 2.0 x16,2008
-FirePro V5700,0,TeraScale,56.0,,0.5,PCIe 2.0 x16,2008
-FirePro V8700,0,TeraScale,151.0,2x 6-pin,1.0,PCIe 2.0 x16,2008
-FirePro V8750,0,TeraScale,151.0,2x 6-pin,2.0,PCIe 2.0 x16,2008
-Mobility FireGL V5700,0,TeraScale,,,0.5,PCIe 2.0 x16,2008
-Mobility Radeon HD 3410,0,TeraScale,7.0,,0.25,MXM-II,2008
-Mobility Radeon HD 3430,0,TeraScale,12.0,,0.25,MXM-II,2008
-Mobility Radeon HD 3450,0,TeraScale,,,0.25,MXM-II,2008
-Mobility Radeon HD 3470,0,TeraScale,,,0.25,MXM-II,2008
-Mobility Radeon HD 3650,0,TeraScale,,,0.5,MXM-II,2008
-Mobility Radeon HD 3670,0,TeraScale,30.0,,0.25,MXM-II,2008
-Mobility Radeon HD 3850,0,TeraScale,35.0,,0.5,PCIe 2.0 x16,2008
-Mobility Radeon HD 3850 X2,0,TeraScale,70.0,,0.5,PCIe 2.0 x16,2008
-Mobility Radeon HD 3870,0,TeraScale,55.0,,0.5,PCIe 2.0 x16,2008
-Mobility Radeon HD 3870 X2,0,TeraScale,110.0,,0.5,PCIe 2.0 x16,2008
-Radeon 2100 IGP,0,R400,,,,PCIe 1.0 x16,2008
-Radeon 3100 IGP,0,TeraScale,,,,PCIe 1.0 x16,2008
-Radeon 3100 Mobile IGP,0,TeraScale,,,,PCIe 1.0 x16,2008
-Radeon HD 2400,0,TeraScale,20.0,,0.25,PCIe 1.0 x16,2008
-Radeon HD 2600 XT Mac Edition,0,TeraScale,45.0,,0.25,PCIe 1.0 x16,2008
-Radeon HD 3200 IGP,0,TeraScale,,,,PCIe 1.0 x16,2008
-Radeon HD 3300 IGP,0,TeraScale,,,,PCIe 1.0 x16,2008
-Radeon HD 3450 AGP,0,TeraScale,25.0,1x Molex,0.5,AGP 8x,2008
-Radeon HD 3450 PCI,0,TeraScale,25.0,,0.5,PCI,2008
-Radeon HD 3470,0,TeraScale,30.0,,0.25,PCIe 2.0 x16,2008
-Radeon HD 3550,0,TeraScale,30.0,,0.5,PCIe 2.0 x16,2008
-Radeon HD 3650,0,TeraScale,65.0,,0.25,PCIe 2.0 x16,2008
-Radeon HD 3650 AGP,0,TeraScale,65.0,Floppy,0.5,AGP 8x,2008
-Radeon HD 3690,0,TeraScale,75.0,1x 6-pin,0.25,PCIe 2.0 x16,2008
-Radeon HD 3730,0,TeraScale,65.0,,0.5,PCIe 2.0 x16,2008
-Radeon HD 3750,0,TeraScale,65.0,,0.5,PCIe 2.0 x16,2008
-Radeon HD 3830,0,TeraScale,75.0,1x 6-pin,0.25,PCIe 2.0 x16,2008
-Radeon HD 3850 AGP,0,TeraScale,75.0,1x 8-pin,0.5,AGP 8x,2008
-Radeon HD 3850 X2,0,TeraScale,140.0,,0.5,PCIe 2.0 x16,2008
-Radeon HD 3870 Mac Edition,0,TeraScale,106.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 3870 X2,0,TeraScale,165.0,1x 6-pin + 1x 8-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 4350,0,TeraScale,20.0,,0.5,PCIe 2.0 x16,2008
-Radeon HD 4350 AGP,0,TeraScale,20.0,,0.5,AGP 8x,2008
-Radeon HD 4350 PCI,0,TeraScale,20.0,,0.5,PCI,2008
-Radeon HD 4350 PCIe x1,0,TeraScale,20.0,,0.5,PCIe 2.0 x1,2008
-Radeon HD 4550,0,TeraScale,25.0,,0.25,PCIe 2.0 x16,2008
-Radeon HD 4570,0,TeraScale,25.0,,1.0,PCIe 2.0 x16,2008
-Radeon HD 4650,0,TeraScale,48.0,,0.25,PCIe 2.0 x16,2008
-Radeon HD 4650 AGP,0,TeraScale,48.0,,0.5,AGP 8x,2008
-Radeon HD 4670,0,TeraScale,59.0,,0.5,PCIe 2.0 x16,2008
-Radeon HD 4670 X2,0,TeraScale,118.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 4710,0,TeraScale,59.0,,1.0,PCIe 2.0 x16,2008
-Radeon HD 4730 OEM,0,TeraScale,110.0,,1.0,PCIe 2.0 x16,2008
-Radeon HD 4830,0,TeraScale,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 4850,0,TeraScale,110.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 4850 X2,0,TeraScale,250.0,1x 6-pin + 1x 8-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 4870,0,TeraScale,150.0,2x 6-pin,0.5,PCIe 2.0 x16,2008
-Radeon HD 4870 X2,0,TeraScale,286.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2008
-Radeon Xpress 2100 IGP,0,TeraScale,,,,PCIe 1.0 x16,2008
-Xbox 360 GPU 65nm,0,TeraScale,150.0,,0.5,,2008
+All-In-Wonder HD 3650,1,TeraScale,55.0,,0.5,PCIe 2.0 x16,2008
+FireMV 2260,1,TeraScale,15.0,,0.25,PCIe 2.0 x16,2008
+FireMV 2260 PCIe x1,1,TeraScale,15.0,,0.25,PCIe 2.0 x1,2008
+FireMV 2400 PCI,1,R300,20.0,,0.128,PCI,2008
+FireMV 2400 PCIe x1,1,R300,20.0,,0.064,PCIe 2.0 x1,2008
+FirePro 2260 PCI,1,TeraScale,15.0,,0.25,PCI,2008
+FirePro V3700,1,TeraScale,32.0,,0.25,PCIe 2.0 x16,2008
+FirePro V3750,1,TeraScale,48.0,,0.25,PCIe 2.0 x16,2008
+FirePro V5700,1,TeraScale,56.0,,0.5,PCIe 2.0 x16,2008
+FirePro V8700,1,TeraScale,151.0,2x 6-pin,1.0,PCIe 2.0 x16,2008
+FirePro V8750,1,TeraScale,151.0,2x 6-pin,2.0,PCIe 2.0 x16,2008
+Mobility FireGL V5700,1,TeraScale,,,0.5,PCIe 2.0 x16,2008
+Mobility Radeon HD 3410,1,TeraScale,7.0,,0.25,MXM-II,2008
+Mobility Radeon HD 3430,1,TeraScale,12.0,,0.25,MXM-II,2008
+Mobility Radeon HD 3450,1,TeraScale,,,0.25,MXM-II,2008
+Mobility Radeon HD 3650,1,TeraScale,,,0.5,MXM-II,2008
+Mobility Radeon HD 3670,1,TeraScale,30.0,,0.25,MXM-II,2008
+Mobility Radeon HD 3850,1,TeraScale,35.0,,0.5,PCIe 2.0 x16,2008
+Mobility Radeon HD 3850 X2,1,TeraScale,70.0,,0.5,PCIe 2.0 x16,2008
+Mobility Radeon HD 3870 X2,1,TeraScale,110.0,,0.5,PCIe 2.0 x16,2008
+Radeon 2100 IGP,1,R400,,,,PCIe 1.0 x16,2008
+Radeon 3100 IGP,1,TeraScale,,,,PCIe 1.0 x16,2008
+Radeon HD 2400,1,TeraScale,20.0,,0.25,PCIe 1.0 x16,2008
+Radeon HD 2600 XT Mac Edition,1,TeraScale,45.0,,0.25,PCIe 1.0 x16,2008
+Radeon HD 3450 AGP,1,TeraScale,25.0,1x Molex,0.5,AGP 8x,2008
+Radeon HD 3450 PCI,1,TeraScale,25.0,,0.5,PCI,2008
+Radeon HD 3470,1,TeraScale,30.0,,0.25,PCIe 2.0 x16,2008
+Radeon HD 3550,1,TeraScale,30.0,,0.5,PCIe 2.0 x16,2008
+Radeon HD 3650,1,TeraScale,65.0,,0.25,PCIe 2.0 x16,2008
+Radeon HD 3650 AGP,1,TeraScale,65.0,Floppy,0.5,AGP 8x,2008
+Radeon HD 3690,1,TeraScale,75.0,1x 6-pin,0.25,PCIe 2.0 x16,2008
+Radeon HD 3730,1,TeraScale,65.0,,0.5,PCIe 2.0 x16,2008
+Radeon HD 3850 AGP,1,TeraScale,75.0,1x 8-pin,0.5,AGP 8x,2008
+Radeon HD 3850 X2,1,TeraScale,140.0,,0.5,PCIe 2.0 x16,2008
+Radeon HD 3870 Mac Edition,1,TeraScale,106.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 3870 X2,1,TeraScale,165.0,1x 6-pin + 1x 8-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 4350,1,TeraScale,20.0,,0.5,PCIe 2.0 x16,2008
+Radeon HD 4350 AGP,1,TeraScale,20.0,,0.5,AGP 8x,2008
+Radeon HD 4350 PCI,1,TeraScale,20.0,,0.5,PCI,2008
+Radeon HD 4350 PCIe x1,1,TeraScale,20.0,,0.5,PCIe 2.0 x1,2008
+Radeon HD 4550,1,TeraScale,25.0,,0.25,PCIe 2.0 x16,2008
+Radeon HD 4570,1,TeraScale,25.0,,1.0,PCIe 2.0 x16,2008
+Radeon HD 4650 AGP,1,TeraScale,48.0,,0.5,AGP 8x,2008
+Radeon HD 4670,1,TeraScale,59.0,,0.5,PCIe 2.0 x16,2008
+Radeon HD 4670 X2,1,TeraScale,118.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 4710,1,TeraScale,59.0,,1.0,PCIe 2.0 x16,2008
+Radeon HD 4730 OEM,1,TeraScale,110.0,,1.0,PCIe 2.0 x16,2008
+Radeon HD 4830,1,TeraScale,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 4850,1,TeraScale,110.0,1x 6-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 4850 X2,1,TeraScale,250.0,1x 6-pin + 1x 8-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 4870,1,TeraScale,150.0,2x 6-pin,0.5,PCIe 2.0 x16,2008
+Radeon HD 4870 X2,1,TeraScale,286.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2008
+Xbox 360 GPU 65nm,1,TeraScale,150.0,,0.5,,2008
 GeForce 205 OEM,4,Tesla 2.0,31.0,,0.5,PCIe 2.0 x16,2009
-GeForce 210,4,Tesla 2.0,31.0,,0.5,PCIe 2.0 x16,2009
 GeForce 210 OEM,4,Tesla 2.0,31.0,,1.0,PCIe 2.0 x16,2009
 GeForce 210 PCI,4,Tesla 2.0,31.0,,0.5,PCI,2009
-GeForce 210 Rev. 2,4,Tesla 2.0,31.0,,1.0,PCIe 2.0 x16,2009
-GeForce 310 OEM,4,Tesla 2.0,31.0,,0.5,PCIe 2.0 x16,2009
 GeForce 9600 GTX,4,Tesla,140.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
 GeForce G100 OEM,4,Tesla,35.0,,0.25,PCIe 2.0 x16,2009
 GeForce G102M,4,Tesla,14.0,,,PCIe 1.0 x16,2009
 GeForce G103M,4,Tesla,14.0,,0.5,PCIe 1.0 x16,2009
 GeForce G105M,4,Tesla,14.0,,0.5,PCIe 2.0 x16,2009
 GeForce G110M,4,Tesla,14.0,,1.0,PCIe 2.0 x16,2009
-GeForce G205M,4,Tesla,14.0,,,PCIe 1.0 x16,2009
 GeForce G210 OEM,4,Tesla,31.0,,0.5,PCIe 1.0 x16,2009
 GeForce G210 OEM Rev. 2,4,Tesla 2.0,31.0,,0.128,PCIe 2.0 x16,2009
 GeForce G210M,4,Tesla 2.0,14.0,,0.5,MXM,2009
 GeForce GT 120 Mac Edition,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2009
-GeForce GT 120 OEM,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2009
-GeForce GT 120M,4,Tesla,14.0,,1.0,PCIe 2.0 x16,2009
 GeForce GT 130 OEM,4,Tesla,75.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
 GeForce GT 130M,4,Tesla,23.0,,1.0,PCIe 2.0 x16,2009
 GeForce GT 140 OEM,4,Tesla,105.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
@@ -981,7 +673,6 @@ GeForce GT 230,4,Tesla,75.0,,0.5,PCIe 2.0 x16,2009
 GeForce GT 230 OEM,4,Tesla,75.0,,1.5,PCIe 2.0 x16,2009
 GeForce GT 230M,4,Tesla 2.0,23.0,,1.0,PCIe 2.0 x16,2009
 GeForce GT 240,4,Tesla 2.0,69.0,,1.0,PCIe 2.0 x16,2009
-GeForce GT 240M,4,Tesla 2.0,23.0,,1.0,PCIe 2.0 x16,2009
 GeForce GT 320M,4,Tesla 2.0,23.0,,1.0,PCIe 2.0 x16,2010
 GeForce GTS 150 OEM,4,Tesla,141.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
 GeForce GTS 150M,4,Tesla,45.0,,1.0,PCIe 2.0 x16,2009
@@ -997,7 +688,6 @@ GeForce GTX 280M,4,Tesla,75.0,,1.0,MXM-HE,2009
 GeForce GTX 285 Mac Edition,4,Tesla 2.0,204.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
 GeForce GTX 285 X2,4,Tesla 2.0,315.0,2x 8-pin,2.0,PCIe 2.0 x16,2009
 GeForce GTX 295,4,Tesla 2.0,289.0,1x 6-pin + 1x 8-pin,0.896,PCIe 2.0 x16,2009
-GeForce GTX 295 Single PCB,4,Tesla 2.0,289.0,1x 6-pin + 1x 8-pin,0.896,PCIe 2.0 x16,2009
 Quadro FX 1800,4,Tesla,59.0,,0.75,PCIe 2.0 x16,2009
 Quadro FX 1800M,4,Tesla 2.0,45.0,,1.0,MXM-A (3.0),2009
 Quadro FX 2800M,4,Tesla,75.0,,1.0,MXM-B (3.0),2009
@@ -1010,51 +700,39 @@ Quadro NVS 420,4,Tesla,40.0,,0.25,PCIe 2.0 x16,2009
 Tesla C1060,4,Tesla 2.0,188.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2009
 Tesla C1080,4,Tesla 2.0,188.0,1x 6-pin + 1x 8-pin,4.0,PCIe 2.0 x16,2009
 Radeon HD 6570M Mac Edition,0,TeraScale 2,30.0,,1.0,MXM-II,2009
-FirePro 2450 Multi-View,0,TeraScale,32.0,,0.25,PCIe 2.0 x16,2009
-FirePro 2450 Multi-View PCIe x1,0,TeraScale,32.0,,0.25,PCIe 2.0 x1,2009
-FirePro M5725,0,TeraScale,35.0,,0.5,PCIe 2.0 x16,2009
-FirePro M7740,0,TeraScale,60.0,,1.0,PCIe 2.0 x16,2009
-FirePro V7750,0,TeraScale,76.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
-Mobility FireGL V5725,0,TeraScale,,,0.25,PCIe 2.0 x16,2009
-Mobility Radeon HD 4100 IGP,0,TeraScale,,,,PCIe 1.0 x16,2009
-Mobility Radeon HD 4200 IGP,0,TeraScale,,,,PCIe 1.0 x16,2009
-Mobility Radeon HD 4330,0,TeraScale,,,0.5,PCIe 2.0 x16,2009
-Mobility Radeon HD 4350,0,TeraScale,,,0.5,PCIe 2.0 x16,2009
-Mobility Radeon HD 4530,0,TeraScale,,,0.5,MXM-II,2009
-Mobility Radeon HD 4570,0,TeraScale,,,0.5,MXM-II,2009
-Mobility Radeon HD 4650,0,TeraScale,35.0,,1.0,PCIe 2.0 x16,2009
-Mobility Radeon HD 4670,0,TeraScale,35.0,,0.5,MXM-A (3.0),2009
-Mobility Radeon HD 4670 Mac Edition,0,TeraScale,35.0,,0.25,MXM-A (3.0),2009
-Mobility Radeon HD 4830,0,TeraScale,,,1.0,PCIe 2.0 x16,2009
-Mobility Radeon HD 4850,0,TeraScale,,,1.0,PCIe 2.0 x16,2009
-Mobility Radeon HD 4850 Mac Edition,0,TeraScale,,,0.5,MXM-B (3.0),2009
-Mobility Radeon HD 4850 X2,0,TeraScale,,,1.0,PCIe 2.0 x16,2009
-Mobility Radeon HD 4860,0,TeraScale,,,1.0,PCIe 2.0 x16,2009
-Mobility Radeon HD 4870,0,TeraScale,,,0.5,PCIe 2.0 x16,2009
-Mobility Radeon HD 4870 X2,0,TeraScale,,,1.0,PCIe 2.0 x16,2009
-Radeon 3000 IGP,0,TeraScale,,,,PCIe 1.0 x16,2009
-Radeon E4690 MXM,0,TeraScale,30.0,,0.5,MXM-A (3.0),2009
-Radeon E4690 PCIe,0,TeraScale,30.0,,0.5,PCIe 2.0 x16,2009
-Radeon HD 3200 Mobile IGP,0,TeraScale,,,,PCIe 1.0 x16,2009
-Radeon HD 3410,0,TeraScale,20.0,,0.25,PCIe 1.0 x16,2009
-Radeon HD 3610,0,TeraScale,35.0,,0.5,PCIe 1.0 x16,2009
-Radeon HD 4200 IGP,0,TeraScale,,,,PCIe 1.0 x16,2009
-Radeon HD 4250,0,TeraScale,25.0,,0.5,PCIe 2.0 x16,2009
-Radeon HD 4520,0,TeraScale,25.0,,0.5,PCIe 2.0 x16,2009
-Radeon HD 4570 Rebrand,0,TeraScale,65.0,,1.0,PCIe 2.0 x16,2009
-Radeon HD 4670 AGP,0,TeraScale,59.0,,1.0,AGP 8x,2009
-Radeon HD 4730,0,TeraScale,110.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
-Radeon HD 4750,0,TeraScale,100.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
-Radeon HD 4770,0,TeraScale,80.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
-Radeon HD 4810,0,TeraScale,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
-Radeon HD 4860,0,TeraScale,130.0,2x 6-pin,0.5,PCIe 2.0 x16,2009
-Radeon HD 4870 Mac Edition,0,TeraScale,150.0,2x 6-pin,0.5,PCIe 2.0 x16,2009
-Radeon HD 4890,0,TeraScale,190.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
-Radeon HD 5750,0,TeraScale 2,86.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
-Radeon HD 5770,0,TeraScale 2,108.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
-Radeon HD 5850,0,TeraScale 2,151.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
-Radeon HD 5870,0,TeraScale 2,188.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
-Radeon HD 5970,0,TeraScale 2,294.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2009
+FirePro 2450 Multi-View,1,TeraScale,32.0,,0.25,PCIe 2.0 x16,2009
+FirePro 2450 Multi-View PCIe x1,1,TeraScale,32.0,,0.25,PCIe 2.0 x1,2009
+FirePro M5725,1,TeraScale,35.0,,0.5,PCIe 2.0 x16,2009
+FirePro M7740,1,TeraScale,60.0,,1.0,PCIe 2.0 x16,2009
+FirePro V7750,1,TeraScale,76.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
+Mobility FireGL V5725,1,TeraScale,,,0.25,PCIe 2.0 x16,2009
+Mobility Radeon HD 4100 IGP,1,TeraScale,,,,PCIe 1.0 x16,2009
+Mobility Radeon HD 4330,1,TeraScale,,,0.5,PCIe 2.0 x16,2009
+Mobility Radeon HD 4530,1,TeraScale,,,0.5,MXM-II,2009
+Mobility Radeon HD 4650,1,TeraScale,35.0,,1.0,PCIe 2.0 x16,2009
+Mobility Radeon HD 4670,1,TeraScale,35.0,,0.5,MXM-A (3.0),2009
+Mobility Radeon HD 4670 Mac Edition,1,TeraScale,35.0,,0.25,MXM-A (3.0),2009
+Mobility Radeon HD 4830,1,TeraScale,,,1.0,PCIe 2.0 x16,2009
+Mobility Radeon HD 4850 Mac Edition,1,TeraScale,,,0.5,MXM-B (3.0),2009
+Radeon E4690 MXM,1,TeraScale,30.0,,0.5,MXM-A (3.0),2009
+Radeon E4690 PCIe,1,TeraScale,30.0,,0.5,PCIe 2.0 x16,2009
+Radeon HD 3410,1,TeraScale,20.0,,0.25,PCIe 1.0 x16,2009
+Radeon HD 3610,1,TeraScale,35.0,,0.5,PCIe 1.0 x16,2009
+Radeon HD 4250,1,TeraScale,25.0,,0.5,PCIe 2.0 x16,2009
+Radeon HD 4570 Rebrand,1,TeraScale,65.0,,1.0,PCIe 2.0 x16,2009
+Radeon HD 4670 AGP,1,TeraScale,59.0,,1.0,AGP 8x,2009
+Radeon HD 4730,1,TeraScale,110.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
+Radeon HD 4750,1,TeraScale,100.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
+Radeon HD 4770,1,TeraScale,80.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
+Radeon HD 4810,1,TeraScale,95.0,1x 6-pin,0.5,PCIe 2.0 x16,2009
+Radeon HD 4860,1,TeraScale,130.0,2x 6-pin,0.5,PCIe 2.0 x16,2009
+Radeon HD 4870 Mac Edition,1,TeraScale,150.0,2x 6-pin,0.5,PCIe 2.0 x16,2009
+Radeon HD 4890,1,TeraScale,190.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
+Radeon HD 5750,1,TeraScale 2,86.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
+Radeon HD 5770,1,TeraScale 2,108.0,1x 6-pin,1.0,PCIe 2.0 x16,2009
+Radeon HD 5850,1,TeraScale 2,151.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
+Radeon HD 5870,1,TeraScale 2,188.0,2x 6-pin,1.0,PCIe 2.0 x16,2009
+Radeon HD 5970,1,TeraScale 2,294.0,1x 6-pin + 1x 8-pin,1.0,PCIe 2.0 x16,2009
 GeForce 305M,4,Tesla 2.0,14.0,,0.5,PCIe 2.0 x16,2010
 GeForce 310M,4,Tesla 2.0,14.0,,1.0,PCIe 2.0 x16,2010
 GeForce 315 OEM,4,Tesla 2.0,33.0,,1.0,PCIe 2.0 x16,2011
@@ -1064,7 +742,6 @@ GeForce 8400 GS Rev. 3,4,Tesla 2.0,25.0,,0.5,PCIe 2.0 x16,2010
 GeForce 9500 GT Mac Edition,4,Tesla,50.0,,0.5,PCIe 2.0 x16,2010
 GeForce GT 240M LE,4,Tesla,23.0,,0.5,PCIe 2.0 x16,2010
 GeForce GT 320 OEM,4,Tesla 2.0,43.0,,1.0,PCIe 2.0 x16,2010
-GeForce GT 325M,4,Tesla 2.0,23.0,,1.0,PCIe 2.0 x16,2010
 GeForce GT 330 OEM,4,Tesla 2.0,75.0,,1.0,PCIe 2.0 x16,2010
 GeForce GT 330M,4,Tesla 2.0,23.0,,1.0,MXM-A (3.0),2010
 GeForce GT 330M Mac Edition,4,Tesla 2.0,23.0,,0.5,MXM-A (3.0),2010
@@ -1074,7 +751,6 @@ GeForce GT 415 OEM,4,Tesla 2.0,32.0,,0.5,PCIe 2.0 x16,2010
 GeForce GT 415M,4,Fermi,12.0,,1.0,PCIe 2.0 x16,2010
 GeForce GT 420 OEM,4,Fermi,50.0,,1.0,PCIe 2.0 x16,2010
 GeForce GT 420M,4,Fermi,23.0,,1.0,PCIe 2.0 x16,2010
-GeForce GT 425M,4,Fermi,23.0,,1.0,PCIe 2.0 x16,2010
 GeForce GT 430,4,Fermi,49.0,,0.5,PCIe 2.0 x16,2010
 GeForce GT 430 OEM,4,Fermi,49.0,,2.0,PCIe 2.0 x16,2010
 GeForce GT 430 PCI,4,Fermi,49.0,,0.5,PCI,2010
@@ -1089,7 +765,6 @@ GeForce GTX 275 PhysX Edition,4,Tesla,219.0,1x 6-pin + 1x 8-pin,0.896,PCIe 2.0 x
 GeForce GTX 285M,4,Tesla,75.0,,1.0,MXM-B (3.0),2010
 GeForce GTX 460,4,Fermi,160.0,2x 6-pin,0.75,PCIe 2.0 x16,2010
 GeForce GTX 460 OEM,4,Fermi,150.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
-GeForce GTX 460 SE,4,Fermi,150.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
 GeForce GTX 460 SE v2,4,Fermi 2.0,150.0,2x 6-pin,0.75,PCIe 2.0 x16,2010
 GeForce GTX 460M,4,Fermi,50.0,,1.5,PCIe 2.0 x16,2010
 GeForce GTX 465,4,Fermi,200.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
@@ -1098,31 +773,23 @@ GeForce GTX 470M,4,Fermi,75.0,,1.5,MXM-B (3.0),2010
 GeForce GTX 480,4,Fermi,250.0,1x 6-pin + 1x 8-pin,1.5,PCIe 2.0 x16,2010
 GeForce GTX 480M,4,Fermi,100.0,,2.0,MXM-B (3.0),2010
 GeForce GTX 570,4,Fermi 2.0,219.0,2x 6-pin,1.25,PCIe 2.0 x16,2010
-GeForce GTX 570 Rev. 2,4,Fermi 2.0,219.0,2x 6-pin,1.25,PCIe 2.0 x16,2010
 GeForce GTX 580,4,Fermi 2.0,244.0,1x 6-pin + 1x 8-pin,1.5,PCIe 2.0 x16,2010
 NVS 2100M,4,Tesla 2.0,11.0,,0.5,PCIe 2.0 x16,2010
-NVS 3100M,4,Tesla 2.0,14.0,,0.5,PCIe 2.0 x16,2010
 NVS 5100M,4,Tesla 2.0,35.0,,1.0,MXM-A (3.0),2010
 Quadro 2000,4,Fermi,62.0,,1.0,PCIe 2.0 x16,2010
 Quadro 4000,4,Fermi,142.0,1x 6-pin,2.0,PCIe 2.0 x16,2010
-Quadro 5000M,4,Fermi,100.0,,2.0,MXM-B (3.0),2010
 Quadro 600,4,Fermi,40.0,,1.0,PCIe 2.0 x16,2010
 Quadro 6000,4,Fermi,204.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2010
-Quadro FX 380M,4,Tesla 2.0,25.0,,0.5,PCIe 2.0 x16,2010
-Quadro FX 880M,4,Tesla 2.0,35.0,,1.0,MXM-A (3.0),2010
 Tegra 2 GPU,4,VLIW Vec4,20.0,,0.25,IGP,2010
 FirePro M3900,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2010
 FirePro RG220,0,TeraScale,35.0,,0.5,PCIe 2.0 x16,2010
-FirePro RG220A,0,TeraScale,35.0,,0.5,PCIe 2.0 x16,2010
 FireStream 9350,0,TeraScale 2,150.0,1x 6-pin,2.0,PCIe 2.0 x16,2010
 FireStream 9370,0,TeraScale 2,225.0,1x 8-pin,4.0,PCIe 2.0 x16,2010
 Radeon HD 6250 IGP,0,TeraScale 2,7.0,,,IGP,2012
 Radeon HD 6310 IGP,0,TeraScale 2,18.0,,,IGP,2010
 Radeon HD 6330M,0,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2010
-Radeon HD 6350M,0,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2010
 Radeon HD 6370M,0,TeraScale 2,11.0,,1.0,PCIe 2.0 x16,2010
 Radeon HD 6530M,0,TeraScale 2,26.0,,1.0,MXM-II,2010
-Radeon HD 6550M,0,TeraScale 2,26.0,,1.0,MXM-II,2010
 Radeon HD 6570M,0,TeraScale 2,30.0,,1.0,MXM-A (3.0),2011
 Radeon HD 6850,0,TeraScale 2,127.0,1x 6-pin,1.0,PCIe 2.0 x16,2010
 Radeon HD 6870,0,TeraScale 2,151.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
@@ -1132,67 +799,57 @@ Aubrey Isle,2,Knights,300.0,1x 6-pin + 1x 8-pin,2.0,PCIe 2.0 x16,2010
 GMA,2,PowerVR SGX545,,,,PCIe 1.0 x16,2010
 GMA 600,2,PowerVR SGX535,,,,PCIe 1.0 x16,2010
 HD Graphics 12EU,2,Generation 5.75,35.0,,,QPI,2010
-HD Graphics 16EU Mobile,2,Generation 5.75,35.0,,,QPI,2010
-FirePro 2460 Multi-View,0,TeraScale 2,17.0,,0.5,PCIe 2.0 x16,2010
-FirePro M5800,0,TeraScale 2,26.0,,1.0,PCIe 2.0 x16,2010
-FirePro M7820,0,TeraScale 2,50.0,,1.0,PCIe 2.0 x16,2010
-FirePro V3800,0,TeraScale 2,43.0,,0.5,PCIe 2.0 x16,2010
-FirePro V4800,0,TeraScale 2,69.0,,1.0,PCIe 2.0 x16,2010
-FirePro V5800,0,TeraScale 2,74.0,,1.0,PCIe 2.0 x16,2010
-FirePro V5800 DVI,0,TeraScale 2,74.0,,1.0,PCIe 2.0 x16,2010
-FirePro V7800,0,TeraScale 2,150.0,1x 6-pin,2.0,PCIe 2.0 x16,2010
-FirePro V8800,0,TeraScale 2,208.0,2x 6-pin,2.0,PCIe 2.0 x16,2010
-FirePro V9800,0,TeraScale 2,250.0,1x 6-pin + 1x 8-pin,4.0,PCIe 2.0 x16,2010
-FirePro V9800P,0,TeraScale 2,225.0,1x 8-pin,4.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 4225 IGP,0,TeraScale,9.0,,,PCIe 1.0 x16,2010
-Mobility Radeon HD 4250 IGP,0,TeraScale,,,,PCI,2010
-Mobility Radeon HD 4270 IGP,0,TeraScale,,,,PCIe 1.0 x16,2010
-Mobility Radeon HD 4550,0,TeraScale,,,0.5,MXM-II,2010
-Mobility Radeon HD 5145,0,TeraScale,15.0,,0.5,PCIe 2.0 x16,2010
-Mobility Radeon HD 5165,0,TeraScale,35.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 530v,0,TeraScale,10.0,,0.5,MXM-A (3.0),2010
-Mobility Radeon HD 540v,0,TeraScale,15.0,,0.5,MXM-A (3.0),2010
-Mobility Radeon HD 5430,0,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5450,0,TeraScale 2,11.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 545v,0,TeraScale,15.0,,0.5,MXM-A (3.0),2010
-Mobility Radeon HD 5470,0,TeraScale 2,15.0,,0.5,PCIe 2.0 x16,2010
-Mobility Radeon HD 550v,0,TeraScale,10.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 560v,0,TeraScale,15.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5650,0,TeraScale 2,15.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 565v,0,TeraScale,20.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5670 Mac Edition,0,TeraScale 2,15.0,,0.5,PCIe 2.0 x16,2010
-Mobility Radeon HD 5730,0,TeraScale 2,26.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5750,0,TeraScale 2,25.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5770,0,TeraScale 2,30.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5830,0,TeraScale 2,24.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5850,0,TeraScale 2,30.0,,1.0,PCIe 2.0 x16,2010
-Mobility Radeon HD 5850 Mac Edition,0,TeraScale 2,30.0,,1.0,MXM-B (3.0),2010
-Mobility Radeon HD 5870,0,TeraScale 2,50.0,,1.0,MXM-B (3.0),2010
-Radeon HD 3570,0,TeraScale,30.0,,0.5,PCIe 2.0 x16,2010
-Radeon HD 4250 IGP,0,TeraScale,,,,PCIe 1.0 x16,2010
-Radeon HD 4290 IGP,0,TeraScale,,,,PCIe 1.0 x16,2010
-Radeon HD 4700,0,TeraScale,50.0,,0.5,PCIe 2.0 x16,2010
-Radeon HD 4855,0,TeraScale,110.0,1x 6-pin,0.5,PCIe 2.0 x16,2010
-Radeon HD 5450,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2010
-Radeon HD 5450 PCI,0,TeraScale 2,19.0,,0.5,PCI,2010
-Radeon HD 5450 PCIe x1,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x1,2010
-Radeon HD 5550,0,TeraScale 2,39.0,,0.5,PCIe 2.0 x16,2010
-Radeon HD 5570,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 5570 OEM,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2010
-Radeon HD 5670,0,TeraScale 2,64.0,,1.0,PCIe 2.0 x16,2010
-Radeon HD 5670 640SP Edition,0,TeraScale 2,64.0,,0.5,PCIe 2.0 x16,2010
-Radeon HD 5770 Mac Edition,0,TeraScale 2,108.0,1x 6-pin,1.0,PCIe 2.0 x16,2010
-Radeon HD 5770 X2,0,TeraScale 2,,,1.0,PCIe 2.0 x16,2010
-Radeon HD 5830,0,TeraScale 2,175.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
-Radeon HD 5870 Eyefinity 6,0,TeraScale 2,228.0,1x 6-pin + 1x 8-pin,2.0,PCIe 2.0 x16,2010
-Radeon HD 5870 Mac Edition,0,TeraScale 2,228.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
-Xbox 360 S GPU,0,TeraScale,133.0,,0.5,,2010
+FirePro 2460 Multi-View,1,TeraScale 2,17.0,,0.5,PCIe 2.0 x16,2010
+FirePro M5800,1,TeraScale 2,26.0,,1.0,PCIe 2.0 x16,2010
+FirePro M7820,1,TeraScale 2,50.0,,1.0,PCIe 2.0 x16,2010
+FirePro V3800,1,TeraScale 2,43.0,,0.5,PCIe 2.0 x16,2010
+FirePro V4800,1,TeraScale 2,69.0,,1.0,PCIe 2.0 x16,2010
+FirePro V5800,1,TeraScale 2,74.0,,1.0,PCIe 2.0 x16,2010
+FirePro V7800,1,TeraScale 2,150.0,1x 6-pin,2.0,PCIe 2.0 x16,2010
+FirePro V8800,1,TeraScale 2,208.0,2x 6-pin,2.0,PCIe 2.0 x16,2010
+FirePro V9800,1,TeraScale 2,250.0,1x 6-pin + 1x 8-pin,4.0,PCIe 2.0 x16,2010
+FirePro V9800P,1,TeraScale 2,225.0,1x 8-pin,4.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 4225 IGP,1,TeraScale,9.0,,,PCIe 1.0 x16,2010
+Mobility Radeon HD 4250 IGP,1,TeraScale,,,,PCI,2010
+Mobility Radeon HD 4270 IGP,1,TeraScale,,,,PCIe 1.0 x16,2010
+Mobility Radeon HD 4550,1,TeraScale,,,0.5,MXM-II,2010
+Mobility Radeon HD 5145,1,TeraScale,15.0,,0.5,PCIe 2.0 x16,2010
+Mobility Radeon HD 5165,1,TeraScale,35.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 530v,1,TeraScale,10.0,,0.5,MXM-A (3.0),2010
+Mobility Radeon HD 540v,1,TeraScale,15.0,,0.5,MXM-A (3.0),2010
+Mobility Radeon HD 5430,1,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5450,1,TeraScale 2,11.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5470,1,TeraScale 2,15.0,,0.5,PCIe 2.0 x16,2010
+Mobility Radeon HD 550v,1,TeraScale,10.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 560v,1,TeraScale,15.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5650,1,TeraScale 2,15.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 565v,1,TeraScale,20.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5750,1,TeraScale 2,25.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5770,1,TeraScale 2,30.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5830,1,TeraScale 2,24.0,,1.0,PCIe 2.0 x16,2010
+Mobility Radeon HD 5850 Mac Edition,1,TeraScale 2,30.0,,1.0,MXM-B (3.0),2010
+Mobility Radeon HD 5870,1,TeraScale 2,50.0,,1.0,MXM-B (3.0),2010
+Radeon HD 3570,1,TeraScale,30.0,,0.5,PCIe 2.0 x16,2010
+Radeon HD 4700,1,TeraScale,50.0,,0.5,PCIe 2.0 x16,2010
+Radeon HD 4855,1,TeraScale,110.0,1x 6-pin,0.5,PCIe 2.0 x16,2010
+Radeon HD 5450,1,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2010
+Radeon HD 5450 PCI,1,TeraScale 2,19.0,,0.5,PCI,2010
+Radeon HD 5450 PCIe x1,1,TeraScale 2,19.0,,0.5,PCIe 2.0 x1,2010
+Radeon HD 5550,1,TeraScale 2,39.0,,0.5,PCIe 2.0 x16,2010
+Radeon HD 5570,1,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
+Radeon HD 5570 OEM,1,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2010
+Radeon HD 5670,1,TeraScale 2,64.0,,1.0,PCIe 2.0 x16,2010
+Radeon HD 5670 640SP Edition,1,TeraScale 2,64.0,,0.5,PCIe 2.0 x16,2010
+Radeon HD 5770 Mac Edition,1,TeraScale 2,108.0,1x 6-pin,1.0,PCIe 2.0 x16,2010
+Radeon HD 5770 X2,1,TeraScale 2,,,1.0,PCIe 2.0 x16,2010
+Radeon HD 5830,1,TeraScale 2,175.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
+Radeon HD 5870 Eyefinity 6,1,TeraScale 2,228.0,1x 6-pin + 1x 8-pin,2.0,PCIe 2.0 x16,2010
+Radeon HD 5870 Mac Edition,1,TeraScale 2,228.0,2x 6-pin,1.0,PCIe 2.0 x16,2010
+Xbox 360 S GPU,1,TeraScale,133.0,,0.5,,2010
 GeForce 315M,4,Tesla 2.0,14.0,,0.5,PCIe 2.0 x16,2011
 GeForce 405M,4,Tesla 2.0,14.0,,1.0,PCIe 2.0 x16,2011
 GeForce 410M,4,Fermi 2.0,12.0,,1.0,PCIe 2.0 x16,2011
 GeForce 510 OEM,4,Fermi 2.0,25.0,,1.0,PCIe 2.0 x16,2011
-GeForce 610,4,Fermi 2.0,12.0,,1.0,PCIe 2.0 x16,2011
-GeForce 610M,4,Fermi 2.0,12.0,,1.0,PCIe 2.0 x16,2011
 GeForce 9300 GS Rev. 2,4,Tesla 2.0,,,0.25,PCIe 2.0 x16,2011
 GeForce GT 440,4,Fermi,65.0,,1.0,PCIe 2.0 x16,2011
 GeForce GT 440 Mac Edition,4,Fermi,65.0,,1.0,PCIe 1.0 x16,2011
@@ -1207,7 +864,6 @@ GeForce GT 540M,4,Fermi,35.0,,1.0,MXM-A (3.0),2011
 GeForce GT 545,4,Fermi 2.0,70.0,,1.5,PCIe 2.0 x16,2011
 GeForce GT 545 OEM,4,Fermi 2.0,105.0,1x 6-pin,1.0,PCIe 2.0 x16,2011
 GeForce GT 550M,4,Fermi 2.0,35.0,,1.0,PCIe 2.0 x16,2012
-GeForce GT 555M,4,Fermi,35.0,,1.0,PCIe 2.0 x16,2011
 GeForce GT 555M 3 GB,4,Fermi 2.0,35.0,,3.0,PCIe 2.0 x16,2012
 GeForce GTS 450 Rev. 2,4,Fermi 2.0,106.0,1x 6-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 460 v2,4,Fermi 2.0,160.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
@@ -1216,14 +872,11 @@ GeForce GTX 460 X2,4,Fermi,160.0,2x 8-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 485M,4,Fermi,100.0,,2.0,MXM-B (3.0),2011
 GeForce GTX 550 Ti,4,Fermi 2.0,116.0,1x 6-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 555 OEM,4,Fermi 2.0,150.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
-GeForce GTX 560,4,Fermi 2.0,150.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 560 OEM,4,Fermi 2.0,150.0,1x 6-pin,1.25,PCIe 2.0 x16,2011
 GeForce GTX 560 Ti,4,Fermi 2.0,170.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 560 Ti 448,4,Fermi 2.0,210.0,2x 6-pin,1.25,PCIe 2.0 x16,2011
-GeForce GTX 560 Ti OEM,4,Fermi 2.0,170.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 560 Ti X2,4,Fermi 2.0,170.0,2x 8-pin,1.0,PCIe 2.0 x16,2011
 GeForce GTX 560M,4,Fermi 2.0,75.0,,1.5,MXM-B (3.0),2011
-GeForce GTX 570M,4,Fermi 2.0,75.0,,1.5,MXM-B (3.0),2011
 GeForce GTX 580 Rev. 2,4,Fermi 2.0,244.0,1x 6-pin + 1x 8-pin,1.5,PCIe 2.0 x16,2011
 GeForce GTX 580M,4,Fermi 2.0,100.0,,2.0,MXM-B (3.0),2011
 GeForce GTX 590,4,Fermi 2.0,365.0,2x 8-pin,1.5,PCIe 2.0 x16,2011
@@ -1236,10 +889,8 @@ Quadro 3000M,4,Fermi,75.0,,2.0,MXM-B (3.0),2011
 Quadro 3000M X2,4,Fermi,150.0,,2.0,MXM-B (3.0),2011
 Quadro 400,4,Tesla 2.0,32.0,,0.5,PCIe 2.0 x16,2011
 Quadro 4000 Mac Edition,4,Fermi,142.0,1x 6-pin,1.75,PCIe 2.0 x16,2011
-Quadro 4000M,4,Fermi,100.0,,2.0,MXM-B (3.0),2011
 Quadro 5000,4,Fermi,152.0,1x 6-pin,2.5,PCIe 2.0 x16,2011
 Quadro 5000 SDI,4,Fermi,172.0,,2.5,PCIe 2.0 x16,2011
-Quadro 500M,4,Fermi,35.0,,1.0,MXM-A (3.0),2011
 Quadro 5010M,4,Fermi 2.0,100.0,,4.0,MXM-B (3.0),2011
 Quadro 6000 SDI,4,Fermi,231.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
 Quadro Plex 7000,4,Fermi 2.0,600.0,,6.0,PCIe 2.0 x16,2011
@@ -1250,9 +901,7 @@ Tesla C2075,4,Fermi 2.0,247.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
 Tesla C2090,4,Fermi 2.0,250.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
 Tesla M2050,4,Fermi,225.0,1x 6-pin + 1x 8-pin,3.0,PCIe 2.0 x16,2011
 Tesla M2070,4,Fermi,225.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
-Tesla M2070-Q,4,Fermi,225.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
 Tesla M2075,4,Fermi 2.0,225.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
-Tesla M2090,4,Fermi 2.0,250.0,1x 6-pin + 1x 8-pin,6.0,PCIe 2.0 x16,2011
 Tesla S2050,4,Fermi,900.0,,3.0,PCIe 2.0 x16,2011
 Tesla X2070,4,Fermi,225.0,,6.0,MXM-B (3.0),2011
 Tesla X2090,4,Fermi 2.0,225.0,,6.0,PCIe 2.0 x16,2011
@@ -1263,85 +912,50 @@ FirePro M8900,0,TeraScale 2,75.0,,2.0,MXM-B (3.0),2011
 FirePro V4900,0,TeraScale 2,75.0,,1.0,PCIe 2.0 x16,2011
 FirePro V5900,0,TeraScale 3,75.0,,2.0,PCIe 2.0 x16,2011
 FirePro V7900,0,TeraScale 3,150.0,1x 6-pin,2.0,PCIe 2.0 x16,2011
-FirePro V7900 SDI,0,TeraScale 3,150.0,1x 6-pin,2.0,PCIe 2.0 x16,2011
 Radeon E6460,0,TeraScale 2,25.0,,0.5,PCIe 2.0 x16,2011
 Radeon E6760 MXM,0,TeraScale 2,45.0,,1.0,MXM-A (3.0),2011
 Radeon E6760 PCIe,0,TeraScale 2,45.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6230,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2011
-Radeon HD 6250,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2011
 Radeon HD 6290,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6290 IGP,0,TeraScale 2,9.0,,,IGP,2011
 Radeon HD 6320 IGP,0,TeraScale 2,18.0,,,IGP,2011
-Radeon HD 6350,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2011
 Radeon HD 6350A,0,TeraScale 2,25.0,,0.5,MXM-A (3.0),2011
 Radeon HD 6370D IGP,0,TeraScale 2,65.0,,,IGP,2011
 Radeon HD 6380G IGP,0,TeraScale 2,35.0,,,IGP,2011
 Radeon HD 6390,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6410D IGP,0,TeraScale 2,65.0,,,IGP,2011
 Radeon HD 6430M,0,TeraScale 2,,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6450,0,TeraScale 2,18.0,,0.5,PCIe 2.0 x16,2011
-Radeon HD 6450 OEM,0,TeraScale 2,18.0,,0.5,PCIe 2.0 x16,2011
-Radeon HD 6450A,0,TeraScale 2,25.0,,0.5,MXM-A (3.0),2011
-Radeon HD 6450M,0,TeraScale 2,,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6470M,0,TeraScale 2,25.0,,0.5,PCIe 2.0 x16,2011
-Radeon HD 6480G IGP,0,TeraScale 2,35.0,,,IGP,2011
-Radeon HD 6490,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6490M,0,TeraScale 2,,,0.5,PCIe 2.0 x16,2011
 Radeon HD 6490M Mac Edition,0,TeraScale 2,,,0.25,PCIe 2.0 x16,2011
-Radeon HD 6510,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6520G IGP,0,TeraScale 2,35.0,,,IGP,2011
-Radeon HD 6530,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6530D IGP,0,TeraScale 2,65.0,,,IGP,2011
 Radeon HD 6550A,0,TeraScale 2,35.0,,2.0,MXM-A (3.0),2011
-Radeon HD 6550D IGP,0,TeraScale 2,65.0,,,IGP,2011
 Radeon HD 6570,0,TeraScale 2,60.0,,2.0,PCIe 2.0 x16,2011
 Radeon HD 6570 OEM,0,TeraScale 2,44.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6610M,0,TeraScale 2,26.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6620G IGP,0,TeraScale 2,35.0,,,IGP,2011
-Radeon HD 6625M,0,TeraScale 2,26.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6630M,0,TeraScale 2,26.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6630M Mac Edition,0,TeraScale 2,26.0,,0.25,PCIe 2.0 x16,2011
-Radeon HD 6650A,0,TeraScale 2,45.0,,1.0,MXM-A (3.0),2011
-Radeon HD 6650M,0,TeraScale 2,,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6670,0,TeraScale 2,66.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 6670A,0,TeraScale 2,45.0,,1.0,MXM-A (3.0),2011
-Radeon HD 6730M,0,TeraScale 2,35.0,,1.0,MXM-A (3.0),2011
 Radeon HD 6750,0,TeraScale 2,86.0,1x 6-pin,1.0,PCIe 2.0 x16,2011
-Radeon HD 6750M,0,TeraScale 2,35.0,,1.0,MXM-A (3.0),2011
 Radeon HD 6750M Mac Edition,0,TeraScale 2,35.0,,0.5,MXM-A (3.0),2011
 Radeon HD 6770,0,TeraScale 2,108.0,1x 6-pin,1.0,PCIe 2.0 x16,2011
-Radeon HD 6770M,0,TeraScale 2,35.0,,1.0,MXM-A (3.0),2011
-Radeon HD 6770M Mac Edition,0,TeraScale 2,35.0,,1.0,MXM-A (3.0),2011
 Radeon HD 6790,0,TeraScale 2,150.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
-Radeon HD 6830M,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6850 X2,0,TeraScale 2,254.0,2x 8-pin,2.0,PCIe 2.0 x16,2011
 Radeon HD 6850M,0,TeraScale 2,50.0,,1.0,PCIe 2.0 x16,2011
 Radeon HD 6870 X2,0,TeraScale 2,300.0,2x 8-pin,1.0,PCIe 2.0 x16,2011
 Radeon HD 6870M,0,TeraScale 2,50.0,,1.0,MXM-B (3.0),2011
 Radeon HD 6930,0,TeraScale 3,186.0,2x 6-pin,1.0,PCIe 2.0 x16,2011
-Radeon HD 6950M,0,TeraScale 2,50.0,,1.0,MXM-B (3.0),2011
 Radeon HD 6970M,0,TeraScale 2,75.0,,1.0,MXM-B (3.0),2011
-Radeon HD 6970M Mac Edition,0,TeraScale 2,75.0,,2.0,MXM-B (3.0),2011
-Radeon HD 6970M Rebrand,0,TeraScale 2,75.0,,1.0,MXM-B (3.0),2011
 Radeon HD 6970M X2,0,TeraScale 2,150.0,,2.0,MXM-B (3.0),2011
 Radeon HD 6990,0,TeraScale 3,375.0,2x 8-pin,2.0,PCIe 2.0 x16,2011
 Radeon HD 6990M,0,TeraScale 2,100.0,,2.0,MXM-B (3.0),2011
 Radeon HD 6990M Rebrand,0,TeraScale 2,100.0,,1.0,MXM-B (3.0),2011
-Radeon HD 7410M,0,TeraScale 2,,,1.0,PCIe 2.0 x16,2011
 Radeon HD 7690M,0,TeraScale 2,20.0,,1.0,MXM-A (3.0),2011
 HD Graphics 2000,2,Generation 6.0,,,,Ring Bus,2011
-HD Graphics 3000,2,Generation 6.0,,,,Ring Bus,2011
-HD Graphics 3000 Mobile,2,Generation 6.0,,,,Ring Bus,2011
 HD Graphics 6EU Mobile,2,Generation 7.0,45.0,,,Ring Bus,2012
-HD Graphics P3000,2,Generation 6.0,,,,Ring Bus,2011
-FirePro V7800P,0,TeraScale 2,138.0,1x 6-pin,2.0,PCIe 2.0 x16,2011
-Radeon HD 4450,0,TeraScale,25.0,,0.5,PCIe 2.0 x16,2011
-Radeon HD 4580,0,TeraScale,65.0,,0.5,PCIe 2.0 x16,2011
-Radeon HD 4720,0,TeraScale,55.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 5530,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 5630,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 5690,0,TeraScale 2,64.0,,1.0,PCIe 2.0 x16,2011
-Radeon HD 5730,0,TeraScale 2,64.0,,1.0,PCIe 2.0 x16,2011
+FirePro V7800P,1,TeraScale 2,138.0,1x 6-pin,2.0,PCIe 2.0 x16,2011
+Radeon HD 4450,1,TeraScale,25.0,,0.5,PCIe 2.0 x16,2011
+Radeon HD 4580,1,TeraScale,65.0,,0.5,PCIe 2.0 x16,2011
+Radeon HD 4720,1,TeraScale,55.0,,1.0,PCIe 2.0 x16,2011
+Radeon HD 5530,1,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2011
+Radeon HD 5690,1,TeraScale 2,64.0,,1.0,PCIe 2.0 x16,2011
 Playstation Vita GPU,7,PowerVR Series5XT,4.0,,0.128,,2011
 GeForce 605 OEM,4,Fermi 2.0,25.0,,0.5,PCIe 2.0 x16,2012
 GeForce 615 OEM,4,Fermi,49.0,,1.0,PCIe 2.0 x16,2012
@@ -1349,25 +963,20 @@ GeForce 620M,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2012
 GeForce 9400 GT Rev. 3,4,Tesla 2.0,50.0,,0.128,PCIe 2.0 x16,2012
 GeForce GT 520 OEM,4,Fermi 2.0,29.0,,1.0,PCIe 2.0 x16,2012
 GeForce GT 555M 2 GB,4,Fermi 2.0,35.0,,2.0,PCIe 2.0 x16,2012
-GeForce GT 610,4,Fermi 2.0,29.0,,1.0,PCIe 2.0 x16,2012
 GeForce GT 610 OEM,4,Fermi,29.0,,2.0,PCIe 2.0 x16,2016
 GeForce GT 610 PCI,4,Fermi 2.0,29.0,,0.5,PCI,2012
 GeForce GT 610 PCIe x1,4,Fermi 2.0,29.0,,0.5,PCIe 2.0 x1,2012
-GeForce GT 620,4,Fermi,49.0,,1.0,PCIe 2.0 x16,2012
 GeForce GT 620 OEM,4,Fermi 2.0,30.0,,0.5,PCIe 2.0 x16,2012
-GeForce GT 620M,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2012
 GeForce GT 625M,4,Fermi 2.0,15.0,,2.0,PCIe 2.0 x16,2012
 GeForce GT 630,4,Fermi,65.0,,1.0,PCIe 2.0 x16,2012
 GeForce GT 630 OEM,4,Kepler,50.0,,1.0,PCIe 3.0 x16,2012
 GeForce GT 630M,4,Fermi,33.0,,1.0,MXM-A (3.0),2012
-GeForce GT 635M,4,Fermi 2.0,35.0,,2.0,PCIe 2.0 x16,2012
 GeForce GT 640,4,Kepler,65.0,,2.0,PCIe 3.0 x16,2012
 GeForce GT 640 OEM,4,Kepler,50.0,,2.0,PCIe 3.0 x16,2012
 GeForce GT 640 OEM Rebrand,4,Fermi 2.0,75.0,,1.5,PCIe 2.0 x16,2012
 GeForce GT 640M,4,Kepler,32.0,,2.0,PCIe 3.0 x16,2012
 GeForce GT 640M LE,4,Kepler,20.0,,1.0,PCIe 3.0 x16,2012
 GeForce GT 645 OEM,4,Fermi 2.0,102.0,,1.0,PCIe 2.0 x16,2012
-GeForce GT 645M,4,Kepler,32.0,,2.0,PCIe 3.0 x16,2012
 GeForce GT 650M,4,Kepler,45.0,,1.0,PCIe 3.0 x16,2012
 GeForce GT 650M Mac Edition,4,Kepler,45.0,,0.5,PCIe 3.0 x16,2012
 GeForce GTS 450 Rev. 3,4,Fermi 2.0,106.0,2x 6-pin,1.0,PCIe 2.0 x16,2012
@@ -1398,10 +1007,7 @@ Quadro K1000M,4,Kepler,45.0,,2.0,MXM-A (3.0),2012
 Quadro K2000M,4,Kepler,55.0,,2.0,MXM-A (3.0),2012
 Quadro K2000M Embedded,4,Kepler,45.0,,2.0,PCIe 3.0 x16,2012
 Quadro K3000M,4,Kepler,75.0,,2.0,MXM-B (3.0),2012
-Quadro K4000M,4,Kepler,100.0,,4.0,MXM-B (3.0),2012
 Quadro K5000,4,Kepler,122.0,1x 6-pin,4.0,PCIe 2.0 x16,2012
-Quadro K5000 Mac Edition,4,Kepler,122.0,1x 6-pin,4.0,PCIe 2.0 x16,2012
-Quadro K5000M,4,Kepler,100.0,,4.0,MXM-B (3.0),2012
 Quadro K500M,4,Kepler,35.0,,1.0,MXM-A (3.0),2012
 Tesla K10,4,Kepler,225.0,1x 6-pin + 1x 8-pin,4.0,PCIe 3.0 x16,2012
 Tesla K20c,4,Kepler,225.0,1x 6-pin + 1x 8-pin,5.0,PCIe 2.0 x16,2012
@@ -1413,64 +1019,39 @@ FirePro M2000,0,TeraScale 2,33.0,,1.0,PCIe 2.0 x16,2012
 FirePro M4000,0,GCN 1.0,33.0,,1.0,MXM-A (3.0),2012
 FirePro M6000,0,GCN 1.0,43.0,,2.0,MXM-B (3.0),2012
 FirePro S10000,0,GCN 1.0,375.0,2x 8-pin,3.0,PCIe 3.0 x16,2012
-FirePro S10000 Passive,0,GCN 1.0,375.0,2x 8-pin,3.0,PCIe 3.0 x16,2012
 FirePro S7000,0,GCN 1.0,150.0,1x 6-pin,4.0,PCIe 3.0 x16,2012
 FirePro S9000,0,GCN 1.0,225.0,1x 8-pin,6.0,PCIe 3.0 x16,2012
 FirePro S9010,0,GCN 1.0,200.0,2x 6-pin,3.0,PCIe 3.0 x16,2012
 FirePro V3900,0,TeraScale 2,50.0,,1.0,PCIe 2.0 x16,2012
 FirePro W4000,0,GCN 1.0,75.0,,2.0,PCIe 3.0 x16,2012
-FirePro W5000,0,GCN 1.0,75.0,,2.0,PCIe 3.0 x16,2012
-FirePro W600,0,GCN 1.0,75.0,,2.0,PCIe 3.0 x16,2012
-FirePro W7000,0,GCN 1.0,150.0,1x 6-pin,4.0,PCIe 3.0 x16,2012
 FirePro W8000,0,GCN 1.0,225.0,2x 6-pin,4.0,PCIe 3.0 x16,2012
 FirePro W9000,0,GCN 1.0,274.0,1x 6-pin + 1x 8-pin,6.0,PCIe 3.0 x16,2012
 Radeon HD 6850 1440SP Edition,0,TeraScale 2,151.0,2x 6-pin,1.0,PCIe 2.0 x16,2012
 Radeon HD 7290 IGP,0,TeraScale 2,18.0,,,IGP,2012
-Radeon HD 7310 IGP,0,TeraScale 2,18.0,,,IGP,2012
 Radeon HD 7330M,0,TeraScale 2,5.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7340 IGP,0,TeraScale 2,18.0,,,IGP,2012
 Radeon HD 7350 OEM,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2012
 Radeon HD 7350 OEM PCI,0,TeraScale 2,19.0,,0.5,PCI,2012
 Radeon HD 7350M,0,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7370M,0,TeraScale 2,11.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7400G IGP,0,TeraScale 3,17.0,,,IGP,2012
 Radeon HD 7420G IGP,0,TeraScale 3,35.0,,,IGP,2012
-Radeon HD 7430M,0,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7450 OEM,0,TeraScale 2,18.0,,0.5,PCIe 2.0 x16,2012
 Radeon HD 7450A,0,TeraScale 2,25.0,,0.5,MXM-A (3.0),2012
-Radeon HD 7450M,0,TeraScale 2,7.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7470 OEM,0,TeraScale 2,27.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7470A,0,TeraScale 2,25.0,,0.5,MXM-A (3.0),2012
 Radeon HD 7470M,0,TeraScale 2,25.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7480D IGP,0,TeraScale 3,65.0,,,IGP,2012
 Radeon HD 7490M,0,TeraScale 2,9.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7500G IGP,0,TeraScale 3,17.0,,,IGP,2012
-Radeon HD 7510M,0,TeraScale 2,11.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7520G IGP,0,TeraScale 3,35.0,,,IGP,2012
-Radeon HD 7530M,0,TeraScale 2,11.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7540D IGP,0,TeraScale 3,65.0,,,IGP,2012
 Radeon HD 7550M,0,TeraScale 2,14.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7560D IGP,0,TeraScale 3,65.0,,,IGP,2012
-Radeon HD 7560G IGP,0,TeraScale 3,35.0,,,IGP,2012
 Radeon HD 7570,0,TeraScale 2,60.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7570M,0,TeraScale 2,13.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7590M,0,TeraScale 2,18.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7600G IGP,0,TeraScale 3,19.0,,,IGP,2012
 Radeon HD 7610M,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7620G IGP,0,TeraScale 3,25.0,,,IGP,2012
-Radeon HD 7630M,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7640G IGP,0,TeraScale 3,35.0,,,IGP,2012
 Radeon HD 7650A,0,TeraScale 2,33.0,,1.0,MXM-A (3.0),2012
-Radeon HD 7650M,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7650M Rebrand,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7660D IGP,0,TeraScale 3,100.0,,,IGP,2012
-Radeon HD 7660G IGP,0,TeraScale 3,35.0,,,IGP,2012
 Radeon HD 7670 OEM,0,TeraScale 2,66.0,,0.5,PCIe 2.0 x16,2012
 Radeon HD 7670A,0,TeraScale 2,45.0,,1.0,MXM-A (3.0),2012
-Radeon HD 7670M,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7670M Rebrand,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7690M Rebrand,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 7690M XT Rebrand,0,TeraScale 2,25.0,,1.0,PCIe 2.0 x16,2012
 Radeon HD 7730M,0,GCN 1.0,25.0,,2.0,PCIe 2.0 x16,2012
 Radeon HD 7750,0,GCN 1.0,55.0,,1.0,PCIe 3.0 x16,2012
 Radeon HD 7750M,0,GCN 1.0,28.0,,1.0,PCIe 2.0 x16,2012
@@ -1481,8 +1062,6 @@ Radeon HD 7850M,0,GCN 1.0,40.0,,2.0,PCIe 3.0 x16,2012
 Radeon HD 7870 GHz Edition,0,GCN 1.0,175.0,2x 6-pin,2.0,PCIe 3.0 x16,2012
 Radeon HD 7870 XT,0,GCN 1.0,185.0,2x 6-pin,2.0,PCIe 3.0 x16,2012
 Radeon HD 7870M,0,GCN 1.0,45.0,,2.0,PCIe 3.0 x16,2012
-Radeon HD 7950,0,GCN 1.0,200.0,2x 6-pin,3.0,PCIe 3.0 x16,2012
-Radeon HD 7950 Boost,0,GCN 1.0,200.0,2x 6-pin,3.0,PCIe 3.0 x16,2012
 Radeon HD 7950 Monica BIOS 1,0,GCN 1.0,185.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2012
 Radeon HD 7950 Monica BIOS 2,0,GCN 1.0,85.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2012
 Radeon HD 7950M,0,GCN 1.0,75.0,,2.0,MXM-B (3.0),2012
@@ -1493,41 +1072,30 @@ Radeon HD 7970M,0,GCN 1.0,100.0,,2.0,MXM-B (3.0),2012
 Radeon HD 7970M X2,0,GCN 1.0,200.0,,2.0,MXM-B (3.0),2012
 Wii U GPU,0,TeraScale 2,33.0,,2.0,,2012
 HD Graphics 4000,2,Generation 7.0,,,,Ring Bus,2012
-HD Graphics 4000 Mobile,2,Generation 7.0,45.0,,,Ring Bus,2012
-HD Graphics 6EU,2,Generation 7.0,,,,Ring Bus,2012
-HD Graphics P4000,2,Generation 7.0,45.0,,,Ring Bus,2012
 Xeon Phi 3120A,2,Knights,300.0,,6.0,PCIe 3.0 x16,2012
 Xeon Phi 5110P,2,Knights,225.0,,8.0,PCIe 3.0 x16,2012
 Xeon Phi SE10X,2,Knights,300.0,,8.0,PCIe 3.0 x16,2012
-FirePro V7760,0,TeraScale,76.0,1x 6-pin,1.0,PCIe 2.0 x16,2012
-FirePro V7770,0,TeraScale,76.0,1x 6-pin,1.0,PCIe 2.0 x16,2012
-Mobility Radeon HD 5570,0,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
-Radeon HD 5470,0,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2012
-Radeon HD 5490,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2012
+FirePro V7760,1,TeraScale,76.0,1x 6-pin,1.0,PCIe 2.0 x16,2012
+Mobility Radeon HD 5570,1,TeraScale 2,20.0,,1.0,PCIe 2.0 x16,2012
+Radeon HD 5470,1,TeraScale 2,19.0,,0.5,PCIe 2.0 x16,2012
+Radeon HD 5490,1,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2012
 GeForce 505 OEM,4,Tesla 2.0,25.0,,1.0,PCIe 1.0 x16,2013
 GeForce 705A,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2014
 GeForce 705M,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2013
 GeForce 710A,4,Kepler 2.0,15.0,,1.0,PCIe 3.0 x8,2014
-GeForce 710M,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2013
 GeForce 820M,4,Kepler,45.0,,2.0,PCIe 3.0 x16,2015
 GeForce GT 625 OEM,4,Fermi 2.0,29.0,,1.0,PCIe 2.0 x16,2013
 GeForce GT 630 Rev. 2,4,Kepler 2.0,25.0,,2.0,PCIe 2.0 x8,2013
-GeForce GT 630 Rev. 2 PCIe x8,4,Kepler 2.0,25.0,,2.0,PCIe 2.0 x8,2013
 GeForce GT 635 OEM,4,Kepler 2.0,35.0,,1.0,PCIe 3.0 x8,2013
 GeForce GT 640 Rev. 2,4,Kepler 2.0,49.0,,1.0,PCIe 2.0 x8,2013
 GeForce GT 640M Mac Edition,4,Kepler,32.0,,0.5,PCIe 3.0 x16,2013
-GeForce GT 710M,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2013
 GeForce GT 720M,4,Kepler 2.0,33.0,,2.0,PCIe 2.0 x8,2013
 GeForce GT 730M,4,Kepler 2.0,33.0,,2.0,PCIe 2.0 x8,2014
 GeForce GT 735M,4,Kepler 2.0,33.0,,2.0,PCIe 3.0 x8,2013
-GeForce GT 740A,4,Kepler 2.0,33.0,,2.0,PCIe 3.0 x8,2013
 GeForce GT 740M,4,Kepler,45.0,,2.0,PCIe 3.0 x16,2013
 GeForce GT 745A,4,Kepler,33.0,,2.0,PCIe 3.0 x16,2013
-GeForce GT 745M,4,Kepler,45.0,,2.0,PCIe 3.0 x16,2013
 GeForce GT 750M,4,Kepler,50.0,,2.0,PCIe 3.0 x16,2013
 GeForce GT 750M Mac Edition,4,Kepler,50.0,,1.0,PCIe 3.0 x16,2013
-GeForce GT 755M,4,Kepler,50.0,,2.0,PCIe 3.0 x16,2013
-GeForce GT 755M Mac Edition,4,Kepler,50.0,,1.0,PCIe 3.0 x16,2013
 GeForce GTX 645 OEM,4,Kepler,65.0,,1.0,PCIe 3.0 x16,2013
 GeForce GTX 650 Ti Boost,4,Kepler,134.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
 GeForce GTX 650 Ti OEM,4,Kepler,110.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
@@ -1537,8 +1105,6 @@ GeForce GTX 680 Mac Edition,4,Kepler,195.0,2x 6-pin,2.0,PCIe 2.0 x16,2013
 GeForce GTX 760,4,Kepler,170.0,2x 6-pin,2.0,PCIe 3.0 x16,2013
 GeForce GTX 760 OEM,4,Kepler,170.0,2x 6-pin,2.0,PCIe 3.0 x16,2016
 GeForce GTX 760 OEM Rebrand,4,Kepler,130.0,1x 6-pin,1.5,PCIe 3.0 x16,2013
-GeForce GTX 760 Ti OEM,4,Kepler,170.0,2x 6-pin,2.0,PCIe 3.0 x16,2013
-GeForce GTX 760 Ti OEM Rebrand,4,Kepler,170.0,2x 6-pin,2.0,PCIe 3.0 x16,2013
 GeForce GTX 760 X2,4,Kepler,250.0,2x 8-pin,2.0,PCIe 3.0 x16,2013
 GeForce GTX 760M,4,Kepler,55.0,,2.0,PCIe 3.0 x16,2013
 GeForce GTX 765M,4,Kepler,75.0,,2.0,MXM-B (3.0),2013
@@ -1547,16 +1113,10 @@ GeForce GTX 770M,4,Kepler,75.0,,3.0,MXM-B (3.0),2013
 GeForce GTX 775M Mac Edition,4,Kepler,100.0,,2.0,MXM-B (3.0),2013
 GeForce GTX 780,4,Kepler,250.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2013
 GeForce GTX 780 6 GB,4,Kepler,250.0,1x 6-pin + 1x 8-pin,6.0,PCIe 3.0 x16,2013
-GeForce GTX 780 Rev. 2,4,Kepler,250.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2013
-GeForce GTX 780 Ti,4,Kepler,250.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2013
 GeForce GTX 780M,4,Kepler,122.0,,4.0,MXM-B (3.0),2013
-GeForce GTX 780M Mac Edition,4,Kepler,122.0,,4.0,MXM-B (3.0),2013
-GeForce GTX TITAN,4,Kepler,250.0,1x 6-pin + 1x 8-pin,6.0,PCIe 3.0 x16,2013
 GRID K1,4,Kepler,130.0,1x 6-pin,4.0,PCIe 3.0 x16,2013
 GRID K100,4,Kepler,130.0,,0.25,PCIe 3.0 x16,2013
 GRID K140Q,4,Kepler,130.0,,1.0,PCIe 3.0 x16,2013
-GRID K160Q,4,Kepler,130.0,,1.0,PCIe 3.0 x16,2013
-GRID K180Q,4,Kepler,130.0,,1.0,PCIe 3.0 x16,2013
 GRID K2,4,Kepler,225.0,1x 6-pin + 1x 8-pin,4.0,PCIe 3.0 x16,2013
 GRID K200,4,Kepler,225.0,,0.25,PCIe 3.0 x16,2013
 GRID K240Q,4,Kepler,225.0,,1.0,PCIe 3.0 x16,2013
@@ -1568,7 +1128,6 @@ NVS 315,4,Fermi 2.0,19.0,,1.0,PCIe 2.0 x16,2013
 Playstation 3 GPU 28nm,4,Curie,21.0,,0.25,,2013
 Quadro K1100M,4,Kepler,45.0,,2.0,MXM-A (3.0),2013
 Quadro K2000,4,Kepler,51.0,,2.0,PCIe 2.0 x16,2013
-Quadro K2000D,4,Kepler,51.0,,2.0,PCIe 2.0 x16,2013
 Quadro K2100M,4,Kepler,55.0,,2.0,MXM-A (3.0),2013
 Quadro K3100M,4,Kepler,75.0,,4.0,MXM-B (3.0),2013
 Quadro K4000,4,Kepler,80.0,1x 6-pin,3.0,PCIe 2.0 x16,2013
@@ -1579,17 +1138,11 @@ Quadro K510M,4,Kepler 2.0,30.0,,1.0,MXM-A (3.0),2013
 Quadro K600,4,Kepler,41.0,,1.0,PCIe 2.0 x16,2013
 Quadro K6000,4,Kepler,225.0,2x 6-pin,12.0,PCIe 3.0 x16,2013
 Quadro K6000 SDI,4,Kepler,239.0,,12.0,PCIe 3.0 x16,2013
-Quadro K610M,4,Kepler 2.0,30.0,,1.0,MXM-A (3.0),2013
 Tegra 4 GPU,4,VLIW Vec4,20.0,,0.5,IGP,2013
-Tegra 4i GPU,4,VLIW Vec4,20.0,,0.5,IGP,2013
 Tesla K20m,4,Kepler,225.0,1x 6-pin + 1x 8-pin,5.0,PCIe 2.0 x16,2013
 Tesla K20s,4,Kepler,225.0,,5.0,PCIe 2.0 x16,2013
 Tesla K40c,4,Kepler,245.0,1x 6-pin + 1x 8-pin,12.0,PCIe 3.0 x16,2013
 Tesla K40d,4,Kepler,245.0,,12.0,PCIe 3.0 x16,2013
-Tesla K40m,4,Kepler,245.0,,12.0,PCIe 3.0 x16,2013
-Tesla K40s,4,Kepler,245.0,,12.0,PCIe 3.0 x16,2013
-Tesla K40st,4,Kepler,245.0,,12.0,PCIe 3.0 x16,2013
-Tesla K40t,4,Kepler,245.0,,12.0,PCIe 3.0 x16,2013
 FirePro M4100,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2013
 FirePro M4150,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2013
 FirePro M5100,0,GCN 1.0,,,2.0,MXM-A (3.0),2013
@@ -1600,8 +1153,6 @@ Playstation 4 GPU,0,GCN 2.0,75.0,,8.0,,2013
 Radeon HD 6610,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2013
 Radeon HD 6770 Green Edition,0,TeraScale 2,86.0,,2.0,PCIe 2.0 x16,2013
 Radeon HD 6870 1600SP Edition,0,TeraScale 2,175.0,2x 6-pin,1.0,PCIe 2.0 x16,2013
-Radeon HD 7510 OEM,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2013
-Radeon HD 7570 OEM,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2013
 Radeon HD 7690M XT,0,TeraScale 2,25.0,,2.0,PCIe 2.0 x16,2013
 Radeon HD 7720 OEM,0,TeraScale 2,150.0,,1.0,PCIe 2.0 x16,2013
 Radeon HD 7730,0,GCN 1.0,47.0,,1.0,PCIe 3.0 x16,2013
@@ -1612,114 +1163,52 @@ Radeon HD 8180 IGP,0,GCN 2.0,4.0,,,IGP,2013
 Radeon HD 8210E,0,GCN 2.0,9.0,,,IGP,2013
 Radeon HD 8240 Mobile IGP,0,GCN 2.0,15.0,,,IGP,2013
 Radeon HD 8250 IGP,0,GCN 2.0,8.0,,,IGP,2013
-Radeon HD 8280 IGP,0,GCN 2.0,15.0,,,IGP,2013
-Radeon HD 8280 Mobile IGP,0,GCN 2.0,15.0,,,IGP,2013
-Radeon HD 8280E,0,GCN 2.0,15.0,,,IGP,2013
 Radeon HD 8310G IGP,0,TeraScale 3,20.0,,,IGP,2013
-Radeon HD 8330 Mobile IGP,0,GCN 2.0,15.0,,,IGP,2013
-Radeon HD 8330E,0,GCN 2.0,15.0,,,IGP,2013
 Radeon HD 8350 OEM,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2013
 Radeon HD 8350G IGP,0,TeraScale 3,35.0,,,IGP,2013
 Radeon HD 8370D IGP,0,TeraScale 3,65.0,,,IGP,2013
 Radeon HD 8400 IGP,0,GCN 2.0,25.0,,,IGP,2013
-Radeon HD 8400 Mobile IGP,0,GCN 2.0,25.0,,,IGP,2013
-Radeon HD 8400E,0,GCN 2.0,25.0,,,IGP,2013
-Radeon HD 8410G IGP,0,TeraScale 3,35.0,,,IGP,2013
 Radeon HD 8450 OEM,0,TeraScale 2,18.0,,1.0,PCIe 2.0 x16,2013
-Radeon HD 8450G IGP,0,TeraScale 3,35.0,,,IGP,2013
 Radeon HD 8470 OEM,0,TeraScale 2,35.0,,1.0,PCIe 2.0 x16,2013
-Radeon HD 8470D IGP,0,TeraScale 3,65.0,,,IGP,2013
-Radeon HD 8490 OEM,0,TeraScale 2,35.0,,1.0,PCIe 2.0 x16,2013
-Radeon HD 8510 OEM,0,TeraScale 2,39.0,,1.0,PCIe 2.0 x16,2013
-Radeon HD 8510G IGP,0,TeraScale 3,35.0,,,IGP,2013
 Radeon HD 8550 OEM,0,TeraScale 2,60.0,,1.0,PCIe 2.0 x16,2013
-Radeon HD 8550D IGP,0,TeraScale 3,65.0,,,IGP,2013
-Radeon HD 8550G IGP,0,TeraScale 3,35.0,,,IGP,2013
 Radeon HD 8570 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2013
-Radeon HD 8570 OEM Rebrand,0,TeraScale 2,60.0,,1.0,PCIe 2.0 x16,2013
 Radeon HD 8570A,0,GCN 1.0,,,1.0,MXM-A (3.0),2013
-Radeon HD 8570D IGP,0,TeraScale 3,65.0,,,IGP,2013
-Radeon HD 8570M,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2013
-Radeon HD 8590M,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2013
-Radeon HD 8610G IGP,0,TeraScale 3,35.0,,,IGP,2013
-Radeon HD 8650D IGP,0,TeraScale 3,65.0,,,IGP,2013
-Radeon HD 8650G IGP,0,TeraScale 3,35.0,,,IGP,2013
 Radeon HD 8670 OEM,0,GCN 1.0,75.0,,2.0,PCIe 3.0 x8,2013
 Radeon HD 8670A,0,GCN 1.0,45.0,,1.0,MXM-A (3.0),2013
 Radeon HD 8670D IGP,0,TeraScale 3,100.0,,,IGP,2013
-Radeon HD 8670M,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2013
-Radeon HD 8690M,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2013
-Radeon HD 8730 OEM,0,GCN 1.0,47.0,,1.0,PCIe 3.0 x16,2013
-Radeon HD 8730A,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2013
-Radeon HD 8730M,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2013
 Radeon HD 8740 OEM,0,GCN 1.0,55.0,,1.0,PCIe 3.0 x16,2013
-Radeon HD 8750A,0,GCN 1.0,45.0,,1.0,MXM-A (3.0),2013
-Radeon HD 8750M,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2013
 Radeon HD 8760 OEM,0,GCN 1.0,80.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
-Radeon HD 8770 OEM,0,GCN 2.0,85.0,1x 6-pin,1.0,PCIe 3.0 x16,2013
-Radeon HD 8770M,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2013
-Radeon HD 8790M,0,GCN 1.0,,,2.0,MXM-A (3.0),2013
 Radeon HD 8830M,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2013
-Radeon HD 8850M,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2013
 Radeon HD 8860 OEM,0,GCN 1.0,175.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
 Radeon HD 8870 OEM,0,GCN 1.0,175.0,2x 6-pin,2.0,PCIe 3.0 x16,2013
-Radeon HD 8870M,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2013
-Radeon HD 8950 OEM,0,GCN 1.0,200.0,2x 6-pin,3.0,PCIe 3.0 x16,2013
 Radeon HD 8950M,0,GCN 2.0,100.0,,2.0,PCIe 3.0 x16,2013
 Radeon HD 8970 OEM,0,GCN 1.0,250.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2013
 Radeon HD 8970M,0,GCN 1.0,100.0,,4.0,PCIe 3.0 x16,2013
-Radeon HD 8990 OEM,0,GCN 1.0,375.0,2x 8-pin,3.0,PCIe 3.0 x16,2013
-Radeon R5 220 OEM,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2013
-Radeon R5 230 OEM,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2013
-Radeon R5 235 OEM,0,TeraScale 2,35.0,,1.0,PCIe 2.0 x16,2013
-Radeon R5 235X OEM,0,TeraScale 2,18.0,,1.0,PCIe 2.0 x16,2013
-Radeon R5 240 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2013
 Radeon R5 M230 Rebrand,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2014
 Radeon R7 240,0,GCN 1.0,30.0,,2.0,PCIe 3.0 x8,2013
-Radeon R7 240 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2013
 Radeon R7 250,0,GCN 1.0,65.0,,1.0,PCIe 3.0 x8,2013
 Radeon R7 250 OEM,0,GCN 1.0,65.0,,2.0,PCIe 3.0 x8,2013
-Radeon R7 250E,0,GCN 1.0,55.0,,1.0,PCIe 3.0 x16,2013
 Radeon R7 260,0,GCN 2.0,95.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
 Radeon R7 260X,0,GCN 2.0,115.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
 Radeon R9 255 OEM,0,GCN 1.0,65.0,1x 6-pin,2.0,PCIe 3.0 x16,2013
 HD Graphics 10EU,2,Generation 7.5,45.0,,,Ring Bus,2013
-HD Graphics 10EU Mobile,2,Generation 7.5,45.0,,,Ring Bus,2013
 HD Graphics 32EU Mobile,2,Generation 7.0,4.0,,,Ring Bus,2013
 HD Graphics 4200 Mobile,2,Generation 7.5,4.0,,,Ring Bus,2013
 HD Graphics 4400,2,Generation 7.5,20.0,,,Ring Bus,2013
-HD Graphics 4400 Mobile,2,Generation 7.5,20.0,,,Ring Bus,2013
-HD Graphics 4600,2,Generation 7.5,45.0,,,Ring Bus,2013
-HD Graphics 4600 Mobile,2,Generation 7.5,20.0,,,Ring Bus,2013
 HD Graphics 5000 Mobile,2,Generation 7.5,30.0,,,Ring Bus,2013
 HD Graphics P4600,2,Generation 7.5,84.0,,,Ring Bus,2013
 HD Graphics P4700,2,Generation 7.5,86.0,,,Ring Bus,2013
-Iris Graphics 5100 Mobile,2,Generation 7.5,30.0,,,Ring Bus,2013
-Iris Pro Graphics 5200,2,Generation 7.5,45.0,,,Ring Bus,2013
-Iris Pro Graphics 5200 Mobile,2,Generation 7.5,30.0,,,Ring Bus,2013
 Xeon Phi 5120D,2,Knights,245.0,,8.0,PCIe 2.0 x16,2013
 Xeon Phi 7120P,2,Knights,300.0,,16.0,PCIe 3.0 x16,2013
-Xeon Phi 7120X,2,Knights,300.0,,16.0,PCIe 3.0 x16,2013
-Xbox 360 E GPU,0,TeraScale,120.0,,0.5,,2013
+Xbox 360 E GPU,1,TeraScale,120.0,,0.5,,2013
 GeForce 720A,4,Fermi 2.0,33.0,,1.0,PCIe 2.0 x16,2014
-GeForce 800A,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2014
-GeForce 800M,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2014
-GeForce 805A,4,Kepler 2.0,15.0,,1.0,PCIe 3.0 x8,2014
-GeForce 810A,4,Kepler 2.0,15.0,,1.0,PCIe 3.0 x8,2014
-GeForce 810M,4,Kepler,45.0,,2.0,PCIe 3.0 x16,2015
-GeForce 820A,4,Fermi 2.0,15.0,,1.0,PCIe 2.0 x16,2014
 GeForce 825M,4,Kepler 2.0,33.0,,1.0,PCIe 3.0 x8,2014
 GeForce 830A,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2014
-GeForce 830M,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2014
-GeForce 840A,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2014
-GeForce 840M,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2014
 GeForce GT 705 OEM,4,Fermi 2.0,29.0,,1.0,PCIe 2.0 x16,2014
 GeForce GT 710,4,Fermi 2.0,29.0,,1.0,PCIe 2.0 x16,2016
 GeForce GT 710 PCIe x1,4,Kepler 2.0,19.0,,1.0,PCIe 2.0 x1,2014
 GeForce GT 720,4,Kepler 2.0,19.0,,2.0,PCIe 2.0 x8,2014
-GeForce GT 720A,4,Fermi 2.0,33.0,,1.0,PCIe 2.0 x16,2014
 GeForce GT 730,4,Fermi,49.0,,2.0,PCIe 2.0 x16,2014
-GeForce GT 730A,4,Kepler 2.0,33.0,,1.0,PCIe 3.0 x8,2014
 GeForce GT 740,4,Kepler,64.0,1x 6-pin,1.0,PCIe 3.0 x16,2014
 GeForce GTX 660 Rev. 2,4,Kepler,140.0,1x 6-pin,2.0,PCIe 3.0 x16,2014
 GeForce GTX 745 OEM,4,Maxwell,55.0,,4.0,PCIe 3.0 x16,2014
@@ -1727,7 +1216,6 @@ GeForce GTX 750,4,Maxwell,55.0,,1.0,PCIe 3.0 x16,2014
 GeForce GTX 750 Ti,4,Maxwell,60.0,,2.0,PCIe 3.0 x16,2014
 GeForce GTX 760A,4,Kepler,55.0,,1.0,PCIe 3.0 x16,2014
 GeForce GTX 850A,4,Maxwell,45.0,,2.0,PCIe 3.0 x16,2014
-GeForce GTX 850M,4,Maxwell,45.0,,2.0,PCIe 3.0 x16,2014
 GeForce GTX 860M,4,Maxwell,75.0,,2.0,MXM-B (3.0),2014
 GeForce GTX 870M,4,Kepler,100.0,,3.0,MXM-B (3.0),2014
 GeForce GTX 880M,4,Kepler,122.0,,8.0,MXM-B (3.0),2014
@@ -1740,12 +1228,8 @@ GeForce GTX TITAN Z,4,Kepler,375.0,2x 8-pin,6.0,PCIe 3.0 x16,2014
 GRID K120Q,4,Kepler,130.0,,0.5,PCIe 3.0 x16,2014
 GRID K220Q,4,Kepler,225.0,,0.5,PCIe 3.0 x16,2014
 GRID K500,4,Kepler,225.0,,4.0,PCIe 3.0 x16,2014
-GRID K520Q,4,Kepler,225.0,,4.0,PCIe 3.0 x16,2014
-GRID K540Q,4,Kepler,225.0,,4.0,PCIe 3.0 x16,2014
-GRID K560Q,4,Kepler,225.0,,4.0,PCIe 3.0 x16,2014
 Jetson TK1,4,Kepler 2.0,8.0,,2.0,PCIe 1.0 x1,2014
 Quadro K100M,4,Kepler,35.0,,2.0,MXM-A (3.0),2014
-Quadro K200M,4,Kepler,35.0,,2.0,MXM-A (3.0),2014
 Quadro K2200,4,Maxwell,68.0,,4.0,PCIe 2.0 x16,2014
 Quadro K2200M,4,Maxwell,65.0,,2.0,MXM-A (3.0),2014
 Quadro K420,4,Kepler,41.0,,1.0,PCIe 2.0 x16,2014
@@ -1767,87 +1251,50 @@ FirePro W4100,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x16,2014
 FirePro W4170M,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
 FirePro W5100,0,GCN 2.0,50.0,,4.0,PCIe 3.0 x16,2014
 FirePro W5170M,0,GCN 1.0,,,2.0,MXM-A (3.0),2014
-FirePro W6170M,0,GCN 2.0,,,2.0,MXM-B (3.0),2014
 FirePro W7100,0,GCN 3.0,150.0,1x 6-pin,8.0,PCIe 3.0 x16,2014
 FirePro W8100,0,GCN 2.0,220.0,2x 6-pin,8.0,PCIe 3.0 x16,2014
 FirePro W9100,0,GCN 2.0,275.0,1x 6-pin + 1x 8-pin,16.0,PCIe 3.0 x16,2014
 Radeon E8860,0,GCN 1.0,37.0,1x 6-pin + 1x 8-pin,2.0,PCIe 3.0 x16,2014
 Radeon HD 8210 IGP,0,GCN 2.0,8.0,,,IGP,2014
-Radeon HD 8530M,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2014
-Radeon HD 8550M,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2014
 Radeon R4 Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
-Radeon R4E Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
 Radeon R5 230,0,TeraScale 2,19.0,,1.0,PCIe 2.0 x16,2014
 Radeon R5 A220,0,TeraScale 2,35.0,,1.0,PCIe 2.0 x16,2014
 Radeon R5 A230,0,GCN 1.0,,,4.0,PCIe 3.0 x8,2014
-Radeon R5 A240,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2014
 Radeon R5 A255,0,GCN 3.0,,,1.0,PCIe 3.0 x8,2014
 Radeon R5 Graphics,0,GCN 3.0,15.0,,,IGP,2017
 Radeon R5 M230,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2014
-Radeon R5 M240,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2014
-Radeon R5 M240 Rebrand,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2014
 Radeon R5 M255,0,GCN 3.0,,,2.0,PCIe 3.0 x8,2014
-Radeon R5 Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
-Radeon R5E Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
 Radeon R6 M255DX,0,GCN 3.0,,,,IGP,2014
 Radeon R6 Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2015
 Radeon R7 250X,0,GCN 1.0,80.0,1x 6-pin,1.0,PCIe 3.0 x16,2014
 Radeon R7 250XE,0,GCN 1.0,80.0,,1.0,PCIe 3.0 x16,2014
 Radeon R7 265,0,GCN 1.0,150.0,1x 6-pin,2.0,PCIe 3.0 x16,2014
-Radeon R7 265X OEM,0,GCN 1.0,150.0,1x 6-pin,2.0,PCIe 3.0 x16,2014
-Radeon R7 A260,0,GCN 3.0,,,1.0,PCIe 3.0 x8,2014
-Radeon R7 A265,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2014
 Radeon R7 Graphics,0,GCN 2.0,25.0,,,IGP,2014
-Radeon R7 M260,0,GCN 3.0,,,2.0,PCIe 3.0 x8,2014
 Radeon R7 M260DX,0,GCN 1.0,,,,IGP,2014
-Radeon R7 M265,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2014
-Radeon R7 M265DX,0,GCN 1.0,,,,IGP,2014
-Radeon R7 M270,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2014
-Radeon R7 M270DX,0,GCN 1.0,,,,IGP,2014
-Radeon R7 Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2015
 Radeon R9 280,0,GCN 1.0,200.0,1x 6-pin + 1x 8-pin,3.0,PCIe 3.0 x16,2014
 Radeon R9 285,0,GCN 3.0,190.0,2x 6-pin,2.0,PCIe 3.0 x16,2014
 Radeon R9 290X2,0,GCN 2.0,580.0,4x 8-pin,4.0,PCIe 3.0 x16,2014
 Radeon R9 295X2,0,GCN 2.0,500.0,2x 8-pin,4.0,PCIe 3.0 x16,2014
 Radeon R9 M265X,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2014
 Radeon R9 M270X,0,GCN 2.0,,,2.0,PCIe 3.0 x16,2015
-Radeon R9 M275,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2014
-Radeon R9 M275X,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2014
 Radeon R9 M290X,0,GCN 1.0,100.0,,4.0,PCIe 3.0 x16,2014
 Radeon R9 M290X Mac Edition,0,GCN 1.0,80.0,,2.0,PCIe 3.0 x16,2014
 Radeon R9 M295X,0,GCN 3.0,250.0,,4.0,MXM-B (3.0),2014
-Radeon R9 M295X Mac Edition,0,GCN 3.0,250.0,,4.0,MXM-B (3.0),2014
 HD Graphics 5300 Mobile,2,Generation 8.0,15.0,,,Ring Bus,2014
-HD Graphics 5500 Mobile,2,Generation 8.0,15.0,,,Ring Bus,2014
-HD Graphics 5600 Mobile,2,Generation 8.0,15.0,,,Ring Bus,2014
-HD Graphics 6000 Mobile,2,Generation 8.0,15.0,,,Ring Bus,2014
-HD Graphics P5700,2,Generation 8.0,15.0,,,Ring Bus,2014
-Iris Graphics 6100 Mobile,2,Generation 8.0,15.0,,,Ring Bus,2014
-Iris Pro Graphics 6200,2,Generation 8.0,15.0,,,Ring Bus,2014
-Iris Pro Graphics 6200 Mobile,2,Generation 8.0,15.0,,,Ring Bus,2014
-Iris Pro Graphics P6300,2,Generation 8.0,15.0,,,Ring Bus,2014
 GeForce 845M,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2015
 GeForce 910M,4,Kepler 2.0,33.0,,2.0,PCIe 3.0 x8,2015
 GeForce 920A,4,Kepler 2.0,33.0,,1.0,PCIe 3.0 x8,2015
-GeForce 920M,4,Kepler 2.0,33.0,,2.0,PCIe 3.0 x8,2015
-GeForce 930A,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2015
-GeForce 930M,4,Maxwell,33.0,,2.0,PCIe 3.0 x8,2015
 GeForce 940A,4,Maxwell,33.0,,1.0,PCIe 3.0 x8,2015
 GeForce 940M,4,Maxwell,75.0,,2.0,MXM-B (3.0),2015
-GeForce 945A,4,Maxwell,33.0,,1.0,PCIe 3.0 x8,2015
 GeForce 945M,4,Maxwell,23.0,,1.0,PCIe 3.0 x8,2016
 GeForce GT 710 OEM,4,Kepler 2.0,,,1.0,PCIe 2.0 x8,2015
 GeForce GT 730 OEM,4,Kepler,64.0,1x 6-pin,1.0,PCIe 3.0 x16,2015
 GeForce GT 740 OEM,4,Kepler,65.0,,1.0,PCIe 3.0 x16,2015
 GeForce GTX 750 GM206,4,Maxwell 2.0,60.0,,2.0,PCIe 3.0 x16,2015
-GeForce GTX 860M OEM,4,Maxwell,75.0,,2.0,MXM-B (3.0),2015
 GeForce GTX 950,4,Maxwell 2.0,90.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
-GeForce GTX 950A,4,Maxwell,75.0,,2.0,MXM-B (3.0),2015
 GeForce GTX 950M,4,Maxwell,75.0,,4.0,PCIe 3.0 x8,2015
-GeForce GTX 950M Mac Edition,4,Maxwell,75.0,,2.0,MXM-B (3.0),2015
 GeForce GTX 960,4,Maxwell 2.0,120.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
 GeForce GTX 960 OEM,4,Maxwell 2.0,,,4.0,PCIe 3.0 x16,2015
-GeForce GTX 960A,4,Maxwell,75.0,,2.0,MXM-B (3.0),2015
 GeForce GTX 960M,4,Maxwell,75.0,,4.0,MXM-B (3.0),2015
 GeForce GTX 965M,4,Maxwell 2.0,,,2.0,MXM-A (3.0),2016
 GeForce GTX 965M 4 GB,4,Maxwell 2.0,,,4.0,MXM-B (3.0),2015
@@ -1871,16 +1318,12 @@ Quadro M4000M,4,Maxwell 2.0,100.0,,4.0,PCIe 3.0 x16,2015
 Quadro M5000,4,Maxwell 2.0,150.0,1x 6-pin,8.0,PCIe 3.0 x16,2015
 Quadro M5000M,4,Maxwell 2.0,100.0,,8.0,MXM-B (3.0),2015
 Quadro M6000,4,Maxwell 2.0,250.0,1x 8-pin,12.0,PCIe 3.0 x16,2015
-Quadro M600M,4,Maxwell,30.0,,2.0,MXM-A (3.0),2015
 Tesla M4,4,Maxwell 2.0,50.0,,4.0,PCIe 3.0 x16,2015
 Tesla M40,4,Maxwell 2.0,250.0,8-pin EPS,12.0,PCIe 3.0 x16,2015
 Tesla M40 24 GB,4,Maxwell 2.0,250.0,8-pin EPS,24.0,PCIe 3.0 x16,2015
-Tesla M6 Mobile,4,Maxwell 2.0,100.0,,8.0,PCIe 3.0 x16,2015
-Tesla M6 X2 Mobile,4,Maxwell 2.0,100.0,,8.0,PCIe 3.0 x16,2015
 Tesla M60,4,Maxwell 2.0,300.0,1x 8-pin,8.0,PCIe 3.0 x16,2015
 FirePro M4170,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2015
 FirePro S9170,0,GCN 2.0,275.0,1x 6-pin + 1x 8-pin,32.0,PCIe 3.0 x16,2015
-FirePro W4190M,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
 FirePro W4300,0,GCN 2.0,50.0,,4.0,PCIe 3.0 x16,2015
 FirePro W5130M,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2015
 FirePro W6150M,0,GCN 2.0,,,4.0,MXM-B (3.0),2015
@@ -1889,66 +1332,32 @@ Radeon E6465,0,TeraScale 2,25.0,,2.0,PCIe 2.0 x16,2015
 Radeon E8870 MXM,0,GCN 2.0,75.0,,4.0,MXM-B (3.0),2015
 Radeon E8870 PCIe,0,GCN 2.0,75.0,,4.0,PCIe 3.0 x16,2015
 Radeon E8950,0,GCN 3.0,95.0,,8.0,MXM-B (3.0),2015
-Radeon R2 Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
-Radeon R2E Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
-Radeon R3 Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
 Radeon R3E Mobile Graphics,0,GCN 2.0,15.0,,,IGP,2015
 Radeon R5 310 OEM,0,TeraScale 2,35.0,,1.0,PCIe 2.0 x16,2015
 Radeon R5 330 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2015
 Radeon R5 340 OEM,0,GCN 1.0,65.0,,1.0,PCIe 3.0 x8,2015
 Radeon R5 340X OEM,0,GCN 1.0,65.0,,2.0,PCIe 3.0 x8,2015
-Radeon R5 A320,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2015
-Radeon R5 A330,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
-Radeon R5 A335,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
 Radeon R5 M315,0,GCN 3.0,,,2.0,PCIe 3.0 x8,2015
 Radeon R5 M320,0,GCN 1.0,,,4.0,PCIe 3.0 x8,2015
 Radeon R5 M330,0,GCN 1.0,18.0,,2.0,PCIe 3.0 x8,2015
-Radeon R5 M335,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
 Radeon R6 M335DX,0,GCN 1.0,,,,IGP,2015
-Radeon R6 M340DX,0,GCN 1.0,,,,IGP,2015
-Radeon R7 340 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2015
 Radeon R7 350 Fake Card,0,GCN 1.0,35.0,,2.0,PCIe 3.0 x8,2015
-Radeon R7 350 OEM,0,GCN 1.0,65.0,,2.0,PCIe 3.0 x8,2015
 Radeon R7 350X OEM,0,GCN 1.0,65.0,,4.0,PCIe 3.0 x8,2015
 Radeon R7 360,0,GCN 2.0,100.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
 Radeon R7 360 896SP,0,GCN 2.0,85.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
 Radeon R7 360E,0,GCN 2.0,75.0,,2.0,PCIe 3.0 x16,2015
 Radeon R7 370,0,GCN 1.0,110.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
-Radeon R7 A360,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
-Radeon R7 M260X,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2015
-Radeon R7 M340,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2015
 Radeon R7 M350,0,GCN 3.0,,,4.0,PCIe 3.0 x8,2015
-Radeon R7 M350 2GB,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
-Radeon R7 M360,0,GCN 3.0,,,2.0,PCIe 3.0 x8,2015
-Radeon R7 M365X,0,GCN 1.0,,,1.0,PCIe 3.0 x8,2015
-Radeon R7 M370,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2015
 Radeon R7 M380,0,GCN 1.0,,,4.0,PCIe 3.0 x16,2015
-Radeon R8 M350DX,0,GCN 1.0,,,,IGP,2015
 Radeon R8 M365DX,0,GCN 3.0,,,,IGP,2015
 Radeon R9 270 1024SP,0,GCN 1.0,150.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
-Radeon R9 360 OEM,0,GCN 2.0,75.0,,2.0,PCIe 3.0 x16,2015
-Radeon R9 370,0,GCN 1.0,110.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
-Radeon R9 370 1024SP,0,GCN 1.0,150.0,1x 6-pin,2.0,PCIe 3.0 x16,2015
 Radeon R9 370X,0,GCN 1.0,180.0,2x 6-pin,2.0,PCIe 3.0 x16,2015
 Radeon R9 380,0,GCN 3.0,190.0,2x 6-pin,2.0,PCIe 3.0 x16,2015
 Radeon R9 380 OEM,0,GCN 3.0,190.0,2x 6-pin,4.0,PCIe 3.0 x16,2015
-Radeon R9 380X,0,GCN 3.0,190.0,2x 6-pin,4.0,PCIe 3.0 x16,2015
 Radeon R9 390,0,GCN 2.0,275.0,1x 6-pin + 1x 8-pin,8.0,PCIe 3.0 x16,2015
 Radeon R9 390 X2,0,GCN 2.0,580.0,4x 8-pin,8.0,PCIe 3.0 x16,2015
-Radeon R9 390X,0,GCN 2.0,275.0,1x 6-pin + 1x 8-pin,8.0,PCIe 3.0 x16,2015
-Radeon R9 A375,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2015
 Radeon R9 FURY,0,GCN 3.0,275.0,2x 8-pin,4.0,PCIe 3.0 x16,2015
-Radeon R9 FURY X,0,GCN 3.0,275.0,2x 8-pin,4.0,PCIe 3.0 x16,2015
 Radeon R9 M280X,0,GCN 2.0,,,4.0,PCIe 3.0 x16,2015
-Radeon R9 M360,0,GCN 1.0,,,4.0,PCIe 3.0 x16,2015
-Radeon R9 M365X,0,GCN 1.0,,,4.0,PCIe 3.0 x16,2015
-Radeon R9 M370X Mac Edition,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2015
-Radeon R9 M375,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2015
-Radeon R9 M375X,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2015
-Radeon R9 M380,0,GCN 2.0,,,4.0,PCIe 3.0 x16,2015
-Radeon R9 M380 Mac Edition,0,GCN 2.0,,,2.0,PCIe 3.0 x16,2015
-Radeon R9 M385,0,GCN 2.0,,,4.0,PCIe 3.0 x16,2015
-Radeon R9 M385X,0,GCN 2.0,,,4.0,PCIe 3.0 x16,2015
 Radeon R9 M390 Mac Edition,0,GCN 1.0,80.0,,2.0,PCIe 3.0 x16,2015
 Radeon R9 M390X,0,GCN 3.0,75.0,,4.0,PCIe 3.0 x16,2015
 Radeon R9 M395 Mac Edition,0,GCN 3.0,250.0,,2.0,MXM-B (3.0),2015
@@ -1956,29 +1365,13 @@ Radeon R9 M395X,0,GCN 3.0,75.0,,8.0,PCIe 3.0 x16,2015
 Radeon R9 M395X Mac Edition,0,GCN 3.0,250.0,,4.0,MXM-B (3.0),2015
 Radeon R9 Nano,0,GCN 3.0,175.0,1x 8-pin,4.0,PCIe 3.0 x16,2015
 HD Graphics 12EU Mobile,2,Generation 8.0,6.0,,,Ring Bus,2015
-HD Graphics 400 Mobile,2,Generation 8.0,6.0,,,Ring Bus,2015
-HD Graphics 405 Mobile,2,Generation 8.0,6.0,,,Ring Bus,2015
 HD Graphics 500 Mobile,2,Generation 9.0,6.0,,,Ring Bus,2015
 HD Graphics 510,2,Generation 9.0,15.0,,,Ring Bus,2015
-HD Graphics 510 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-HD Graphics 515 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-HD Graphics 520 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-HD Graphics 530,2,Generation 9.0,15.0,,,Ring Bus,2015
-HD Graphics 530 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-HD Graphics P530,2,Generation 9.0,15.0,,,Ring Bus,2015
-Iris Graphics 540 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-Iris Graphics 550 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-Iris Pro Graphics 580 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
-Iris Pro Graphics P555,2,Generation 9.0,15.0,,,Ring Bus,2015
-Iris Pro Graphics P580,2,Generation 9.0,15.0,,,Ring Bus,2015
-Iris Pro Graphics P580 Mobile,2,Generation 9.0,15.0,,,Ring Bus,2015
 GeForce 920MX,4,Maxwell,16.0,,2.0,PCIe 3.0 x8,2016
 GeForce 930MX,4,Maxwell,17.0,,2.0,PCIe 3.0 x8,2016
-GeForce 940MX,4,Maxwell,23.0,,1.0,PCIe 3.0 x8,2016
 GeForce GTX 1050,4,Pascal,75.0,,2.0,PCIe 3.0 x16,2016
 GeForce GTX 1050 Ti,4,Pascal,75.0,,4.0,PCIe 3.0 x16,2016
 GeForce GTX 1060 3 GB,4,Pascal,120.0,1x 6-pin,3.0,PCIe 3.0 x16,2016
-GeForce GTX 1060 3 GB GP104,4,Pascal,120.0,1x 6-pin,3.0,PCIe 3.0 x16,2016
 GeForce GTX 1060 6 GB,4,Pascal,120.0,1x 6-pin,6.0,PCIe 3.0 x16,2016
 GeForce GTX 1060 Mobile,4,Pascal,80.0,,6.0,PCIe 3.0 x16,2016
 GeForce GTX 1070,4,Pascal,150.0,1x 8-pin,8.0,PCIe 3.0 x16,2016
@@ -1994,18 +1387,15 @@ GRID M40,4,Maxwell,50.0,,8.0,PCIe 3.0 x16,2016
 Jetson TX2,4,Pascal,15.0,,8.0,PCIe 2.0 x4,2016
 Quadro GP100,4,Pascal,235.0,1x 8-pin,16.0,PCIe 3.0 x16,2016
 Quadro M2000,4,Maxwell 2.0,75.0,,4.0,PCIe 3.0 x16,2016
-Quadro M3000 SE,4,Maxwell 2.0,75.0,,4.0,PCIe 3.0 x16,2016
 Quadro M500M,4,Maxwell,30.0,,2.0,MXM-A (3.0),2016
 Quadro M5500 Mobile,4,Maxwell 2.0,150.0,,8.0,MXM-B (3.0),2016
 Quadro M6000 24 GB,4,Maxwell 2.0,250.0,1x 8-pin,24.0,PCIe 3.0 x16,2016
 Quadro P5000,4,Pascal,180.0,1x 8-pin,16.0,PCIe 3.0 x16,2016
 Quadro P6000,4,Pascal,250.0,1x 8-pin,24.0,PCIe 3.0 x16,2016
-Tesla M10,4,Maxwell,225.0,1x 8-pin,8.0,PCIe 3.0 x16,2016
 Tesla P10,4,Pascal,150.0,1x 8-pin,24.0,PCIe 3.0 x16,2016
 Tesla P100 DGXS,4,Pascal,300.0,,16.0,PCIe 3.0 x16,2016
 Tesla P100 PCIe 12 GB,4,Pascal,250.0,1x 8-pin,12.0,PCIe 3.0 x16,2016
 Tesla P100 PCIe 16 GB,4,Pascal,250.0,1x 8-pin,16.0,PCIe 3.0 x16,2016
-Tesla P100 SXM2,4,Pascal,300.0,,16.0,PCIe 3.0 x16,2016
 Tesla P4,4,Pascal,75.0,,8.0,PCIe 3.0 x16,2016
 Tesla P40,4,Pascal,250.0,8-pin EPS,24.0,PCIe 3.0 x16,2016
 TITAN X Pascal,4,Pascal,250.0,1x 6-pin + 1x 8-pin,12.0,PCIe 3.0 x16,2016
@@ -2021,7 +1411,6 @@ Radeon E9550 MXM,0,GCN 4.0,95.0,,8.0,MXM-B (3.0),2016
 Radeon Instinct MI6,0,GCN 4.0,150.0,1x 6-pin,8.0,PCIe 3.0 x16,2016
 Radeon Instinct MI8,0,GCN 3.0,175.0,1x 8-pin,4.0,PCIe 3.0 x16,2016
 Radeon Pro 450,0,GCN 4.0,35.0,,2.0,PCIe 3.0 x8,2016
-Radeon Pro 455,0,GCN 4.0,35.0,,2.0,PCIe 3.0 x8,2016
 Radeon Pro 460,0,GCN 4.0,35.0,,4.0,PCIe 3.0 x8,2016
 Radeon Pro Duo,0,GCN 3.0,350.0,3x 8-pin,4.0,PCIe 3.0 x16,2016
 Radeon Pro SSG,0,GCN 5.0,260.0,1x 6-pin + 1x 8-pin,16.0,PCIe 3.0 x16,2017
@@ -2030,25 +1419,14 @@ Radeon Pro WX 5100,0,GCN 4.0,75.0,,8.0,PCIe 3.0 x16,2016
 Radeon Pro WX 7100,0,GCN 4.0,130.0,1x 6-pin,8.0,PCIe 3.0 x16,2016
 Radeon R1E Mobile Graphics,0,GCN 2.0,15.0,,,IGP,2016
 Radeon R5 430 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2016
-Radeon R5 435 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2016
 Radeon R5 M420,0,GCN 1.0,,,4.0,PCIe 3.0 x8,2016
-Radeon R5 M430,0,GCN 1.0,,,4.0,PCIe 3.0 x8,2016
 Radeon R5 M435,0,GCN 1.0,,,2.0,PCIe 3.0 x8,2016
 Radeon R5 M445,0,GCN 3.0,,,4.0,PCIe 3.0 x8,2016
-Radeon R5 M465,0,GCN 3.0,,,4.0,PCIe 3.0 x8,2016
 Radeon R6 M435DX,0,GCN 1.0,,,,IGP,2016
-Radeon R6E Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
 Radeon R7 350,0,GCN 1.0,55.0,,2.0,PCIe 3.0 x16,2016
-Radeon R7 430 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2016
-Radeon R7 435 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2016
 Radeon R7 450 OEM,0,GCN 1.0,65.0,,2.0,PCIe 3.0 x16,2016
-Radeon R7 M440,0,GCN 3.0,,,4.0,PCIe 3.0 x8,2016
-Radeon R7 M445,0,GCN 3.0,,,4.0,PCIe 3.0 x8,2016
 Radeon R7 M460,0,GCN 3.0,,,2.0,PCIe 3.0 x8,2016
-Radeon R7 M465,0,GCN 3.0,,,2.0,PCIe 3.0 x8,2016
 Radeon R7 M465X,0,GCN 1.0,,,2.0,PCIe 3.0 x16,2016
-Radeon R7E Mobile Graphics,0,GCN 3.0,15.0,,,IGP,2016
-Radeon R8 M435DX,0,GCN 1.0,,,,IGP,2016
 Radeon R8 M445DX,0,GCN 3.0,,,,IGP,2016
 Radeon R9 M470,0,GCN 2.0,,,2.0,PCIe 3.0 x16,2016
 Radeon R9 M470X,0,GCN 2.0,,,4.0,PCIe 3.0 x16,2016
@@ -2058,33 +1436,22 @@ Radeon RX 460,0,GCN 4.0,75.0,,2.0,PCIe 3.0 x8,2016
 Radeon RX 460 Mobile,0,GCN 4.0,55.0,,4.0,MXM-B (3.0),2016
 Radeon RX 470,0,GCN 4.0,120.0,1x 6-pin,4.0,PCIe 3.0 x16,2016
 Radeon RX 470 Mobile,0,GCN 4.0,85.0,,8.0,MXM-B (3.0),2016
-Radeon RX 470D,0,GCN 4.0,120.0,1x 6-pin,4.0,PCIe 3.0 x16,2016
-Radeon RX 480,0,GCN 4.0,150.0,1x 6-pin,8.0,PCIe 3.0 x16,2016
 Radeon RX 480 Mobile,0,GCN 4.0,100.0,,8.0,MXM-B (3.0),2016
-Radeon RX 580 OEM,0,GCN 4.0,150.0,1x 6-pin,8.0,PCIe 3.0 x16,2016
 Xbox One S GPU,0,GCN 1.0,95.0,,8.0,,2016
 HD Graphics 505 Mobile,2,Generation 9.0,6.0,,,Ring Bus,2016
 HD Graphics 610,2,Generation 9.5,5.0,,,Ring Bus,2016
-HD Graphics 610 Mobile,2,Generation 9.5,5.0,,,Ring Bus,2016
-HD Graphics 615 Mobile,2,Generation 9.5,5.0,,,Ring Bus,2016
 HD Graphics 620 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2016
-HD Graphics 630,2,Generation 9.5,15.0,,,Ring Bus,2016
-HD Graphics 630 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2016
-HD Graphics P630 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2016
 GeForce GT 1030,4,Pascal,30.0,,2.0,PCIe 3.0 x4,2017
 GeForce GT 720 OEM,4,Kepler,50.0,,1.0,PCIe 3.0 x16,2017
 GeForce GTX 1050 Mobile,4,Pascal,75.0,,2.0,PCIe 3.0 x16,2017
-GeForce GTX 1050 Ti Mobile,4,Pascal,75.0,,2.0,PCIe 3.0 x16,2017
 GeForce GTX 1060 5 GB,4,Pascal,120.0,1x 6-pin,5.0,PCIe 3.0 x16,2017
 GeForce GTX 1060 6 GB 9Gbps,4,Pascal,120.0,1x 6-pin,6.0,PCIe 3.0 x16,2017
 GeForce GTX 1060 Max-Q,4,Pascal,80.0,,6.0,PCIe 3.0 x16,2017
 GeForce GTX 1070 Max-Q,4,Pascal,115.0,,8.0,PCIe 3.0 x16,2017
 GeForce GTX 1070 Ti,4,Pascal,180.0,1x 8-pin,8.0,PCIe 3.0 x16,2017
-GeForce GTX 1080 11Gbps,4,Pascal,180.0,1x 8-pin,8.0,PCIe 3.0 x16,2017
 GeForce GTX 1080 Max-Q,4,Pascal,150.0,,8.0,PCIe 3.0 x16,2017
 GeForce GTX 1080 Ti,4,Pascal,250.0,1x 6-pin + 1x 8-pin,11.0,PCIe 3.0 x16,2017
 GeForce MX110,4,Maxwell,30.0,,2.0,PCIe 3.0 x4,2017
-GeForce MX130,4,Maxwell,30.0,,2.0,PCIe 3.0 x4,2017
 GeForce MX150,4,Pascal,25.0,,2.0,PCIe 3.0 x4,2017
 P104-100,4,Pascal,,1x 8-pin,4.0,PCIe 1.0 x4,2017
 P106-090,4,Pascal,75.0,1x 6-pin,3.0,PCIe 1.0 x1,2017
@@ -2101,11 +1468,9 @@ Quadro P3000 Mobile,4,Pascal,75.0,,6.0,MXM-B (3.0),2017
 Quadro P400,4,Pascal,30.0,,2.0,PCIe 3.0 x16,2017
 Quadro P4000,4,Pascal,105.0,1x 6-pin,8.0,PCIe 3.0 x16,2017
 Quadro P4000 Max-Q,4,Pascal,100.0,,8.0,MXM-B (3.0),2017
-Quadro P4000 Mobile,4,Pascal,100.0,,8.0,MXM-B (3.0),2017
 Quadro P5000 Mobile,4,Pascal,100.0,,16.0,MXM-B (3.0),2017
 Quadro P5000 X2 Mobile,4,Pascal,200.0,,16.0,MXM-B (3.0),2017
 Quadro P600,4,Pascal,40.0,,2.0,PCIe 3.0 x16,2017
-Quadro P600 Mobile,4,Pascal,40.0,,4.0,PCIe 3.0 x16,2017
 Switch GPU 20nm,4,Maxwell 2.0,15.0,,4.0,,2017
 Tesla P6 Mobile,4,Pascal,90.0,,16.0,MXM-B (3.0),2017
 Tesla V100 PCIe 16 GB,4,Volta,300.0,2x 8-pin,16.0,PCIe 3.0 x16,2017
@@ -2113,12 +1478,7 @@ Tesla V100 SXM2 16 GB,4,Volta,250.0,,16.0,PCIe 3.0 x16,2019
 TITAN V,4,Volta,250.0,1x 6-pin + 1x 8-pin,12.0,PCIe 3.0 x16,2017
 TITAN Xp,4,Pascal,250.0,1x 6-pin + 1x 8-pin,12.0,PCIe 3.0 x16,2017
 Radeon 520 Mobile DDR3,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon 520 Mobile GDDR5,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon 520 OEM,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2017
 Radeon 530 Mobile DDR3,0,GCN 3.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon 530 Mobile GDDR5,0,GCN 3.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon 530X Mobile,0,GCN 3.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon 535 Mobile,0,GCN 3.0,50.0,,2.0,PCIe 3.0 x8,2017
 Radeon 540,0,GCN 4.0,50.0,,1.0,PCIe 3.0 x8,2017
 Radeon 550,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2017
 Radeon E9171 MCM,0,GCN 4.0,40.0,,4.0,PCIe 3.0 x8,2017
@@ -2130,32 +1490,19 @@ Radeon Instinct MI25,0,GCN 5.0,300.0,2x 8-pin,16.0,PCIe 3.0 x16,2017
 Radeon Pro 555,0,GCN 4.0,75.0,,2.0,PCIe 3.0 x8,2017
 Radeon Pro 560,0,GCN 4.0,75.0,,4.0,PCIe 3.0 x8,2017
 Radeon Pro 570,0,GCN 4.0,150.0,,4.0,PCIe 3.0 x16,2017
-Radeon Pro 575,0,GCN 4.0,150.0,,4.0,PCIe 3.0 x16,2017
 Radeon Pro 580,0,GCN 4.0,185.0,,8.0,PCIe 3.0 x16,2017
 Radeon Pro Duo Polaris,0,GCN 4.0,250.0,1x 6-pin + 1x 8-pin,16.0,PCIe 3.0 x16,2017
 Radeon Pro V320,0,GCN 5.0,230.0,2x 8-pin,8.0,PCIe 3.0 x16,2017
 Radeon Pro Vega 56,0,GCN 5.0,210.0,,8.0,PCIe 3.0 x16,2017
 Radeon Pro Vega 64,0,GCN 5.0,250.0,,16.0,PCIe 3.0 x16,2017
-Radeon Pro WX 2100,0,GCN 4.0,35.0,,2.0,PCIe 3.0 x8,2017
 Radeon Pro WX 3100,0,GCN 4.0,65.0,,4.0,PCIe 3.0 x8,2017
-Radeon Pro WX 4130 Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon Pro WX 4150 Mobile,0,GCN 4.0,50.0,,4.0,PCIe 3.0 x8,2017
-Radeon Pro WX 4170 Mobile,0,GCN 4.0,50.0,,4.0,PCIe 3.0 x8,2017
 Radeon Pro WX 7100 Mobile,0,GCN 4.0,130.0,,8.0,PCIe 3.0 x16,2017
-Radeon Pro WX 7130 Mobile,0,GCN 4.0,130.0,,8.0,PCIe 3.0 x16,2017
 Radeon Pro WX 8100,0,GCN 5.0,230.0,1x 6-pin + 1x 8-pin,8.0,PCIe 3.0 x16,2017
 Radeon Pro WX 9100,0,GCN 5.0,230.0,1x 6-pin + 1x 8-pin,16.0,PCIe 3.0 x16,2017
 Radeon R8 M535DX,0,GCN 3.0,,,,IGP,2017
-Radeon RX 460 1024SP,0,GCN 4.0,75.0,,2.0,PCIe 3.0 x8,2017
-Radeon RX 540 Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon RX 550,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon RX 550 512SP,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2017
 Radeon RX 550 640SP,0,GCN 4.0,60.0,,2.0,PCIe 3.0 x8,2017
-Radeon RX 550 Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2017
-Radeon RX 560,0,GCN 4.0,75.0,,4.0,PCIe 3.0 x8,2017
 Radeon RX 560 896SP,0,GCN 4.0,45.0,,4.0,PCIe 3.0 x8,2017
 Radeon RX 560 Mobile,0,GCN 4.0,55.0,,4.0,MXM-B (3.0),2017
-Radeon RX 560D,0,GCN 4.0,65.0,,4.0,PCIe 3.0 x8,2017
 Radeon RX 570,0,GCN 4.0,150.0,1x 6-pin,4.0,PCIe 3.0 x16,2017
 Radeon RX 570 Mobile,0,GCN 4.0,85.0,,8.0,MXM-B (3.0),2017
 Radeon RX 580,0,GCN 4.0,185.0,1x 8-pin,8.0,PCIe 3.0 x16,2017
@@ -2163,26 +1510,19 @@ Radeon RX 580 Mobile,0,GCN 4.0,100.0,,8.0,MXM-B (3.0),2017
 Radeon RX Vega 10 Mobile,0,GCN 5.0,10.0,,,IGP,2017
 Radeon RX Vega 56,0,GCN 5.0,210.0,2x 8-pin,8.0,PCIe 3.0 x16,2017
 Radeon RX Vega 64,0,GCN 5.0,295.0,2x 8-pin,8.0,PCIe 3.0 x16,2017
-Radeon RX Vega 64 Limited Edition,0,GCN 5.0,295.0,2x 8-pin,8.0,PCIe 3.0 x16,2017
 Radeon RX Vega 64 Liquid Cooling,0,GCN 5.0,345.0,2x 8-pin,8.0,PCIe 3.0 x16,2017
 Radeon Vega 8 Mobile,0,GCN 5.0,15.0,,,IGP,2019
-Radeon Vega Frontier Edition,0,GCN 5.0,300.0,2x 8-pin,16.0,PCIe 3.0 x16,2017
 Radeon Vega Frontier Edition Watercooled,0,GCN 5.0,375.0,2x 8-pin,16.0,PCIe 3.0 x16,2017
 Xbox One X GPU,0,GCN 2.0,150.0,,12.0,,2017
 Iris Plus Graphics 640 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2017
-Iris Plus Graphics 650 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2017
 UHD Graphics 600 Mobile,2,Generation 9.5,5.0,,,Ring Bus,2017
-UHD Graphics 605 Mobile,2,Generation 9.5,5.0,,,Ring Bus,2017
 UHD Graphics 620 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2018
 UHD Graphics 630,2,Generation 9.5,15.0,,,Ring Bus,2020
 GeForce GT 1030 DDR4,4,Pascal,20.0,,2.0,PCIe 3.0 x4,2018
 GeForce GT 1030 GK107,4,Kepler,65.0,1x 6-pin,2.0,PCIe 3.0 x16,2018
 GeForce GTX 1050 3 GB,4,Pascal,75.0,,3.0,PCIe 3.0 x16,2018
 GeForce GTX 1050 Max-Q,4,Pascal,75.0,,4.0,PCIe 3.0 x16,2018
-GeForce GTX 1050 Ti Max-Q,4,Pascal,75.0,,4.0,PCIe 3.0 x16,2018
 GeForce GTX 1060 6 GB GDDR5X,4,Pascal,120.0,1x 6-pin,6.0,PCIe 3.0 x16,2018
-GeForce GTX 1060 6 GB GP104,4,Pascal,120.0,1x 6-pin,6.0,PCIe 3.0 x16,2018
-GeForce GTX 1060 6 GB Rev. 2,4,Pascal,120.0,1x 6-pin,6.0,PCIe 3.0 x16,2018
 GeForce GTX 1070 GDDR5X,4,Pascal,150.0,1x 8-pin,8.0,PCIe 3.0 x16,2018
 GeForce RTX 2070,4,Turing,175.0,1x 8-pin,8.0,PCIe 3.0 x16,2018
 GeForce RTX 2080,4,Turing,215.0,1x 6-pin + 1x 8-pin,8.0,PCIe 3.0 x16,2018
@@ -2194,28 +1534,20 @@ P102-101,4,Pascal,250.0,2x 8-pin,10.0,PCIe 3.0 x4,2018
 P104-101,4,Pascal,,1x 8-pin,4.0,PCIe 1.0 x4,2018
 Quadro GV100,4,Volta,250.0,1x 8-pin,32.0,PCIe 3.0 x16,2018
 Quadro P3200 Max-Q,4,Pascal,75.0,,6.0,MXM-B (3.0),2018
-Quadro P3200 Mobile,4,Pascal,75.0,,6.0,MXM-B (3.0),2018
 Quadro P4200 Max-Q,4,Pascal,100.0,,8.0,MXM-B (3.0),2018
-Quadro P4200 Mobile,4,Pascal,100.0,,8.0,MXM-B (3.0),2018
 Quadro P500 Mobile,4,Pascal,18.0,,2.0,PCIe 3.0 x16,2018
 Quadro P5200 Max-Q,4,Pascal,100.0,,16.0,MXM-B (3.0),2018
-Quadro P5200 Mobile,4,Pascal,100.0,,16.0,MXM-B (3.0),2018
 Quadro P620,4,Pascal,40.0,,2.0,PCIe 3.0 x16,2018
 Quadro P620 Mobile,4,Pascal,40.0,,4.0,PCIe 3.0 x16,2018
 Quadro RTX 4000,4,Turing,160.0,1x 8-pin,8.0,PCIe 3.0 x16,2018
 Quadro RTX 5000,4,Turing,230.0,1x 6-pin + 1x 8-pin,16.0,PCIe 3.0 x16,2018
 Quadro RTX 6000,4,Turing,260.0,1x 6-pin + 1x 8-pin,24.0,PCIe 3.0 x16,2018
-Quadro RTX 6000 Passive,4,Turing,260.0,1x 6-pin + 1x 8-pin,24.0,PCIe 3.0 x16,2018
 Quadro RTX 8000,4,Turing,260.0,1x 6-pin + 1x 8-pin,48.0,PCIe 3.0 x16,2018
-Quadro RTX 8000 Passive,4,Turing,260.0,1x 6-pin + 1x 8-pin,48.0,PCIe 3.0 x16,2018
 Tesla T4,4,Turing,70.0,,16.0,PCIe 3.0 x16,2018
-Tesla T4G,4,Turing,70.0,,16.0,PCIe 3.0 x16,2018
 Tesla V100 DGXS 16 GB,4,Volta,250.0,,16.0,PCIe 3.0 x16,2018
 Tesla V100 DGXS 32 GB,4,Volta,250.0,,32.0,PCIe 3.0 x16,2018
 Tesla V100 FHHL,4,Volta,250.0,1x 8-pin,16.0,PCIe 3.0 x16,2018
 Tesla V100 PCIe 32 GB,4,Volta,250.0,2x 8-pin,32.0,PCIe 3.0 x16,2018
-Tesla V100 SXM2 32 GB,4,Volta,250.0,,32.0,PCIe 3.0 x16,2018
-Tesla V100 SXM3 32 GB,4,Volta,250.0,,32.0,PCIe 3.0 x16,2018
 TITAN RTX,4,Turing,280.0,2x 8-pin,24.0,PCIe 3.0 x16,2018
 TITAN V CEO Edition,4,Volta,250.0,1x 6-pin + 1x 8-pin,32.0,PCIe 3.0 x16,2018
 Radeon 540X Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2019
@@ -2224,47 +1556,27 @@ Radeon 550X Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2018
 Radeon Instinct MI50,0,GCN 5.1,300.0,2x 8-pin,16.0,PCIe 4.0 x16,2018
 Radeon Instinct MI60,0,GCN 5.1,300.0,1x 6-pin + 1x 8-pin,32.0,PCIe 4.0 x16,2018
 Radeon Pro 555X,0,GCN 4.0,75.0,,4.0,PCIe 3.0 x8,2018
-Radeon Pro 560X,0,GCN 4.0,75.0,,4.0,PCIe 3.0 x8,2018
 Radeon Pro V340 16 GB,0,GCN 5.0,230.0,2x 8-pin,16.0,PCIe 3.0 x16,2018
 Radeon Pro V340 8 GB,0,GCN 5.0,230.0,2x 8-pin,8.0,PCIe 3.0 x16,2018
 Radeon Pro Vega 16,0,GCN 5.0,75.0,,4.0,PCIe 3.0 x16,2018
 Radeon Pro Vega 20,0,GCN 5.0,100.0,,4.0,PCIe 3.0 x16,2018
 Radeon Pro WX 8200,0,GCN 5.0,230.0,1x 6-pin + 1x 8-pin,8.0,PCIe 3.0 x16,2018
 Radeon Pro WX Vega M GL,0,GCN 4.0,65.0,,4.0,IGP,2018
-Radeon RX 540X Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2018
-Radeon RX 550X,0,GCN 4.0,50.0,,4.0,PCIe 3.0 x8,2018
 Radeon RX 550X 640SP,0,GCN 4.0,60.0,,2.0,PCIe 3.0 x8,2018
-Radeon RX 550X Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2018
 Radeon RX 560DX,0,GCN 4.0,65.0,,4.0,PCIe 3.0 x8,2018
-Radeon RX 560X,0,GCN 4.0,75.0,,4.0,PCIe 3.0 x8,2018
 Radeon RX 560X Mobile,0,GCN 4.0,65.0,,4.0,PCIe 3.0 x16,2019
 Radeon RX 570X,0,GCN 4.0,150.0,1x 6-pin,8.0,PCIe 3.0 x16,2018
 Radeon RX 580 2048SP,0,GCN 4.0,150.0,1x 8-pin,4.0,PCIe 3.0 x16,2018
 Radeon RX 580G,0,GCN 4.0,185.0,1x 8-pin,8.0,PCIe 3.0 x16,2018
-Radeon RX 580X,0,GCN 4.0,185.0,1x 8-pin,8.0,PCIe 3.0 x16,2018
 Radeon RX 580X Mobile,0,GCN 4.0,100.0,,8.0,MXM-B (3.0),2018
 Radeon RX 590,0,GCN 4.0,175.0,1x 8-pin,8.0,PCIe 3.0 x16,2018
-Radeon RX Vega 11,0,GCN 5.0,15.0,,,IGP,2019
 Radeon RX Vega 11 Embedded,0,GCN 5.0,25.0,,,IGP,2018
 Radeon RX Vega 56 Mobile,0,GCN 5.0,120.0,,8.0,PCIe 3.0 x16,2018
 Radeon RX Vega M GH,0,GCN 4.0,100.0,,4.0,IGP,2018
-Radeon RX Vega M GL,0,GCN 4.0,65.0,,4.0,IGP,2018
-Radeon Vega 11 Embedded,0,GCN 5.0,25.0,,,IGP,2018
 Radeon Vega 3 Embedded,0,GCN 5.0,10.0,,,IGP,2019
 Radeon Vega 3 Mobile,0,GCN 5.0,15.0,,,IGP,2020
 Radeon Vega 6 Embedded,0,GCN 5.0,15.0,,,IGP,2018
-Radeon Vega 6 Mobile,0,GCN 5.0,15.0,,,IGP,2019
-Radeon Vega 8,0,GCN 5.0,15.0,,,IGP,2019
-Radeon Vega 8 Embedded,0,GCN 5.0,25.0,,,IGP,2018
 Zhongshan Subor Z+ GPU,0,GCN 5.0,100.0,,8.0,,2018
-Iris Plus Graphics 655 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2018
-UHD Graphics 610,2,Generation 9.5,15.0,,,Ring Bus,2020
-UHD Graphics 610 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2018
-UHD Graphics 615 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2018
-UHD Graphics 617 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2018
-UHD Graphics 630 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2018
-UHD Graphics P630,2,Generation 9.5,15.0,,,Ring Bus,2020
-UHD Graphics P630 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2020
 GeForce GTX 1050 Mobile 3 GB,4,Pascal,75.0,,3.0,PCIe 3.0 x16,2019
 GeForce GTX 1650,4,Turing,75.0,,4.0,PCIe 3.0 x16,2019
 GeForce GTX 1650 Max-Q,4,Turing,30.0,,4.0,PCIe 3.0 x16,2020
@@ -2272,15 +1584,11 @@ GeForce GTX 1650 Mobile,4,Turing,50.0,,4.0,PCIe 3.0 x16,2020
 GeForce GTX 1650 SUPER,4,Turing,100.0,1x 6-pin,4.0,PCIe 3.0 x16,2019
 GeForce GTX 1660,4,Turing,120.0,1x 8-pin,6.0,PCIe 3.0 x16,2019
 GeForce GTX 1660 SUPER,4,Turing,125.0,1x 8-pin,6.0,PCIe 3.0 x16,2019
-GeForce GTX 1660 Ti,4,Turing,120.0,1x 8-pin,6.0,PCIe 3.0 x16,2019
 GeForce GTX 1660 Ti Max-Q,4,Turing,,,6.0,PCIe 3.0 x16,2019
-GeForce GTX 1660 Ti Mobile,4,Turing,,,6.0,PCIe 3.0 x16,2019
 GeForce MX150 GP107,4,Pascal,25.0,,2.0,PCIe 3.0 x4,2019
 GeForce MX230,4,Pascal,10.0,,2.0,PCIe 3.0 x4,2019
-GeForce MX250,4,Pascal,25.0,,2.0,PCIe 3.0 x4,2019
 GeForce RTX 2060,4,Turing,160.0,1x 8-pin,6.0,PCIe 3.0 x16,2019
 GeForce RTX 2060 Max-Q Refresh,4,Turing,115.0,,6.0,PCIe 3.0 x16,2019
-GeForce RTX 2060 Mobile,4,Turing,115.0,,6.0,PCIe 3.0 x16,2019
 GeForce RTX 2060 Mobile Refresh,4,Turing,65.0,,6.0,PCIe 3.0 x16,2019
 GeForce RTX 2060 SUPER,4,Turing,175.0,1x 8-pin,8.0,PCIe 3.0 x16,2019
 GeForce RTX 2060 SUPER Mobile,4,Turing,175.0,,8.0,PCIe 3.0 x16,2019
@@ -2297,66 +1605,45 @@ Quadro P520 Max-Q,4,Pascal,18.0,,4.0,PCIe 3.0 x16,2019
 Quadro P520 Mobile,4,Pascal,18.0,,2.0,PCIe 3.0 x16,2019
 Quadro RTX 3000 Max-Q,4,Turing,60.0,,6.0,PCIe 3.0 x16,2019
 Quadro RTX 3000 Mobile,4,Turing,80.0,,6.0,PCIe 3.0 x16,2019
-Quadro RTX 3000 Mobile Refresh,4,Turing,80.0,,6.0,PCIe 3.0 x16,2019
 Quadro RTX 3000 X2 Mobile,4,Turing,160.0,,6.0,PCIe 3.0 x16,2019
-Quadro RTX 4000 Max-Q,4,Turing,80.0,,8.0,PCIe 3.0 x16,2019
 Quadro RTX 4000 Mobile,4,Turing,110.0,,8.0,PCIe 3.0 x16,2019
 Quadro RTX 5000 Max-Q,4,Turing,80.0,,16.0,PCIe 3.0 x16,2019
 Quadro RTX 5000 Mobile,4,Turing,110.0,,16.0,PCIe 3.0 x16,2019
 Quadro RTX 6000 Mobile,4,Turing,,,24.0,PCIe 3.0 x16,2019
 Quadro T1000 Max-Q,4,Turing,50.0,,4.0,PCIe 3.0 x16,2019
-Quadro T1000 Mobile,4,Turing,50.0,,4.0,PCIe 3.0 x16,2019
 Quadro T2000 Max-Q,4,Turing,40.0,,4.0,PCIe 3.0 x16,2019
 Quadro T2000 Mobile,4,Turing,60.0,,4.0,PCIe 3.0 x16,2019
 Switch GPU 16nm,4,Maxwell 2.0,15.0,,4.0,,2019
 Tesla PG500-216,4,Volta,250.0,,32.0,PCIe 3.0 x16,2019
-Tesla PG503-216,4,Volta,250.0,,32.0,PCIe 3.0 x16,2019
 Tesla V100S PCIe 32 GB,4,Volta,250.0,2x 8-pin,32.0,PCIe 3.0 x16,2019
-Radeon 540 Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2019
-Radeon 550X,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2019
 Radeon 610 Mobile,0,GCN 1.0,50.0,,2.0,PCIe 3.0 x8,2019
 Radeon 620 Mobile,0,GCN 3.0,50.0,,2.0,PCIe 3.0 x8,2019
-Radeon 625 Mobile,0,GCN 3.0,50.0,,2.0,PCIe 3.0 x8,2019
 Radeon 625 OEM,0,GCN 3.0,35.0,,2.0,PCIe 3.0 x8,2019
-Radeon 630 Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2019
 Radeon E9390 PCIe,0,GCN 4.0,75.0,,8.0,PCIe 3.0 x16,2019
 Radeon E9560 PCIe,0,GCN 4.0,130.0,1x 6-pin,8.0,PCIe 3.0 x16,2019
 Radeon Pro 5300M,0,RDNA 1.0,85.0,,4.0,PCIe 4.0 x8,2019
 Radeon Pro 5500M,0,RDNA 1.0,85.0,,8.0,PCIe 4.0 x8,2019
 Radeon Pro 570X,0,GCN 4.0,150.0,,4.0,PCIe 3.0 x16,2019
-Radeon Pro 575X,0,GCN 4.0,150.0,,4.0,PCIe 3.0 x16,2019
 Radeon Pro 580X,0,GCN 4.0,185.0,,8.0,Apple MPX,2019
 Radeon Pro Vega 48,0,GCN 5.0,,,8.0,PCIe 3.0 x16,2019
 Radeon Pro Vega 64X,0,GCN 5.0,250.0,,16.0,PCIe 3.0 x16,2019
 Radeon Pro Vega II,0,GCN 5.1,475.0,,32.0,Apple MPX,2019
-Radeon Pro Vega II Duo,0,GCN 5.1,475.0,,32.0,Apple MPX,2019
-Radeon Pro W5300M,0,RDNA 1.0,85.0,,4.0,PCIe 4.0 x8,2019
 Radeon Pro W5500X,0,RDNA 1.0,125.0,,8.0,Apple MPX,2019
 Radeon Pro W5700,0,RDNA 1.0,205.0,1x 6-pin + 1x 8-pin,8.0,PCIe 4.0 x16,2019
 Radeon Pro W5700X,0,RDNA 1.0,205.0,,16.0,Apple MPX,2019
 Radeon Pro WX 3200,0,GCN 4.0,65.0,,4.0,PCIe 3.0 x8,2019
-Radeon Pro WX 3200 Mobile,0,GCN 4.0,65.0,,4.0,PCIe 3.0 x8,2019
 Radeon R7 350 640SP,0,GCN 1.0,55.0,,2.0,PCIe 3.0 x16,2019
 Radeon RX 5300 XT OEM,0,RDNA 1.0,100.0,1x 6-pin,4.0,PCIe 4.0 x8,2019
 Radeon RX 5300M,0,RDNA 1.0,85.0,,3.0,PCIe 4.0 x8,2019
 Radeon RX 5500 OEM,0,RDNA 1.0,110.0,1x 8-pin,4.0,PCIe 4.0 x8,2019
 Radeon RX 5500 XT,0,RDNA 1.0,130.0,1x 8-pin,4.0,PCIe 4.0 x8,2019
-Radeon RX 5500M,0,RDNA 1.0,85.0,,4.0,PCIe 4.0 x8,2019
 Radeon RX 560 XT,0,GCN 4.0,150.0,1x 6-pin,4.0,PCIe 3.0 x16,2019
 Radeon RX 5700,0,RDNA 1.0,180.0,1x 6-pin + 1x 8-pin,8.0,PCIe 4.0 x16,2019
 Radeon RX 5700 XT,0,RDNA 1.0,225.0,1x 6-pin + 1x 8-pin,8.0,PCIe 4.0 x16,2019
-Radeon RX 5700 XT 50th Anniversary,0,RDNA 1.0,225.0,1x 6-pin + 1x 8-pin,8.0,PCIe 4.0 x16,2019
-Radeon RX 640 Mobile,0,GCN 4.0,50.0,,2.0,PCIe 3.0 x8,2019
-Radeon RX Vega 11 Mobile,0,GCN 5.0,15.0,,,IGP,2019
-Radeon Vega 10 Mobile,0,GCN 5.0,10.0,,,IGP,2019
-Radeon Vega 11,0,GCN 5.0,15.0,,,IGP,2019
-Radeon Vega 3,0,GCN 5.0,15.0,,,IGP,2019
-Radeon Vega 9 Mobile,0,GCN 5.0,15.0,,,IGP,2019
 Radeon VII,0,GCN 5.1,295.0,2x 8-pin,16.0,PCIe 3.0 x16,2019
 Iris Plus Graphics 645 Mobile,2,Generation 9.5,15.0,,,Ring Bus,2019
 Iris Plus Graphics G4 48EU Mobile,2,Generation 11.0,15.0,,,Ring Bus,2019
 UHD Graphics 24EU Mobile,2,Generation 12.2,15.0,,,Ring Bus,2022
-UHD Graphics G1 32EU Mobile,2,Generation 11.0,15.0,,,Ring Bus,2019
 A100 PCIe 40 GB,4,Ampere,250.0,8-pin EPS,40.0,PCIe 4.0 x16,2020
 A100 SXM4 40 GB,4,Ampere,400.0,,40.0,PCIe 4.0 x16,2020
 A100 SXM4 80 GB,4,Ampere,400.0,,80.0,PCIe 4.0 x16,2020
@@ -2364,39 +1651,28 @@ A40 PCIe,4,Ampere,300.0,8-pin EPS,48.0,PCIe 4.0 x16,2020
 CMP 100HX-210,4,Volta,250.0,1x 6-pin + 1x 8-pin,16.0,PCIe 1.0 x1,2020
 DRIVE A100 PROD,4,Ampere,400.0,,32.0,PCIe 4.0 x16,2020
 GeForce GTX 1650 GDDR6,4,Turing,75.0,,4.0,PCIe 3.0 x16,2020
-GeForce GTX 1650 Ti Max-Q,4,Turing,50.0,,4.0,PCIe 3.0 x16,2020
-GeForce GTX 1650 Ti Mobile,4,Turing,50.0,,4.0,PCIe 3.0 x16,2020
 GeForce GTX 1650 TU106,4,Turing,90.0,1x 6-pin,4.0,PCIe 3.0 x16,2020
 GeForce GTX 1650 TU116,4,Turing,80.0,,4.0,PCIe 3.0 x16,2020
 GeForce MX330,4,Pascal,10.0,,2.0,PCIe 3.0 x4,2020
 GeForce MX350,4,Pascal,20.0,,2.0,PCIe 3.0 x4,2020
 GeForce MX450 12W,4,Turing,12.0,,2.0,PCIe 4.0 x4,2020
 GeForce MX450 30.5W 10Gbps,4,Turing,31.0,,2.0,PCIe 4.0 x4,2020
-GeForce MX450 30.5W 8Gbps,4,Turing,31.0,,2.0,PCIe 4.0 x4,2020
 GeForce RTX 2060 Max-Q,4,Turing,65.0,,6.0,PCIe 3.0 x16,2020
 GeForce RTX 2060 TU104,4,Turing,160.0,1x 8-pin,6.0,PCIe 3.0 x16,2020
 GeForce RTX 2070 Max-Q Refresh,4,Turing,115.0,,8.0,PCIe 3.0 x16,2020
-GeForce RTX 2070 Mobile Refresh,4,Turing,115.0,,8.0,PCIe 3.0 x16,2020
 GeForce RTX 2070 SUPER Max-Q,4,Turing,80.0,,8.0,PCIe 3.0 x16,2020
-GeForce RTX 2070 SUPER Mobile,4,Turing,115.0,,8.0,PCIe 3.0 x16,2020
-GeForce RTX 2080 SUPER Max-Q,4,Turing,80.0,,8.0,PCIe 3.0 x16,2020
 GeForce RTX 2080 SUPER Mobile,4,Turing,150.0,,8.0,PCIe 3.0 x16,2020
 GeForce RTX 3060 Ti,4,Ampere,200.0,1x 12-pin,8.0,PCIe 4.0 x16,2020
 GeForce RTX 3070,4,Ampere,220.0,1x 12-pin,8.0,PCIe 4.0 x16,2020
 GeForce RTX 3080,4,Ampere,320.0,1x 12-pin,10.0,PCIe 4.0 x16,2020
 GeForce RTX 3090,4,Ampere,350.0,1x 12-pin,24.0,PCIe 4.0 x16,2020
-GRID A100A,4,Ampere,400.0,,32.0,PCIe 4.0 x16,2020
 GRID A100B,4,Ampere,400.0,,48.0,PCIe 4.0 x16,2020
 GRID RTX T10-2,4,Turing,150.0,1x 6-pin + 1x 8-pin,2.0,PCIe 3.0 x16,2020
 GRID RTX T10-4,4,Turing,150.0,1x 6-pin + 1x 8-pin,4.0,PCIe 3.0 x16,2020
 Jetson Xavier NX 16 GB,4,Volta,20.0,,16.0,PCIe 4.0 x4,2020
 Jetson Xavier NX 8 GB,4,Volta,15.0,,8.0,PCIe 4.0 x4,2020
 Quadro RTX 5000 Mobile Refresh,4,Turing,110.0,,16.0,PCIe 3.0 x16,2020
-Quadro RTX 5000 X2 Mobile,4,Turing,110.0,,16.0,PCIe 3.0 x16,2020
-Quadro T1000 Mobile GDDR6,4,Turing,50.0,,4.0,PCIe 3.0 x16,2020
-RTX A6000,4,Ampere,300.0,8-pin EPS,48.0,PCIe 4.0 x16,2020
 T500 Max-Q,4,Turing,18.0,,4.0,PCIe 3.0 x16,2020
-T500 Mobile,4,Turing,18.0,,4.0,PCIe 3.0 x16,2020
 Tesla T10 16 GB,4,Turing,150.0,1x 8-pin,16.0,PCIe 3.0 x16,2020
 AeroBox GPU,0,GCN 1.0,100.0,,8.0,,2020
 Atari VCS 400 GPU,0,GCN 5.0,15.0,,4.0,,2020
@@ -2404,10 +1680,7 @@ Atari VCS 800 GPU,0,GCN 5.0,15.0,,8.0,,2020
 Playstation 5 GPU,0,RDNA 2.0,180.0,,16.0,,2022
 Radeon Graphics 320SP Mobile,0,GCN 5.1,15.0,,,IGP,2020
 Radeon Graphics 384SP Mobile,0,GCN 5.1,45.0,,,IGP,2021
-Radeon Graphics 448SP,0,GCN 5.1,45.0,,,IGP,2021
 Radeon Graphics 448SP Mobile,0,GCN 5.1,45.0,,,IGP,2022
-Radeon Graphics 512SP,0,GCN 5.1,45.0,,,IGP,2021
-Radeon Graphics 512SP Mobile,0,GCN 5.1,45.0,,,IGP,2022
 Radeon Instinct MI100,0,CDNA 1.0,300.0,2x 8-pin,32.0,PCIe 4.0 x16,2020
 Radeon Pro 5300,0,RDNA 1.0,85.0,,4.0,PCIe 4.0 x8,2020
 Radeon Pro 5500 XT,0,RDNA 1.0,125.0,,8.0,PCIe 4.0 x8,2020
@@ -2417,7 +1690,6 @@ Radeon Pro 5700 XT,0,RDNA 1.0,130.0,,16.0,PCIe 4.0 x16,2020
 Radeon Pro V520,0,RDNA 1.0,225.0,1x 8-pin,8.0,PCIe 4.0 x16,2020
 Radeon Pro VII,0,GCN 5.1,250.0,1x 6-pin + 1x 8-pin,16.0,PCIe 4.0 x16,2020
 Radeon Pro W5500,0,RDNA 1.0,125.0,1x 6-pin,8.0,PCIe 4.0 x8,2020
-Radeon Pro W5500M,0,RDNA 1.0,85.0,,4.0,PCIe 4.0 x8,2020
 Radeon RX 5300 OEM,0,RDNA 1.0,100.0,1x 6-pin,3.0,PCIe 4.0 x8,2020
 Radeon RX 5600 OEM,0,RDNA 1.0,125.0,1x 8-pin,6.0,PCIe 4.0 x16,2020
 Radeon RX 5600 XT,0,RDNA 1.0,150.0,1x 8-pin,6.0,PCIe 4.0 x16,2020
@@ -2427,19 +1699,13 @@ Radeon RX 590 GME,0,GCN 4.0,175.0,1x 8-pin,8.0,PCIe 3.0 x16,2020
 Radeon RX 640 OEM,0,GCN 4.0,50.0,,4.0,PCIe 3.0 x8,2020
 Radeon RX 6800,0,RDNA 2.0,250.0,2x 8-pin,16.0,PCIe 4.0 x16,2020
 Radeon RX 6800 XT,0,RDNA 2.0,300.0,2x 8-pin,16.0,PCIe 4.0 x16,2020
-Radeon RX 6900 XT,0,RDNA 2.0,300.0,2x 8-pin,16.0,PCIe 4.0 x16,2020
 Xbox Series S GPU,0,RDNA 2.0,100.0,,8.0,,2020
 Xbox Series X GPU,0,RDNA 2.0,200.0,,10.0,,2020
 H3C XG310,2,Generation 12.1,300.0,1x 8-pin,8.0,PCIe 3.0 x16,2020
 Iris Plus Graphics G7 64EU Mobile,2,Generation 11.0,15.0,,,Ring Bus,2020
 Iris Xe Graphics G4 48EU Mobile,2,Generation 12.1,15.0,,,Ring Bus,2020
-Iris Xe Graphics G7 80EU Mobile,2,Generation 12.1,15.0,,,Ring Bus,2020
-Iris Xe Graphics G7 96EU Mobile,2,Generation 12.1,15.0,,,Ring Bus,2020
 Iris Xe MAX Graphics,2,Generation 12.1,25.0,,4.0,PCIe 4.0 x8,2020
-UHD Graphics 16EU Mobile,2,Generation 12.2,15.0,,,Ring Bus,2022
 UHD Graphics 32EU Mobile,2,Generation 12.1,15.0,,,Ring Bus,2021
-UHD Graphics G4 48EU Mobile,2,Generation 11.0,15.0,,,Ring Bus,2020
-UHD Graphics G7 64EU Mobile,2,Generation 11.0,15.0,,,Ring Bus,2020
 Xe DG1,2,Generation 12.1,30.0,,4.0,PCIe 4.0 x8,2020
 A10 PCIe,4,Ampere,150.0,1x 8-pin,24.0,PCIe 4.0 x16,2021
 A100 PCIe 80 GB,4,Ampere,300.0,8-pin EPS,80.0,PCIe 4.0 x16,2021
@@ -2447,7 +1713,6 @@ A100X,4,Ampere,300.0,1x 16-pin,80.0,PCIe 4.0 x8,2021
 A10G,4,Ampere,150.0,8-pin EPS,24.0,PCIe 4.0 x16,2021
 A16 PCIe,4,Ampere,250.0,8-pin EPS,16.0,PCIe 4.0 x8,2021
 A2,4,Ampere,60.0,,16.0,PCIe 4.0 x8,2021
-A2 PCIe,4,Ampere,60.0,,16.0,PCIe 4.0 x8,2021
 A30 PCIe,4,Ampere,165.0,8-pin EPS,24.0,PCIe 4.0 x16,2021
 A30X,4,Ampere,230.0,1x 16-pin,24.0,PCIe 4.0 x8,2021
 CMP 170HX 10 GB,4,Ampere,250.0,2x 8-pin,10.0,PCIe 1.0 x4,2021
@@ -2463,42 +1728,27 @@ GeForce MX550,4,Turing,25.0,,2.0,PCIe 4.0 x8,2021
 GeForce MX570,4,Ampere,15.0,,2.0,PCIe 4.0 x8,2021
 GeForce MX570 A,4,Ampere,25.0,,2.0,PCIe 4.0 x8,2021
 GeForce RTX 2050 Max-Q,4,Ampere,30.0,,4.0,PCIe 3.0 x8,2021
-GeForce RTX 2050 Mobile,4,Ampere,30.0,,4.0,PCIe 3.0 x8,2021
 GeForce RTX 2060 12 GB,4,Turing,184.0,1x 8-pin,12.0,PCIe 3.0 x16,2021
 GeForce RTX 3050 Max-Q,4,Ampere,35.0,,4.0,PCIe 4.0 x8,2021
 GeForce RTX 3050 Mobile,4,Ampere,45.0,,4.0,PCIe 4.0 x8,2021
 GeForce RTX 3050 Ti Max-Q,4,Ampere,75.0,,4.0,PCIe 4.0 x8,2021
 GeForce RTX 3050 Ti Mobile,4,Ampere,75.0,,4.0,PCIe 4.0 x16,2021
 GeForce RTX 3060 12 GB,4,Ampere,170.0,1x 12-pin,12.0,PCIe 4.0 x16,2021
-GeForce RTX 3060 12 GB GA104,4,Ampere,170.0,1x 12-pin,12.0,PCIe 4.0 x16,2021
 GeForce RTX 3060 3840SP,4,Ampere,185.0,1x 12-pin,6.0,PCIe 4.0 x16,2021
 GeForce RTX 3060 Max-Q,4,Ampere,60.0,,6.0,PCIe 4.0 x16,2021
 GeForce RTX 3060 Mobile,4,Ampere,80.0,,6.0,PCIe 4.0 x16,2021
 GeForce RTX 3070 Max-Q,4,Ampere,80.0,,8.0,PCIe 4.0 x16,2021
 GeForce RTX 3070 Mobile,4,Ampere,115.0,,8.0,PCIe 4.0 x16,2021
 GeForce RTX 3070 Ti,4,Ampere,290.0,1x 12-pin,8.0,PCIe 4.0 x16,2021
-GeForce RTX 3080 Max-Q,4,Ampere,80.0,,8.0,PCIe 4.0 x16,2021
-GeForce RTX 3080 Mobile,4,Ampere,115.0,,8.0,PCIe 4.0 x16,2021
 GeForce RTX 3080 Ti,4,Ampere,350.0,1x 12-pin,12.0,PCIe 4.0 x16,2021
-PG506-207,4,Ampere,165.0,8-pin EPS,24.0,PCIe 4.0 x16,2021
-PG506-217,4,Ampere,165.0,8-pin EPS,24.0,PCIe 4.0 x16,2021
-PG506-232,4,Ampere,165.0,8-pin EPS,24.0,PCIe 4.0 x16,2021
-PG506-242,4,Ampere,165.0,8-pin EPS,24.0,PCIe 4.0 x16,2021
 Quadro T1200 Max-Q,4,Turing,18.0,,4.0,PCIe 3.0 x16,2021
-Quadro T1200 Mobile,4,Turing,18.0,,4.0,PCIe 3.0 x16,2021
 RTX A2000,4,Ampere,70.0,,6.0,PCIe 4.0 x16,2021
 RTX A2000 12 GB,4,Ampere,70.0,,12.0,PCIe 4.0 x16,2021
 RTX A2000 Max-Q,4,Ampere,95.0,,4.0,PCIe 4.0 x16,2021
 RTX A2000 Max-Q 8 GB,4,Ampere,95.0,,8.0,PCIe 4.0 x16,2021
-RTX A2000 Mobile,4,Ampere,95.0,,4.0,PCIe 4.0 x16,2021
-RTX A2000 Mobile 8 GB,4,Ampere,95.0,,8.0,PCIe 4.0 x16,2021
-RTX A3000 Mobile,4,Ampere,70.0,,6.0,PCIe 4.0 x16,2021
 RTX A3000 Mobile 12 GB,4,Ampere,115.0,,12.0,PCIe 4.0 x16,2022
 RTX A4 Mobile,4,Ampere,,,4.0,PCIe 4.0 x8,2021
 RTX A4000,4,Ampere,140.0,1x 6-pin,16.0,PCIe 4.0 x16,2021
-RTX A4000 Max-Q,4,Ampere,80.0,,8.0,PCIe 4.0 x16,2021
-RTX A4000 Mobile,4,Ampere,115.0,,8.0,PCIe 4.0 x16,2021
-RTX A4000H,4,Ampere,140.0,1x 6-pin,16.0,PCIe 4.0 x16,2021
 RTX A4500,4,Ampere,200.0,1x 8-pin,20.0,PCIe 4.0 x16,2021
 RTX A500,4,Ampere,60.0,,4.0,PCIe 4.0 x8,2021
 RTX A5000,4,Ampere,230.0,1x 8-pin,24.0,PCIe 4.0 x16,2021
@@ -2511,13 +1761,8 @@ T1000 8 GB,4,Turing,50.0,,8.0,PCIe 3.0 x16,2021
 T400,4,Turing,30.0,,2.0,PCIe 3.0 x16,2021
 T400 4 GB,4,Turing,30.0,,4.0,PCIe 3.0 x16,2021
 T600,4,Turing,40.0,,4.0,PCIe 3.0 x16,2021
-T600 Max-Q,4,Turing,40.0,,4.0,PCIe 3.0 x16,2021
-T600 Mobile,4,Turing,40.0,,4.0,PCIe 3.0 x16,2021
-Radeon Graphics 384SP,0,GCN 5.1,45.0,,,IGP,2021
 Radeon Instinct MI200,0,CDNA 2.0,300.0,1x 8-pin,64.0,PCIe 4.0 x16,2021
-Radeon Instinct MI210,0,CDNA 2.0,300.0,1x 8-pin,64.0,PCIe 4.0 x16,2021
 Radeon Instinct MI250,0,CDNA 2.0,500.0,2x 8-pin,128.0,PCIe 4.0 x16,2021
-Radeon Instinct MI250X,0,CDNA 2.0,500.0,2x 8-pin,128.0,PCIe 4.0 x16,2021
 Radeon PRO V620,0,RDNA 2.0,300.0,2x 8-pin,32.0,PCIe 4.0 x16,2021
 Radeon PRO W6600,0,RDNA 2.0,100.0,1x 6-pin,8.0,PCIe 4.0 x8,2021
 Radeon Pro W6600M,0,RDNA 2.0,90.0,,8.0,PCIe 4.0 x16,2021
@@ -2535,11 +1780,7 @@ Radeon RX 6700M,0,RDNA 2.0,135.0,,10.0,PCIe 4.0 x16,2021
 Radeon RX 6800M,0,RDNA 2.0,145.0,,12.0,PCIe 4.0 x16,2021
 Arctic Sound 1T,2,Generation 12.5,350.0,,16.0,PCIe 4.0 x16,2021
 Arctic Sound 2T,2,Generation 12.5,500.0,,16.0,PCIe 4.0 x16,2021
-UHD Graphics 16EU,2,Generation 12.1,15.0,,,Ring Bus,2021
 UHD Graphics 730,2,Generation 12.2,15.0,,,Ring Bus,2023
-UHD Graphics 750,2,Generation 12.1,15.0,,,Ring Bus,2021
-UHD Graphics 770,2,Generation 12.2,15.0,,,Ring Bus,2022
-UHD Graphics P750,2,Generation 12.1,15.0,,,Ring Bus,2021
 A10M,4,Ampere,150.0,8-pin EPS,20.0,PCIe 4.0 x16,2022
 A800 PCIe 40 GB,4,Ampere,250.0,8-pin EPS,40.0,PCIe 4.0 x16,2022
 A800 PCIe 80 GB,4,Ampere,250.0,8-pin EPS,80.0,PCIe 4.0 x16,2022
@@ -2552,7 +1793,6 @@ GeForce RTX 3050 Max-Q Refresh 4 GB,4,Ampere,35.0,,4.0,PCIe 4.0 x8,2022
 GeForce RTX 3050 Max-Q Refresh 6 GB,4,Ampere,35.0,,6.0,PCIe 4.0 x8,2022
 GeForce RTX 3050 Mobile Refresh 4 GB,4,Ampere,45.0,,4.0,PCIe 4.0 x8,2022
 GeForce RTX 3050 Mobile Refresh 6 GB,4,Ampere,75.0,,6.0,PCIe 4.0 x8,2022
-GeForce RTX 3050 OEM,4,Ampere,130.0,1x 8-pin,8.0,PCIe 4.0 x8,2022
 GeForce RTX 3060 8 GB,4,Ampere,170.0,1x 12-pin,8.0,PCIe 4.0 x16,2022
 GeForce RTX 3060 8 GB GA104,4,Ampere,195.0,1x 12-pin,8.0,PCIe 4.0 x16,2022
 GeForce RTX 3060 Ti GA103,4,Ampere,200.0,1x 12-pin,8.0,PCIe 4.0 x16,2022
@@ -2572,20 +1812,12 @@ H100 PCIe 80 GB,4,Hopper,350.0,1x 16-pin,80.0,PCIe 5.0 x16,2022
 H100 SXM5 80 GB,4,Hopper,700.0,,80.0,PCIe 5.0 x16,2022
 L40,4,Ada Lovelace,300.0,1x 16-pin,48.0,PCIe 4.0 x16,2022
 L40 CNX,4,Ada Lovelace,300.0,1x 16-pin,24.0,PCIe 4.0 x16,2022
-L40G,4,Ada Lovelace,300.0,1x 16-pin,24.0,PCIe 4.0 x16,2022
-L40S,4,Ada Lovelace,300.0,1x 16-pin,48.0,PCIe 4.0 x16,2022
-RTX 6000 Ada Generation,4,Ada Lovelace,300.0,1x 16-pin,48.0,PCIe 4.0 x16,2022
-RTX A1000 Embedded,4,Ampere,35.0,,4.0,PCIe 4.0 x8,2022
 RTX A1000 Mobile,4,Ampere,60.0,,4.0,PCIe 4.0 x8,2022
 RTX A1000 Mobile 6 GB,4,Ampere,60.0,,6.0,PCIe 4.0 x8,2022
-RTX A2000 Embedded,4,Ampere,35.0,,4.0,PCIe 4.0 x8,2022
-RTX A4500 Embedded,4,Ampere,80.0,,16.0,PCIe 4.0 x16,2022
-RTX A4500 Max-Q,4,Ampere,80.0,,16.0,PCIe 4.0 x16,2022
 RTX A4500 Mobile,4,Ampere,140.0,,16.0,PCIe 4.0 x16,2022
 RTX A500 Embedded,4,Ampere,20.0,,4.0,PCIe 4.0 x8,2022
 RTX A500 Mobile,4,Ampere,30.0,,4.0,PCIe 4.0 x8,2022
 RTX A5500,4,Ampere,230.0,1x 8-pin,24.0,PCIe 4.0 x16,2022
-RTX A5500 Max-Q,4,Ampere,80.0,,16.0,PCIe 4.0 x16,2022
 RTX A5500 Mobile,4,Ampere,165.0,,16.0,PCIe 4.0 x16,2022
 T550 Mobile,4,Turing,23.0,,4.0,PCIe 3.0 x16,2022
 Radeon 610M,0,RDNA 2.0,15.0,,,PCIe 4.0 x8,2023
@@ -2593,15 +1825,12 @@ Radeon 660M,0,RDNA 2.0,40.0,,,PCIe 4.0 x8,2023
 Radeon 680M,0,RDNA 2.0,50.0,,,PCIe 4.0 x8,2023
 Radeon Graphics 128SP,0,RDNA 2.0,15.0,,,PCIe 4.0 x8,2022
 Radeon PRO W6300,0,RDNA 2.0,25.0,,2.0,PCIe 4.0 x4,2022
-Radeon Pro W6300M,0,RDNA 2.0,25.0,,2.0,PCIe 4.0 x4,2022
 Radeon PRO W6400,0,RDNA 2.0,50.0,,4.0,PCIe 4.0 x4,2022
 Radeon RX 6400,0,RDNA 2.0,53.0,,4.0,PCIe 4.0 x4,2022
 Radeon RX 6500 XT,0,RDNA 2.0,107.0,1x 6-pin,4.0,PCIe 4.0 x4,2022
-Radeon RX 6500M,0,RDNA 2.0,50.0,,4.0,PCIe 4.0 x4,2022
 Radeon RX 6600S,0,RDNA 2.0,80.0,,4.0,PCIe 4.0 x8,2022
 Radeon RX 6650 XT,0,RDNA 2.0,176.0,1x 8-pin,8.0,PCIe 4.0 x8,2022
 Radeon RX 6650M,0,RDNA 2.0,120.0,,8.0,PCIe 4.0 x8,2022
-Radeon RX 6650M XT,0,RDNA 2.0,120.0,,8.0,PCIe 4.0 x8,2022
 Radeon RX 6700S,0,RDNA 2.0,80.0,,8.0,PCIe 4.0 x8,2022
 Radeon RX 6750 XT,0,RDNA 2.0,250.0,1x 6-pin + 1x 8-pin,12.0,PCIe 4.0 x16,2022
 Radeon RX 6800S,0,RDNA 2.0,100.0,,8.0,PCIe 4.0 x8,2022
@@ -2612,7 +1841,6 @@ Radeon RX 7900 XTX,0,RDNA 3.0,355.0,2x 8-pin,24.0,PCIe 4.0 x16,2022
 Steam Deck GPU,0,RDNA 2.0,15.0,,16.0,,2022
 Arc A310,2,Xe-HPG,30.0,,4.0,PCIe 4.0 x8,2022
 Arc A350,2,Xe-HPG,25.0,,4.0,PCIe 4.0 x8,2022
-Arc A350M,2,Xe-HPG,25.0,,4.0,PCIe 4.0 x8,2022
 Arc A370M,2,Xe-HPG,35.0,,4.0,PCIe 4.0 x8,2022
 Arc A380,2,Xe-HPG,75.0,1x 8-pin,6.0,PCIe 4.0 x8,2022
 Arc A550M,2,Xe-HPG,60.0,,8.0,PCIe 4.0 x16,2022
@@ -2624,14 +1852,8 @@ Arc Pro A30M,2,Xe-HPG,50.0,,4.0,PCIe 4.0 x8,2022
 Arc Pro A40,2,Xe-HPG,50.0,,6.0,PCIe 4.0 x8,2022
 Arc Pro A50,2,Xe-HPG,75.0,,6.0,PCIe 4.0 x8,2022
 Arctic Sound-M,2,Generation 12.5,500.0,8-pin EPS,16.0,PCIe 4.0 x16,2022
-Data Center GPU Flex 140,2,Xe-HPG,75.0,1x 8-pin,6.0,PCIe 4.0 x8,2022
 Data Center GPU Flex 170,2,Xe-HPG,150.0,1x 8-pin,16.0,PCIe 4.0 x16,2022
-Iris Xe Graphics 80EU Mobile,2,Generation 12.2,15.0,,,Ring Bus,2023
-Iris Xe Graphics 96EU Mobile,2,Generation 12.2,15.0,,,Ring Bus,2023
 UHD Graphics 48EU Mobile,2,Generation 12.2,45.0,,,Ring Bus,2022
-UHD Graphics 64EU Mobile,2,Generation 12.2,15.0,,,Ring Bus,2023
-UHD Graphics 710,2,Generation 12.2,15.0,,,Ring Bus,2022
-UHD Graphics 770 Mobile,2,Generation 12.2,15.0,,,Ring Bus,2023
 GeForce RTX 4050 Max-Q,4,Ada Lovelace,35.0,,6.0,PCIe 4.0 x8,2023
 GeForce RTX 4050 Mobile,4,Ada Lovelace,50.0,,6.0,PCIe 4.0 x8,2023
 GeForce RTX 4060,4,Ada Lovelace,115.0,1x 12-pin,8.0,PCIe 4.0 x8,2023
@@ -2640,8 +1862,6 @@ GeForce RTX 4060 Mobile,4,Ada Lovelace,115.0,,8.0,PCIe 4.0 x8,2023
 GeForce RTX 4060 Ti 16 GB,4,Ada Lovelace,165.0,1x 16-pin,16.0,PCIe 4.0 x8,2023
 GeForce RTX 4060 Ti 8 GB,4,Ada Lovelace,160.0,1x 16-pin,8.0,PCIe 4.0 x8,2023
 GeForce RTX 4070,4,Ada Lovelace,200.0,1x 16-pin,12.0,PCIe 4.0 x16,2023
-GeForce RTX 4070 Max-Q,4,Ada Lovelace,35.0,,8.0,PCIe 4.0 x8,2023
-GeForce RTX 4070 Mobile,4,Ada Lovelace,115.0,,8.0,PCIe 4.0 x8,2023
 GeForce RTX 4070 Ti,4,Ada Lovelace,285.0,1x 16-pin,12.0,PCIe 4.0 x16,2023
 GeForce RTX 4080 Max-Q,4,Ada Lovelace,60.0,,12.0,PCIe 4.0 x16,2023
 GeForce RTX 4080 Mobile,4,Ada Lovelace,110.0,,12.0,PCIe 4.0 x16,2023
@@ -2653,7 +1873,6 @@ H100 NVL 94 GB,4,Hopper,400.0,8-pin EPS,94.0,PCIe 5.0 x16,2023
 H100 PCIe 96 GB,4,Hopper,700.0,8-pin EPS,96.0,PCIe 5.0 x16,2023
 H100 SXM5 64 GB,4,Hopper,700.0,8-pin EPS,64.0,PCIe 5.0 x16,2023
 H100 SXM5 94 GB,4,Hopper,700.0,8-pin EPS,94.0,PCIe 5.0 x16,2023
-H100 SXM5 96 GB,4,Hopper,700.0,8-pin EPS,96.0,PCIe 5.0 x16,2023
 H800 PCIe 80 GB,4,Hopper,350.0,1x 16-pin,80.0,PCIe 5.0 x16,2023
 H800 SXM5,4,Hopper,700.0,8-pin EPS,80.0,PCIe 5.0 x16,2023
 Jetson AGX Orin 32 GB,4,Ampere,40.0,,32.0,PCIe 4.0 x4,2023
@@ -2666,26 +1885,17 @@ L20,4,Ada Lovelace,275.0,1x 16-pin,48.0,PCIe 4.0 x16,2023
 L4,4,Ada Lovelace,72.0,,24.0,PCIe 4.0 x16,2023
 RTX 2000 Embedded Ada Generation,4,Ada Lovelace,50.0,,8.0,PCIe 4.0 x16,2023
 RTX 2000 Max-Q Ada Generation,4,Ada Lovelace,35.0,,8.0,PCIe 4.0 x16,2023
-RTX 2000 Mobile Ada Generation,4,Ada Lovelace,50.0,,8.0,PCIe 4.0 x16,2023
 RTX 3000 Mobile Ada Generation,4,Ada Lovelace,115.0,,8.0,PCIe 4.0 x16,2023
 RTX 3500 Embedded Ada Generation,4,Ada Lovelace,100.0,,12.0,PCIe 4.0 x16,2023
-RTX 3500 Mobile Ada Generation,4,Ada Lovelace,100.0,,12.0,PCIe 4.0 x16,2023
 RTX 4000 Ada Generation,4,Ada Lovelace,130.0,1x 16-pin,20.0,PCIe 4.0 x16,2023
-RTX 4000 Mobile Ada Generation,4,Ada Lovelace,110.0,,12.0,PCIe 4.0 x16,2023
 RTX 4000 SFF Ada Generation,4,Ada Lovelace,70.0,,20.0,PCIe 4.0 x16,2023
 RTX 4500 Ada Generation,4,Ada Lovelace,210.0,,24.0,PCIe 4.0 x16,2023
 RTX 5000 Ada Generation,4,Ada Lovelace,250.0,1x 16-pin,32.0,PCIe 4.0 x16,2023
-RTX 5000 Embedded Ada Generation,4,Ada Lovelace,120.0,,16.0,PCIe 4.0 x16,2023
 RTX 5000 Embedded Ada Generation X2,4,Ada Lovelace,150.0,,16.0,PCIe 4.0 x16,2023
-RTX 5000 Max-Q Ada Generation,4,Ada Lovelace,120.0,,16.0,PCIe 4.0 x16,2023
-RTX 5000 Mobile Ada Generation,4,Ada Lovelace,120.0,,16.0,PCIe 4.0 x16,2023
 Radeon 740M,0,RDNA 3.0,45.0,,,PCIe 4.0 x8,2024
 Radeon 760M,0,RDNA 3.0,15.0,,,PCIe 4.0 x8,2024
-Radeon 780M,0,RDNA 3.0,15.0,,,PCIe 4.0 x8,2024
 Radeon Instinct MI300,0,CDNA 3.0,600.0,2x 8-pin,128.0,PCIe 5.0 x16,2023
 Radeon Instinct MI300A,0,CDNA 3.0,750.0,,192.0,PCIe 5.0 x16,2023
-Radeon Instinct MI300X,0,CDNA 3.0,750.0,,192.0,PCIe 5.0 x16,2023
-Radeon Instinct MI308X,0,CDNA 3.0,750.0,,192.0,PCIe 5.0 x16,2023
 Radeon PRO W7500,0,RDNA 3.0,70.0,,8.0,PCIe 4.0 x8,2023
 Radeon PRO W7600,0,RDNA 3.0,130.0,1x 6-pin,8.0,PCIe 4.0 x8,2023
 Radeon PRO W7700,0,RDNA 3.0,190.0,1x 8-pin,16.0,PCIe 4.0 x16,2023
@@ -2694,7 +1904,6 @@ Radeon PRO W7800 48 GB,0,RDNA 3.0,281.0,2x 8-pin,48.0,PCIe 4.0 x16,2023
 Radeon PRO W7900,0,RDNA 3.0,295.0,2x 8-pin,48.0,PCIe 4.0 x16,2023
 Radeon RX 6450M,0,RDNA 2.0,50.0,,4.0,PCIe 4.0 x4,2023
 Radeon RX 6550M,0,RDNA 2.0,80.0,,4.0,PCIe 4.0 x4,2023
-Radeon RX 6550S,0,RDNA 2.0,50.0,,4.0,PCIe 4.0 x4,2023
 Radeon RX 6600 LE,0,RDNA 2.0,132.0,1x 8-pin,8.0,PCIe 4.0 x8,2023
 Radeon RX 6750 GRE 10 GB,0,RDNA 2.0,170.0,1x 8-pin,10.0,PCIe 4.0 x16,2023
 Radeon RX 6750 GRE 12 GB,0,RDNA 2.0,250.0,1x 6-pin + 1x 8-pin,12.0,PCIe 4.0 x16,2023
@@ -2708,7 +1917,6 @@ Radeon RX 7800 XT,0,RDNA 3.0,263.0,2x 8-pin,16.0,PCIe 4.0 x16,2023
 Radeon RX 7900 GRE,0,RDNA 3.0,260.0,2x 8-pin,16.0,PCIe 4.0 x16,2023
 Radeon RX 7900M,0,RDNA 3.0,180.0,,16.0,PCIe 4.0 x16,2023
 Ryzen Z1 Extreme GPU,0,RDNA 3.0,30.0,,16.0,,2023
-Ryzen Z1 GPU,0,RDNA 3.0,30.0,,16.0,,2023
 Steam Deck OLED GPU,0,RDNA 2.0,15.0,,16.0,,2023
 Arc A380M,2,Xe-HPG,35.0,,6.0,MXM-A (3.1),2023
 Arc A530M,2,Xe-HPG,65.0,,8.0,PCIe 4.0 x8,2023
@@ -2716,15 +1924,12 @@ Arc A570M,2,Xe-HPG,75.0,,8.0,PCIe 4.0 x8,2023
 Arc A580,2,Xe-HPG,175.0,2x 8-pin,8.0,PCIe 4.0 x16,2023
 Arc Graphics 112EU Mobile,2,Xe-LPG,65.0,,,Ring Bus,2023
 Arc Graphics 128EU Mobile,2,Xe-LPG,28.0,,,Ring Bus,2023
-Arc Graphics 48EU Mobile,2,Xe-LPG,28.0,,,Ring Bus,2023
-Arc Graphics 64EU Mobile,2,Xe-LPG,65.0,,,Ring Bus,2023
 Arc Pro A60,2,Xe-HPG,130.0,,12.0,PCIe 4.0 x16,2023
 Arc Pro A60M,2,Xe-HPG,95.0,,8.0,PCIe 4.0 x16,2023
 Data Center GPU Max 1100,2,Generation 12.5,300.0,1x 12-pin,48.0,PCIe 5.0 x16,2023
 Data Center GPU Max 1350,2,Generation 12.5,450.0,,96.0,PCIe 5.0 x16,2023
 Data Center GPU Max 1550,2,Generation 12.5,600.0,,128.0,PCIe 5.0 x16,2023
 Data Center GPU Max Subsystem,2,Generation 12.5,2400.0,1x 16-pin,128.0,PCIe 5.0 x16,2023
-UHD Graphics 710 Mobile,2,Generation 12.2,15.0,,,Ring Bus,2023
 B200,4,Blackwell,1000.0,,90.0,PCIe 5.0 x16,2024
 GeForce RTX 3050 6 GB,4,Ampere,70.0,,6.0,PCIe 4.0 x8,2024
 GeForce RTX 3050 A Mobile,4,Ampere,45.0,,4.0,PCIe 4.0 x8,2024
@@ -2732,10 +1937,8 @@ GeForce RTX 4010,4,Ampere,50.0,,4.0,PCIe 4.0 x8,2024
 GeForce RTX 4060 AD106,4,Ada Lovelace,115.0,1x 12-pin,8.0,PCIe 4.0 x8,2024
 GeForce RTX 4060 Ti AD104,4,Ada Lovelace,160.0,1x 16-pin,8.0,PCIe 4.0 x8,2024
 GeForce RTX 4070 AD103,4,Ada Lovelace,200.0,1x 16-pin,12.0,PCIe 4.0 x16,2024
-GeForce RTX 4070 GDDR6,4,Ada Lovelace,200.0,1x 16-pin,12.0,PCIe 4.0 x16,2024
 GeForce RTX 4070 SUPER,4,Ada Lovelace,220.0,1x 16-pin,12.0,PCIe 4.0 x16,2024
 GeForce RTX 4070 Ti SUPER,4,Ada Lovelace,285.0,1x 16-pin,16.0,PCIe 4.0 x16,2024
-GeForce RTX 4070 Ti SUPER AD102,4,Ada Lovelace,285.0,1x 16-pin,16.0,PCIe 4.0 x16,2024
 GeForce RTX 4080 SUPER,4,Ada Lovelace,320.0,1x 16-pin,16.0,PCIe 4.0 x16,2024
 H200 NVL,4,Hopper,600.0,8-pin EPS,141.0,PCIe 5.0 x16,2024
 H200 SXM 141 GB,4,Hopper,700.0,8-pin EPS,141.0,PCIe 5.0 x16,2024
@@ -2745,21 +1948,16 @@ RTX 2000 Ada Generation,4,Ada Lovelace,70.0,,16.0,PCIe 4.0 x8,2024
 RTX 500 Mobile Ada Generation,4,Ada Lovelace,35.0,,4.0,PCIe 4.0 x8,2024
 RTX 5880 Ada Generation,4,Ada Lovelace,285.0,1x 16-pin,48.0,PCIe 4.0 x16,2024
 RTX A1000,4,Ampere,50.0,,8.0,PCIe 4.0 x8,2024
-RTX A400,4,Ampere,50.0,,4.0,PCIe 4.0 x8,2024
 Playstation 5 Pro GPU,0,RDNA 2.0,232.0,,16.0,,2024
 Radeon 880M,0,RDNA 3.5,15.0,,,PCIe 4.0 x8,2024
-Radeon 890M,0,RDNA 3.5,15.0,,,PCIe 4.0 x8,2024
 Radeon Instinct MI325X,0,CDNA 3.0,1000.0,,288.0,PCIe 5.0 x16,2024
 Radeon PRO V710,0,RDNA 3.0,158.0,1x 8-pin,28.0,PCIe 4.0 x16,2024
 Radeon RX 7600 XT,0,RDNA 3.0,190.0,1x 8-pin,16.0,PCIe 4.0 x8,2024
 Radeon RX 7800M,0,RDNA 3.0,180.0,,12.0,PCIe 4.0 x16,2024
 Xbox Series X 6nm GPU,0,RDNA 2.0,200.0,,10.0,,2024
 Arc 130V Mobile,2,Xe2-LPG,37.0,,,PCIe 4.0 x8,2024
-Arc 140V Mobile,2,Xe2-LPG,37.0,,,PCIe 4.0 x8,2024
 Arc B580,2,Xe2-HPG,190.0,1x 8-pin,12.0,PCIe 4.0 x8,2024
 Arc Graphics 24EU,2,Xe-LPG,65.0,,,Ring Bus,2024
-Arc Graphics 32EU,2,Xe-LPG,65.0,,,Ring Bus,2024
-Arc Graphics 64EU,2,Xe-LPG,65.0,,,Ring Bus,2024
 B300,4,Blackwell Ultra,1400.0,,144.0,PCIe 5.0 x16,2025
 GB10,4,Blackwell 2.0,140.0,,128.0,PCIe 5.0 x16,2025
 GeForce RTX 5050,4,Blackwell 2.0,130.0,1x 8-pin,8.0,PCIe 5.0 x8,2025
@@ -2769,13 +1967,11 @@ GeForce RTX 5060 Mobile,4,Blackwell 2.0,45.0,,8.0,PCIe 5.0 x16,2025
 GeForce RTX 5060 Ti 16 GB,4,Blackwell 2.0,180.0,1x 8-pin,16.0,PCIe 5.0 x8,2025
 GeForce RTX 5060 Ti 8 GB,4,Blackwell 2.0,180.0,1x 8-pin,8.0,PCIe 5.0 x8,2025
 GeForce RTX 5070,4,Blackwell 2.0,250.0,1x 16-pin,12.0,PCIe 5.0 x16,2025
-GeForce RTX 5070 Mobile,4,Blackwell 2.0,50.0,,8.0,PCIe 5.0 x16,2025
 GeForce RTX 5070 Ti,4,Blackwell 2.0,300.0,1x 16-pin,16.0,PCIe 5.0 x16,2025
 GeForce RTX 5070 Ti Mobile,4,Blackwell 2.0,60.0,,12.0,PCIe 5.0 x16,2025
 GeForce RTX 5080,4,Blackwell 2.0,360.0,1x 16-pin,16.0,PCIe 5.0 x16,2025
 GeForce RTX 5080 Mobile,4,Blackwell 2.0,80.0,,16.0,PCIe 5.0 x16,2025
 GeForce RTX 5090,4,Blackwell 2.0,575.0,1x 16-pin,32.0,PCIe 5.0 x16,2025
-GeForce RTX 5090 D,4,Blackwell 2.0,575.0,1x 16-pin,32.0,PCIe 5.0 x16,2025
 GeForce RTX 5090 D V2,4,Blackwell 2.0,575.0,1x 16-pin,24.0,PCIe 5.0 x16,2025
 GeForce RTX 5090 Mobile,4,Blackwell 2.0,95.0,,24.0,PCIe 5.0 x16,2025
 Jetson T4000,4,Blackwell,40.0,,64.0,PCIe 5.0 x16,2025
@@ -2789,16 +1985,11 @@ RTX PRO 5000 72 GB Blackwell,4,Blackwell 2.0,300.0,1x 16-pin,72.0,PCIe 5.0 x16,2
 RTX PRO 5000 Blackwell,4,Blackwell 2.0,300.0,1x 16-pin,48.0,PCIe 5.0 x16,2025
 RTX PRO 6000 Blackwell,4,Blackwell 2.0,600.0,1x 16-pin,96.0,PCIe 5.0 x16,2025
 RTX PRO 6000 Blackwell Max-Q,4,Blackwell 2.0,300.0,1x 16-pin,96.0,PCIe 5.0 x16,2025
-RTX PRO 6000 Blackwell Server,4,Blackwell 2.0,600.0,1x 16-pin,96.0,PCIe 5.0 x16,2025
-RTX PRO 6000D Blackwell Max-Q,4,Blackwell 2.0,300.0,1x 16-pin,96.0,PCIe 5.0 x16,2025
 Switch 2 GPU,4,Ampere,40.0,,12.0,,2025
 Radeon 8040S,0,RDNA 3.5,55.0,,,PCIe 5.0 x16,2025
-Radeon 8050S,0,RDNA 3.5,55.0,,,PCIe 5.0 x16,2025
-Radeon 8060S,0,RDNA 3.5,55.0,,,PCIe 5.0 x16,2025
 Radeon 860M,0,RDNA 3.5,15.0,,,PCIe 4.0 x8,2025
 Radeon AI PRO 9600D,0,RDNA 4.0,150.0,1x 16-pin,32.0,PCIe 5.0 x16,2025
 Radeon AI PRO R9700,0,RDNA 4.0,300.0,1x 16-pin,32.0,PCIe 5.0 x16,2025
-Radeon AI PRO R9700S,0,RDNA 4.0,300.0,1x 16-pin,32.0,PCIe 5.0 x16,2025
 Radeon Instinct MI350X,0,CDNA 4.0,1000.0,,288.0,PCIe 5.0 x16,2025
 Radeon Instinct MI355X,0,CDNA 4.0,1400.0,,288.0,PCIe 5.0 x16,2025
 Radeon PRO W7900D,0,RDNA 3.0,295.0,2x 8-pin,48.0,PCIe 4.0 x16,2025
@@ -2810,15 +2001,12 @@ Radeon RX 9060 XT 16 GB,0,RDNA 4.0,160.0,1x 8-pin,16.0,PCIe 5.0 x16,2025
 Radeon RX 9060 XT 8 GB,0,RDNA 4.0,150.0,1x 8-pin,8.0,PCIe 5.0 x16,2025
 Radeon RX 9070,0,RDNA 4.0,220.0,2x 8-pin,16.0,PCIe 5.0 x16,2025
 Radeon RX 9070 GRE,0,RDNA 4.0,220.0,2x 8-pin,12.0,PCIe 5.0 x16,2025
-Radeon RX 9070 GRE 16 GB,0,RDNA 4.0,220.0,2x 8-pin,16.0,PCIe 5.0 x16,2025
 Radeon RX 9070 XT,0,RDNA 4.0,304.0,2x 8-pin,16.0,PCIe 5.0 x16,2025
 Ryzen AI Z2 Extreme GPU,0,RDNA 3.5,28.0,,16.0,,2025
 Ryzen Z2 A GPU,0,RDNA 2.0,15.0,,16.0,,2025
-Ryzen Z2 Extreme GPU,0,RDNA 3.5,28.0,,16.0,,2025
 Ryzen Z2 Go GPU,0,RDNA 2.0,28.0,,16.0,,2025
 Ryzen Z2 GPU,0,RDNA 3.0,28.0,,16.0,,2025
 Arc 130T Mobile,2,Xe-LPG+,35.0,,,PCIe 4.0 x8,2025
-Arc 140T Mobile,2,Xe-LPG+,35.0,,,PCIe 4.0 x8,2025
 Arc B570,2,Xe2-HPG,150.0,1x 8-pin,10.0,PCIe 4.0 x8,2025
 Arc Pro B50,2,Xe2-HPG,70.0,,16.0,PCIe 5.0 x8,2025
 Arc Pro B60,2,Xe2-HPG,200.0,,24.0,PCIe 5.0 x8,2025
