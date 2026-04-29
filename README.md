@@ -9,4 +9,4 @@ look into:
 - search by other details too, not just name
 - adding a tracker on the side for the closest gpu so far
 - random distribution that favors newer cards/late end of vector
-- better fuzzy search function/crate/whatever
+- better fuzzy search function/crate/whatever (https://github.com/helix-editor/nucleo)
