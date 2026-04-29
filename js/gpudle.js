@@ -74,7 +74,6 @@ class Game {
 
     submitGuess(id, doAnimation) {
         const answer = check_answer(id);
-        // this.alreadyGuessed.push(id)
 
         const row = document.createElement("div");
         row.classList.add("guess-row");
@@ -82,12 +81,21 @@ class Game {
         const nameCell = document.createElement("div");
         nameCell.classList.add("guess-cell", "name-cell", "revealed");
 
-        const textWrapper = document.createElement("span");
-        textWrapper.classList.add("cell-text");
-        textWrapper.textContent = answer[0][1];
-        nameCell.appendChild(textWrapper);
+        const countCell = document.createElement("div");
+        countCell.classList.add("guess-cell", "name-cell", "revealed");
 
-        row.prepend(nameCell);
+        const textWrapperName = document.createElement("span");
+        textWrapperName.classList.add("cell-text");
+        textWrapperName.textContent = answer[0][1];
+        nameCell.appendChild(textWrapperName);
+
+        const textWrapperCount = document.createElement("span");
+        textWrapperCount.classList.add("cell-text");
+        textWrapperCount.textContent = this.alreadyGuessed.length;
+        countCell.appendChild(textWrapperCount)
+
+        row.append(countCell);
+        row.append(nameCell);
 
         for (let i = 1; i < answer.length; i++) {
             const cell = this.updateCell(answer[i][0], answer[i][1], i);
@@ -105,12 +113,11 @@ class Game {
 
     updateResults(query) {
         const results = get_results(query, this.alreadyGuessed);
-
         this.selectionBox.textContent = "";
 
         results.forEach(element => {
             const entry = document.createElement("div");
-            const entryContent = document.createTextNode(element.name);
+            const entryContent = document.createTextNode(`${element.brand} ${element.name}`);
             entry.appendChild(entryContent);
             entry.addEventListener("click", (e) => this._selectionClick(e, element.id));
             this.selectionBox.appendChild(entry);

@@ -34,8 +34,8 @@ pub fn get_yesterdays_gpu() -> Result<JsValue, JsValue> {
 }
 
 #[wasm_bindgen]
-pub fn get_results(name: &str, already_guessed: Vec<u16>) -> Result<JsValue, JsValue> {
-    let result = backend_search_by_name(name, GPU_DATABASE.get().unwrap(), already_guessed);
+pub fn get_results(query: &str, already_guessed: Vec<u16>) -> Result<JsValue, JsValue> {
+    let result = backend_search_by_name(query, GPU_DATABASE.get().unwrap(), already_guessed);
     return to_value!(result);
 }
 

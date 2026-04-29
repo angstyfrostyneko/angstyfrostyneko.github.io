@@ -1,19 +1,5 @@
 /* @ts-self-types="./wasm.d.ts" */
 
-/**
- * @enum {0 | 1 | 2 | 3 | 4 | 5 | 6 | 7}
- */
-export const Brands = Object.freeze({
-    AMD: 0, "0": "AMD",
-    ATI: 1, "1": "ATI",
-    Intel: 2, "2": "Intel",
-    Matrox: 3, "3": "Matrox",
-    NVIDIA: 4, "4": "NVIDIA",
-    Threedfx: 5, "5": "Threedfx",
-    XGI: 6, "6": "XGI",
-    Sony: 7, "7": "Sony",
-});
-
 export class GPU {
     static __wrap(ptr) {
         ptr = ptr >>> 0;
@@ -33,11 +19,19 @@ export class GPU {
         wasm.__wbg_gpu_free(ptr, 0);
     }
     /**
-     * @returns {Brands}
+     * @returns {string}
      */
     get brand() {
-        const ret = wasm.__wbg_get_gpu_brand(this.__wbg_ptr);
-        return ret;
+        let deferred1_0;
+        let deferred1_1;
+        try {
+            const ret = wasm.__wbg_get_gpu_brand(this.__wbg_ptr);
+            deferred1_0 = ret[0];
+            deferred1_1 = ret[1];
+            return getStringFromWasm0(ret[0], ret[1]);
+        } finally {
+            wasm.__wbindgen_free(deferred1_0, deferred1_1, 1);
+        }
     }
     /**
      * @returns {string | undefined}
@@ -105,7 +99,7 @@ export class GPU {
      */
     get tdp() {
         const ret = wasm.__wbg_get_gpu_tdp(this.__wbg_ptr);
-        return ret === 0x100000001 ? undefined : ret;
+        return ret === 0xFFFFFF ? undefined : ret;
     }
     /**
      * @returns {number | undefined}
@@ -129,10 +123,12 @@ export class GPU {
         return GPU.__wrap(ret);
     }
     /**
-     * @param {Brands} arg0
+     * @param {string} arg0
      */
     set brand(arg0) {
-        wasm.__wbg_set_gpu_brand(this.__wbg_ptr, arg0);
+        const ptr0 = passStringToWasm0(arg0, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        wasm.__wbg_set_gpu_brand(this.__wbg_ptr, ptr0, len0);
     }
     /**
      * @param {string | null} [arg0]
@@ -176,7 +172,7 @@ export class GPU {
      * @param {number | null} [arg0]
      */
     set tdp(arg0) {
-        wasm.__wbg_set_gpu_tdp(this.__wbg_ptr, isLikeNone(arg0) ? 0x100000001 : Math.fround(arg0));
+        wasm.__wbg_set_gpu_tdp(this.__wbg_ptr, isLikeNone(arg0) ? 0xFFFFFF : arg0);
     }
     /**
      * @param {number | null} [arg0]
@@ -225,12 +221,12 @@ export function get_gpudle_count() {
 }
 
 /**
- * @param {string} name
+ * @param {string} query
  * @param {Uint16Array} already_guessed
  * @returns {any}
  */
-export function get_results(name, already_guessed) {
-    const ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+export function get_results(query, already_guessed) {
+    const ptr0 = passStringToWasm0(query, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     const len0 = WASM_VECTOR_LEN;
     const ptr1 = passArray16ToWasm0(already_guessed, wasm.__wbindgen_malloc);
     const len1 = WASM_VECTOR_LEN;
@@ -462,7 +458,7 @@ function __wbg_get_imports() {
             getDataViewMemory0().setInt32(arg0 + 4 * 0, ptr1, true);
         },
         __wbindgen_cast_0000000000000001: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 54, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 50, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, wasm_bindgen__convert__closures_____invoke__hb3550f2479346a73);
             return ret;
         },

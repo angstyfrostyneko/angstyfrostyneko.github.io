@@ -3,38 +3,8 @@ use chrono::{Local, NaiveDate, TimeDelta};
 use rand::{RngExt, SeedableRng, rngs::SmallRng};
 use rust_fuzzy_search::fuzzy_compare;
 use serde::{Deserialize, Serialize};
-use std::{cmp::Ordering, fmt};
+use std::cmp::Ordering;
 use wasm_bindgen::prelude::wasm_bindgen;
-
-#[wasm_bindgen]
-#[derive(Debug, Serialize, Deserialize, Clone, Copy, PartialEq)]
-pub enum Brands {
-    #[serde(alias = "AMD", rename = "0")]
-    AMD,
-    #[serde(alias = "ATI", rename = "1")]
-    ATI,
-    #[serde(alias = "Intel", rename = "2")]
-    Intel,
-    #[serde(alias = "Matrox", rename = "3")]
-    Matrox,
-    #[serde(alias = "NVIDIA", rename = "4")]
-    NVIDIA,
-    #[serde(alias = "3dfx", rename = "5")]
-    Threedfx,
-    #[serde(alias = "XGI", rename = "6")]
-    XGI,
-    #[serde(alias = "Sony", rename = "7")]
-    Sony,
-}
-
-impl fmt::Display for Brands {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        match self {
-            Brands::Threedfx => write!(f, "{}", "3dfx"),
-            _ => write!(f, "{:?}", self),
-        }
-    }
-}
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 #[wasm_bindgen]
@@ -43,10 +13,11 @@ pub struct GPU {
     pub id: u16,
     #[wasm_bindgen(getter_with_clone)]
     pub name: String,
-    pub brand: Brands,
+    #[wasm_bindgen(getter_with_clone)]
+    pub brand: String,
     #[wasm_bindgen(getter_with_clone)]
     pub generation: String,
-    pub tdp: Option<f32>,
+    pub tdp: Option<u16>,
     #[wasm_bindgen(getter_with_clone)]
     pub cables: Option<String>,
     pub vram: Option<f32>,
@@ -63,19 +34,24 @@ impl GPU {
 }
 
 pub fn backend_search_by_name<'a>(
-    name: &str,
+    query: &str,
     gpu_list: &'a Vec<GPU>,
     already_guessed: Vec<u16>,
 ) -> Vec<&'a GPU> {
     let threshold = 0.35;
-    let name = name.to_lowercase().to_owned();
+    let query = query.to_lowercase().to_owned();
 
     let mut results: Vec<(&GPU, f32)> = gpu_list
         .iter()
         .map(|card| {
             let score = fuzzy_compare(
-                &name.replace(" ", ""),
-                &card.name.to_lowercase().replace(" ", ""),
+                &query.replace(" ", ""),
+                format!(
+                    "{}{}",
+                    &card.brand.to_string().to_lowercase(),
+                    &card.name.to_lowercase().replace(" ", "")
+                )
+                .as_str(),
             );
             (card, score)
         })
